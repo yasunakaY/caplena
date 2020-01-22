@@ -1,0 +1,45 @@
+{
+  "en": {
+    "title": "Edit permissions of {entity_type} {entity_name}",
+    "search": "Search for user",
+    "search_not_found": "No matching<br /> user found",
+    "object_level": "Object level",
+    "organization_wide": "Organization wide",
+    "organization_wide_helptip": "<p>The organization wide permissions are based on roles your administrator has defined. If you would like to change organization wide permissions, please get in touch with your administrator or the codit support team.</p><p>Organization wide permissions can't be restricted: When a user has the organization wide permission to view projects, this permission cannot be revoked for a specific project. Therefore, it is only possible to grant object level permissions to users which don't already have the same permission on an organizational level.",
+    "permissions": {
+      "projects_inherit": "Allow new questions to <strong>inherit</strong> from this one",
+      "projects_download": "Allow <strong>downloading</strong> of project",
+      "projects_view": "Allow <strong>viewing</strong> of project",
+      "projects_edit": "Allow <strong>editing</strong> of this project",
+      "projects_delete": "Allow <strong>deletion</strong> of this project",
+      "projects_permissions": "Allow modifying <strong>permissions</strong> of this project",
+      "dashboards_view": "Allow <strong>viewing</strong> this dashboard",
+      "dashboards_edit": "Allow <strong>editing, deleting &amp; changing permissions</strong> of this dashboard"
+    },
+    "saving_done": "Successfully changed permissions of {entity_type} {entity_name}",
+    "select_all": "Select all",
+    "deselect_all": "Deselect all"
+  },
+  "de": {
+    "title": "Berechtiungen von {entity_type} {entity_name} anpassen",
+    "search": "Nach Nutzer suchen",
+    "search_not_found": "Kein Treffer",
+    "object_level": "Objektweise",
+    "organization_wide": "Organisationsweit",
+    "organization_wide_helptip": "<p>Organisationsweite Rechte werden durch vom Administrator zugewiesene Rollen definiert. Solltest Du die organisationsweiten Berechtigungen anpassen wollen, melde Dich bei Deinem Administrator oder dem codit Support-Team.</p><p>Organisationsweite Berechtigungen können nicht eingeschränkt werden: Wenn ein Nutzer die organisationsweite Berechtigung besitzt Projekte zu betrachten, kann diese Berechtigung nicht für einzelne Projekte entzogen werden. Es ist daher nur dort möglich objektweise Zusatzrechte zu vergeben, wo nicht schon dieselbe Berechtigung auf Organisationsebene vergeben wurde.",
+    "permissions": {
+      "projects_inherit": "Erlaube das <strong>Verknüpfen</strong> neuer Fragen mit dieser",
+      "projects_download": "Erlaube das <strong>Herunterladen</strong> des Projekts",
+      "projects_view": "Erlaube die <strong>Betrachtung</strong> des Projekts",
+      "projects_edit": "Erlaube das <strong>Bearbeiten</strong> des Projekts",
+      "projects_delete": "Erlaube das <strong>Löschen</strong> des Projekts",
+      "projects_permissions": "Erlaube das <strong>Anpassen der Berechtigungen</strong> des Projekts",
+      "projects_append": "Erlaube das <strong>Hinzufügen (hochladen)</strong> von neuen Zeilen zu diesem Projekt",
+      "dashboards_view": "Erlaube die <strong>Betrachtung</strong> des Dashboards",
+      "dashboards_edit": "Erlaube das <strong>Bearbeiten, Löschen und die Anpassung von Berechtigungen</strong> des Dashboards"
+    },
+    "saving_done": "Die Berechtigungen von {entity_type} {entity_name} wurden angepasst",
+    "select_all": "Alle wählen",
+    "deselect_all": "Alle abwählen"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "en": {
+    "title": "Chart settings",
+    "subtitle": "Adjust the look and feel of the entire graph",
+    "default_group_name": "Group",
+    "general": {
+      "title": "General layout options",
+      "chart_title": "Chart title",
+      "dimensions": {
+        "title": "Size",
+        "auto": "Auto",
+        "manual": "Manual",
+        "width": "Width (pixels)",
+        "height": "Height (pixels)"
+      }
+    },
+    "colors": {
+      "title": "Colors",
+      "color_by": {
+        "title": "By",
+        "category": "Category",
+        "code": "Code",
+        "dataset": "Dataset",
+        "groups": "Custom groups"
+      },
+      "palette": {
+        "title": "Color palette",
+        "default": "Caplena default",
+        "bold": "Bold"
+      },
+      "helptip": "If your plan includes the visualizations module, you can <b>add your own color palette</b> for charts. This enables you to produce charts that match your corporate design. <p>Contact our team to get your custom color palette set up.</p>"
+    },
+    "labels": {
+      "title": "Labels",
+      "max_length": "Maximum label length (truncate longer ones)"
+    },
+    "ordinal_axis": {
+      "title": "Categorical axis",
+      "label": "Axis label",
+      "reverse": "Reverse order"
+    },
+    "value_axis": {
+      "title": "Values axis",
+      "label": "Axis label",
+      "percentages": "Show percentages instead of counts"
+    },
+    "outputs": {
+      "title": "Codes selection",
+      "codes": {
+        "title": "Codes to plot",
+        "all": "All",
+        "exclude": "Exclude selection",
+        "include": "Only selection"
+      }
+    }
+  },
+  "de": {
+    "title": "Konfiguration der Grafik",
+    "subtitle": "Einstellungen die Aussehen und Verhalten der Grafik definieren",
+    "default_group_name": "Gruppe",
+    "general": {
+      "title": "Allgemeine Optionen",
+      "chart_title": "Titel der Grafik",
+      "dimensions": {
+        "title": "Grösse",
+        "auto": "Automatisch",
+        "manual": "Manuell",
+        "width": "Breite (Pixel)",
+        "height": "Höhe (Pixel)"
+      }
+    },
+    "colors": {
+      "title": "Farben",
+      "color_by": {
+        "title": "Farbe je",
+        "category": "Kategorie",
+        "code": "Code",
+        "dataset": "Datensatz",
+        "groups": "Gruppen"
+      },
+      "palette": {
+        "title": "Farbpalette",
+        "default": "codit Standard",
+        "bold": "Kräftig"
+      },
+      "helptip": "Sofern das Visualisierungsmodul Teil deines Abos ist, können <b>benutzerspezifische Farbpaletten</b> für die Grafiken definiert werden. Dies ermöglicht es dir, Grafiken in eurem Corporate-Design anzufertigen. <p>Kontaktiere unser Team um eine eigene Farbpalette einzurichten.</p>"
+    },
+    "labels": {
+      "title": "Beschriftung",
+      "max_length": "Maximale Beschriftungslänge"
+    },
+    "ordinal_axis": {
+      "title": "Kategorieachse",
+      "label": "Achsenbeschriftung",
+      "reverse": "Reihenfolge invertieren"
+    },
+    "value_axis": {
+      "title": "Wertachse",
+      "label": "Achsenbeschriftung",
+      "percentages": "Prozente anstatt Anzahl anzeigen"
+    },
+    "outputs": {
+      "title": "Code-Auswahl",
+      "codes": {
+        "title": "Welche Codes",
+        "all": "Alle",
+        "exclude": "Ohne Auswahl",
+        "include": "Nur Auswahl"
+      }
+    }
+  }
+}

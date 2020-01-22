@@ -1,0 +1,57 @@
+diff --git a/node_modules/echarts/lib/chart/treemap/TreemapView.js b/node_modules/echarts/lib/chart/treemap/TreemapView.js
+index 09c6063..f91e1a3 100644
+--- a/node_modules/echarts/lib/chart/treemap/TreemapView.js
++++ b/node_modules/echarts/lib/chart/treemap/TreemapView.js
+@@ -804,6 +804,24 @@ function renderNode(seriesModel, thisStorage, oldStorage, reRoot, lastsForAnimat
+     var nodeModel = thisNode.getModel();
+     var text = zrUtil.retrieve(seriesModel.getFormattedLabel(thisNode.dataIndex, 'normal', null, null, upperLabelRect ? 'upperLabel' : 'label'), nodeModel.get('name'));
+
++    // Ugly hack to break lines for elements which are too long
++    // We assume a fixed width per character, which we have determined experimentally
++    var experimentalCharWidth = 7
++    var words = text.split(/[ \t]+/)
++    text = ''
++    var currLineWidth = 0
++    for (var k = 0; k < words.length; k++) {
++      var currWordLen = words[k].length * experimentalCharWidth
++      if ((currLineWidth + currWordLen) < width) text += ' '
++      else {
++        text += '\n'
++        currLineWidth = 0
++      }
++
++      text += words[k]
++      currLineWidth += currWordLen
++    }
++
+     if (!upperLabelRect && thisLayout.isLeafRoot) {
+       var iconChar = seriesModel.get('drillDownIcon', true);
+       text = iconChar ? iconChar + ' ' + text : text;
+@@ -812,11 +830,13 @@ function renderNode(seriesModel, thisStorage, oldStorage, reRoot, lastsForAnimat
+     var normalLabelModel = nodeModel.getModel(upperLabelRect ? PATH_UPPERLABEL_NORMAL : PATH_LABEL_NOAMAL);
+     var emphasisLabelModel = nodeModel.getModel(upperLabelRect ? PATH_UPPERLABEL_EMPHASIS : PATH_LABEL_EMPHASIS);
+     var isShow = normalLabelModel.getShallow('show');
++
+     graphic.setLabelStyle(normalStyle, emphasisStyle, normalLabelModel, emphasisLabelModel, {
+       defaultText: isShow ? text : null,
+       autoColor: visualColor,
+       isRectText: true
+     });
++
+     upperLabelRect && (normalStyle.textRect = zrUtil.clone(upperLabelRect));
+     normalStyle.truncate = isShow && normalLabelModel.get('ellipsis') ? {
+       outerWidth: width,
+diff --git a/node_modules/echarts/lib/component/visualMap/PiecewiseView.js b/node_modules/echarts/lib/component/visualMap/PiecewiseView.js
+index 0aa8acf..4ca02da 100644
+--- a/node_modules/echarts/lib/component/visualMap/PiecewiseView.js
++++ b/node_modules/echarts/lib/component/visualMap/PiecewiseView.js
+@@ -77,7 +77,8 @@ var PiecewiseVisualMapView = VisualMapView.extend({
+     endsText && this._renderEndsText(thisGroup, endsText[0], itemSize, showLabel, itemAlign);
+     zrUtil.each(viewData.viewPieceList, renderItem, this);
+     endsText && this._renderEndsText(thisGroup, endsText[1], itemSize, showLabel, itemAlign);
+-    layout.box(visualMapModel.get('orient'), thisGroup, visualMapModel.get('itemGap'));
++    // layout.box(visualMapModel.get('orient'), thisGroup, visualMapModel.get('itemGap'));
++    layout.box(visualMapModel.get('orient'), thisGroup, visualMapModel.get('itemGap'), this.api.getWidth());
+     this.renderBackground(thisGroup);
+     this.positionGroup(thisGroup);
+

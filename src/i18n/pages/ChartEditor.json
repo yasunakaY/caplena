@@ -1,0 +1,209 @@
+{
+  "en": {
+    "title": "Chart editor",
+    "question_select": {
+      "title": "Select a question for the new dataset",
+      "select": "Select"
+    },
+    "chart_name": {
+      "label": "Chart name",
+      "default": "New chart"
+    },
+    "confirm_navigate_away": "Are you sure you want to navigate away? There are unsaved changes in your chart.",
+    "history": {
+      "title": "Version history",
+      "helptip": "<p>The current and previous saved versions of this chart are listed here. Old versions are kept for <b>30 days</b>.</p><p>Click a version to load it. Previous versions cannot be overwritten: Whenever you click <em>save</em>, a new version will be created.</p>",
+      "confirm_overwrite_current_dirty": "You have unsaved changes. Are you sure you want to load another version? Your unsaved changes will be overwritten.",
+      "current": "Current"
+    },
+    "templates": {
+      "title": "Choose a template",
+      "subtitle": "Templates provide interesting starting points but can then be customized into whatever you want",
+      "inherit": {
+        "title": "Compare <strong>linked question</strong> '{inherits_from_name}'",
+        "subtitle": "Plot comparison with previous iteration '{inherits_from_name}'' and older linked questions."
+      },
+      "auxiliary_choice": {
+        "title": "Split <strong>by column</strong> '{column}'",
+        "subtitle": "Create a separate dataset for each of the {n_values} unique values in column '{column}'. See how the distributions depend on that colum's values."
+      },
+      "auxiliary_number": {
+        "title": "Split <strong>by column</strong> '{column}'",
+        "subtitle": "Divide question into {n_splits} datasets depending on the numeric value in column '{column}'. See how the distributions depend on that colum's values."
+      },
+      "sentiment": {
+        "title": "Split by <strong>sentiment</strong>",
+        "subtitle": "Get three datasets: One for responses with a positive sentiment, one for the negative and one for the neutral.",
+        "axis_name": "Sentiment",
+        "ds_positive": "Positive",
+        "ds_negative": "Negative",
+        "ds_neutral": "Neutral"
+      },
+      "clean": {
+        "title": "<strong>Default</strong>",
+        "subtitle": "Start with "
+      }
+    },
+    "ds": {
+      "title": "Datasets",
+      "title_master": "Dataset Master",
+      "show_master": "Show Master",
+      "subtitle_master": "Apply settings to all datasets at once",
+      "helptip": "<p>Every dataset contains the coding of <em>one question</em>. You can filter the content of a dataset by various variables.</p>Multiple datasets can <strong>link to the same question</strong>. This enables comparing different slices (e.g. by sentiment) of the same question against each other.<p>",
+      "name": "Dataset name",
+      "copied_prefix": "Copy of ",
+      "add": "Add dataset",
+      "confirm_delete": "Remove?",
+      "subtitle_info": "{nanswers} rows, {ncodes} codes",
+      "apply_master": "Apply to all",
+      "equalize_settings": "Apply first dataset's configuration to all others",
+      "equalize_settings_disabled": "This option is only available when all datasets refer to the same question",
+      "verbatim_browser_helptip": "Show rows matching all filters of this dataset",
+      "verbatim_browser": {
+        "title": "Matched rows",
+        "column_select": "Show additional column",
+        "no_matches_title": "No matches",
+        "no_matches_description": "Your filter doesn't match any rows in this question"
+      },
+      "actions": {
+        "duplicate": "Duplicate dataset",
+        "remove": "Remove dataset"
+      },
+      "filters": {
+        "title": "Filters",
+        "subtitle": "Which <em>rows</em> are considered. Multiple filters are combined by AND.",
+        "no_items": "All rows will be considered.",
+        "type_label": "Filter by",
+        "n_matches": "{n} matches",
+        "n_matches_helptip": "Number of rows matching this filter",
+        "delete_helptip": "Remove this filter",
+        "verbatim_browser_helptip": "Show rows matching this filter",
+        "invert": "Invert",
+        "select_others": "others",
+        "labels": {
+          "empty": "Skip empty verbatims",
+          "codes": "Select codes (combined through OR)",
+          "text": "Search verbatim text",
+          "sentiment": "Sentiment range",
+          "reviewed": "Reviewed",
+          "changed": "Changed",
+          "auxiliary_column_text": "Search column '{column}'",
+          "auxiliary_column_range_min": "{column} minimum",
+          "auxiliary_column_range_max": "{column} maximum",
+          "auxiliary_column_select": "{column} values"
+        }
+      },
+      "modifiers": {
+        "title": "Modifiers",
+        "subtitle": "Adapt the overall counts",
+        "delete_helptip": "Clear this modifier",
+        "weighting_column": "Weighting column",
+        "weighting_normalize": "Normalize",
+        "weighting_column_helptip": "If you choose a <b>weighting column</b>, every row will be weighted by the value in this column. Only columns that contain exclusively numerical data can be chosen as weighting column.<p>If you activate <b>normalization</b>, the total count will remain the same. Otherwise, the total might change.</p>"
+      }
+    }
+  },
+  "de": {
+    "title": "Grafik-Editor",
+    "question_select": {
+      "title": "Wähle eine Frage für den neuen Datensatz",
+      "select": "Auswählen"
+    },
+    "chart_name": {
+      "label": "Name der Grafik",
+      "default": "Neue Grafik"
+    },
+    "confirm_navigate_away": "Bist du sicher, dass du diese Seite verlassen willst? Diese Grafik enthält Änderungen welche noch nicht gespeichert wurden.",
+    "history": {
+      "title": "Versionsgeschichte",
+      "helptip": "<p>Die aktuelle sowie frühere gepseicherte Versionen werden hier angezeigt. Alte Versionen werden <b>30 days</b> aufbewahrt.</p><p>Klicke auf eine Version um diese zu laden. Frühere Versionen können nicht überschrieben werden: Sobald du auf <em>speichern</em> klickst, wird eine neue Version erzeugt.</p>",
+      "confirm_overwrite_current_dirty": "Die Grafik enthält nicht gespeicherte Änderungen. Bist du sicher, dass du eine andere Version laden willst? Nicht gespeicherte Änderungen werden dadurch überschrieben.",
+      "current": "Aktuelle"
+    },
+    "templates": {
+      "title": "Wähle eine Vorlage",
+      "subtitle": "Vorlagen bieten einen interessanten Einstiegspunkt, können daraufhin jedoch beliebig angepasst werden",
+      "inherit": {
+        "title": "Vergleiche die <strong>verknüpfte Frage</strong> '{inherits_from_name}'",
+        "subtitle": "Stelle einen Vergleich mit der vorherigen Iteration '{inherits_from_name}' und älteren Datensätzen auf."
+      },
+      "auxiliary_choice": {
+        "title": "Nach <strong>Spalte</strong> '{column}' aufteilen",
+        "subtitle": "Erstelle einen separaten Datensatz für jeden der {n_values} einzigartigen Wert der Spalte '{column}'. Beobachte, wie die Verteilung von dieser Variable abhängt."
+      },
+      "auxiliary_number": {
+        "title": "Nach <strong>Spalte</strong> '{column}' aufteilen",
+        "subtitle": "Teile die Frage in {n_splits} Datensätze, abhängig vom numerischen Wert der Spalte '{column}'. Beobachte, wie die Verteilung von dieser Variable abhängt."
+      },
+      "sentiment": {
+        "title": "Nach <strong>Sentiment</strong> gruppieren",
+        "subtitle": "Erhalte drei Datensätze: Einen für Nennungen mit positivem Sentiment, einen für die Negativen und einen für die Neutralen.",
+        "axis_name": "Sentiment",
+        "ds_positive": "Positiv",
+        "ds_negative": "Negativ",
+        "ds_neutral": "Neutral"
+      },
+      "clean": {
+        "title": "<strong>Keine Vorlage</strong>"
+      }
+    },
+    "ds": {
+      "title": "Datensätze",
+      "title_master": "Datensatz Master",
+      "show_master": "Master anzeigen",
+      "subtitle_master": "Appliziere diese Einstellungen auf alle Datensätze",
+      "helptip": "<p>Jeder Datensatz enthält die Kodierung <em>einer Frage</em>. Die Zeilen eines Datensatzes können aufgrund verschiedenster Variablen gefiltert werden.</p>Mehrere Datensätze können auf <em>dieselbe</em> Frage verweisen. Dies ermöglicht den Vergleich unterschiedlicher Querschnitte (z.B. je Sentiment) untereinander.<p>",
+      "copied_prefix": "Kopie von ",
+      "name": "Name des Datensatzes",
+      "confirm_delete": "Entfernen?",
+      "add": "Datensatz hinzufügen",
+      "apply_master": "Auf alle anwenden",
+      "subtitle_info": "{nanswers} Zeilen, {ncodes} Codes",
+      "equalize_settings": "Einstellungen des ersten Datensatzes auf alle anderen übertragen",
+      "equalize_settings_disabled": "Diese Option ist nur verfügbar, wenn alle Datensätze auf der gleichen Frage basieren",
+      "verbatim_browser_helptip": "Zeilen welche allen Filtern des Datensatzes entsprechen anzeigen",
+      "verbatim_browser": {
+        "title": "Passende Zeilen",
+        "column_select": "Zusätzliche Spalte anzeigen",
+        "no_matches_title": "Keine Treffer",
+        "no_matches_description": "Dein Filter passt auf keine Zeilen dieser Frage"
+      },
+      "actions": {
+        "duplicate": "Datensetz duplizieren",
+        "remove": "Datensatz löschen"
+      },
+      "filters": {
+        "title": "Filter",
+        "subtitle": "Zu berücksichtigende <em>Zeilen</em>. Kombination durch UND-Verknüpfung.",
+        "no_items": "Alle Zeilen werden berücksichtigt.",
+        "type_label": "Filtern nach",
+        "n_matches": "{n} Treffer",
+        "n_matches_helptip": "Anzahl Zeilen welche diesem Filter entsprechen",
+        "delete_helptip": "Diesen Filter entfernen",
+        "verbatim_browser_helptip": "Zeilen welche diesem Filter entsprechen anzeigen",
+        "invert": "Invertieren",
+        "select_others": "Weitere",
+        "labels": {
+          "empty": "Leere Nennungen überspringen",
+          "codes": "Codes (ODER Verknüpfung)",
+          "text": "Nach Nennungs-Text suchen",
+          "sentiment": "Sentiment-Intervall",
+          "reviewed": "Überprüft",
+          "changed": "Geändert",
+          "auxiliary_column_text": "Spalte '{column}' durchsuchen",
+          "auxiliary_column_range_min": "Minimum von {column}",
+          "auxiliary_column_range_max": "Maximum von {column}",
+          "auxiliary_column_select": "Werte von {column}"
+        }
+      },
+      "modifiers": {
+        "title": "Modifikatoren",
+        "subtitle": "Anpassungen der Zählweise",
+        "delete_helptip": "Modifikator zurücksetzen",
+        "weighting_column": "Gewichtungs-Spalte",
+        "weighting_normalize": "Normalisieren",
+        "weighting_column_helptip": "Wird eine <b>Gewichtungs-Spalte</b> ausgewählt, so wird jede Zeile mit dem Wert dieser Spalte gewichtet. Dabei können nur Spalten ausgewählt werden, welche ausschlisslich numerische Werte aufweisen.<p>Durch die <b>Normalisierung</b> wird sichergestellt, dass sich an der Gesamtzahl nichts ändert. Ohne Normalisierung ist es möglich, dass der Gesamtwert von der Anzahl Zeilen abweicht.</p>"
+      }
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "de": {
+    "title": "Autocoder",
+    "intro": {
+      "step": "Start",
+      "hero": "Assistent zur automatischen Kodierung",
+      "subtitle": " Klicke hier um zu beginnen"
+    },
+    "autocoder": {
+      "step": "Automatische Resultate",
+      "failed": "Ein Fehler ist aufgetreten, entschuldige! Wir kümmern uns darum.",
+      "no_codes": "Es konnten keine Codes generiert werden, da keine ähnlichen Begriffe oft genug vorkamen. Bist du sicher, dass dies eine Listenfrage ist? Kodiere diese Frage bitte händisch oder lade sie als \"Offene Frage\" hoch.",
+      "settings": {
+        "min_cnt": "Minimale Häufigkeit",
+        "min_cnt_helptip": "Wie oft ein Begriff mindestens vorkommen muss um als eigenständiger Code zu gelten. Erreicht ein Begriff diese Mindestanzahl nicht, wird er der <em>Andere</em>-Kategorie zugeordnet.",
+        "similarity": "Ähnlichkeit",
+        "similarity_helptip": "Wie ähnlich die Begriffe sein müssen um zum gleichen Code gezählt zu werden. Ein Wert von 100 heisst, dass nur exakte Duplikate zusammen gruppiert werden. Bei einem tieferen Wert wie 75 ist die Gruppierung grosszügiger, z.B. werden dann <code>facebook.com</code> und <code>thefacebook.com</code> demselben Code zugeordnet.",
+        "other": "Zuweisung des \"Andere\"-Codes",
+        "other_helptip": "<p>Zur Zuweisung des Hintergrundcodes <code>Andere</code> gibt es drei Möglichkeiten:</p><ol><li><b>Keine: </b> Es wird kein Hintergrundcode kreiert.</li><li><b>Antworten ohne Code: </b>Den Antworten welche keinen \"normalen\" Code haben, wird der Code <code>Andere</code> zugewiesen. Keine Antwort wird gleichzeitig einen normalen als auch den <code>Andere</code> Code haben.</li><li><b>Seltene Begriffe: </b>Begriffe die einen eigenen Code darstellen könnten, aber aufgrund der minimalen Häufigkeit nicht akzeptiert wurden, werden unter dem <code>Andere</code> zusammengefasst. Eine Antworte kann somit einen normalen als auch den <code>Andere</code> Code aufweisen. Es kann aber auch Antworten geben, die gar keinen Code haben.</li></ol>",
+        "other_options": {
+          "none": "Keine",
+          "unassigned": "Antworten ohne Code",
+          "rare": "Seltene Begriffe"
+        },
+        "keep_old": "Alle Codes von verknüpfter Frage beibehalten",
+        "new_codes": {
+          "name": "neue Codes",
+          "label": "{newCodeName} dürfen generiert werden",
+          "helptip": "<p>Das Codebuch dieser Frage wurde von der Frage '<em>{inheritedQuestionName}</em>' übernommen.</p>Wenn keine neuen Codes generiert werden dürfen, werden die Antworten dieser Frage nur bereits bestehenden Codes zugewiesen (falls möglich). Andernfalls können aus den Daten auch neue Codes generiert werden (grün hinterlegt)."
+        }
+      },
+      "stats": {
+        "nanswers": "Anzahl Antworten",
+        "n_tokens": "Anzahl Worte",
+        "n_tokens_unique": "Einzigartige Begriffe",
+        "nunique": "Einzigartige Nennungen",
+        "ncodes": "Generierte Codes"
+      },
+      "table": {
+        "code_name": "Code Namen",
+        "count": "# Nennungen",
+        "number_unique_tokens": "# Begriffe",
+        "unique_tokens": "Begriffe"
+      },
+      "code_rare": "Seltene Begriffe",
+      "code_other": "Andere",
+      "codelist": {
+        "title": "Resultierende Code-Liste",
+        "warnings": {
+          "codes_limit": "Du hast das Maximum von {maxCodes} Codes erreicht. Der Rest der Nennungen wurde dem Code <em>Andere</em> zugeordnet. Kontaktiere bitte unseren Support, wenn du eine höhere Limite benötigst.",
+          "save_overwrite": "Durch das Speichern der neuen Codes wird das bisherige Codebuch sowie sämtliche Codierungen gelöscht!"
+        },
+        "dotdot_and": "... und",
+        "more": "Weitere"
+      },
+      "freqgraph": {
+        "title": "Resultierende Häufigkeits-Verteilung"
+      }
+    },
+    "completed": {
+      "step": "Fertig",
+      "title": "Alle Nennungen wurden mit den neuen Codes versehen.",
+      "next_steps": "Nächste Schritte",
+      "step_refine": {
+        "title": "Codes verfeinern",
+        "description": "Verschmelze Codes die zusammengehören, füge nicht benötigte Codes der «Andere»-Kategorie hinzu und passe die Code-Namen deinen Bedürfnissen an."
+      },
+      "step_review": {
+        "title": "Überprüfe «Andere» &nbsp;<em>(optional)</em>",
+        "description": "Filtere nach dem <em>Andere</em>-Code (oder nach Zeilen ohne Code je nach Wahl der Zuweisung von <em>Andere</em> in Schritt 2) und überprüfe ob es noch Nennungen gibt, die zu einem anderen Code passen würden."
+      },
+      "step_done": {
+        "title": "Resultate herunterladen",
+        "description": "Fertig! Lade die Resultate herunter und ernte die süssen Früchte deiner harten Arbeit! 🍎🍊"
+      }
+    }
+  },
+  "en": {
+    "title": "Autocoder",
+    "intro": {
+      "step": "Start",
+      "hero": "This wizard will guide you through automated coding.",
+      "subtitle": " Click here to start"
+    },
+    "autocoder": {
+      "step": "Automatic results",
+      "failed": "An error occurred during codebook generation. Sorry for that, we're looking into it.",
+      "no_codes": "No codes could be generated, as there weren't enough occurrences of similar terms. Are you sure this is a list question? Please code this question manually or upload it as \"Open question\".",
+      "settings": {
+        "min_cnt": "Minimum count",
+        "min_cnt_helptip": "The number of occurrences required for a topic to be considered as a separate code. If a code doesn't reach this number, it is merged into the <em>other</em> category.",
+        "similarity": "Term similarity",
+        "similarity_helptip": "How similar different terms need to be to belong to the same code. A value of 100 means, that only exact duplicates are grouped together. A lower value such as 75 means that we are more lenient towards differences between words, e.g. <code>facebook.com</code> and <code>thefacebook.com</code> would be assigned to the same code.",
+        "other": "Handling of \"Other\" code",
+        "other_helptip": "<p>There are three options for the summarizing background code <code>Other</code>:</p><ol><li><b>None: </b> No background code is created.</li><li><b>Unassigned answers: </b>Only answers that don't have any \"normal\" code will be assigned to <code>Other</code>. There will never be an answer that has both a normal as well as the <code>Other</code> code.</li><li><b>Rare terms: </b>Terms that could be a code on their own, but fell below the minimum count threshold, are summed up under the <code>Other</code>. This can lead to answers having both a normal plus the <code>Other</code> code, as well as answers having no code at all.</li></ol>",
+        "other_options": {
+          "none": "None",
+          "unassigned": "Unassigned answers",
+          "rare": "Rare terms"
+        },
+        "keep_old": "Keep all inherited codes",
+        "new_codes": {
+          "name": "new codes",
+          "label": "Allow {newCodeName} to be generated",
+          "helptip": "<p>This question has inherited the codebook from the question '<em>{inheritedQuestionName}</em>'.</p>When deactivating the option to allow new codes, the new answers will only be matched to the inherited codebook (wherever possible). Otherwise, we'll also try to discover codes that didn't exist previously (highlighted in green)."
+        }
+      },
+      "code_rare": "Rare terms",
+      "code_other": "Other",
+      "stats": {
+        "nanswers": "Answers processed",
+        "n_tokens": "Number of words",
+        "n_tokens_unique": "Unique words",
+        "nunique": "Unique tokens",
+        "ncodes": "Generated codes"
+      },
+      "table": {
+        "code_name": "Code name",
+        "count": "Count",
+        "number_unique_tokens": "# Terms",
+        "unique_tokens": "Terms"
+      },
+      "codelist": {
+        "title": "Resulting code list",
+        "warnings": {
+          "codes_limit": "You have reached the maximum of {maxCodes} codes. The rest of the terms have been merged into the <em>Other</em> code. Contact support if you require a higher limit.",
+          "save_overwrite": "When saving these codes, the existing codebook as well as all codings will be overwritten!"
+        },
+        "dotdot_and": "... and",
+        "more": "more"
+      },
+      "freqgraph": {
+        "title": "Resulting frequency chart"
+      }
+    },
+    "completed": {
+      "step": "Completed",
+      "title": "The new codes have been assigned to your responses.",
+      "next_steps": "Next steps",
+      "step_refine": {
+        "title": "Refine codes",
+        "description": "Merge codes that belong together, move unneeded ones to the «other» category and maybe clean the names."
+      },
+      "step_review": {
+        "title": "Review «other» &nbsp;<em>(optional)</em>",
+        "description": "Filter by the <em>Other</em> code (or filter for rows without any codes depending on the option chosen for handling of <em>Other</em> in step 2) and go through the responses to see if they might fit anywhere else"
+      },
+      "step_done": {
+        "title": "Download results",
+        "description": "You're done! Download the results and reap the sweet fruit of your hard work. 🍎🍊"
+      }
+    }
+  }
+}

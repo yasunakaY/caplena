@@ -1,0 +1,612 @@
+{
+  "de": {
+    "title": "Kodierung",
+    "focus_mode": {
+      "description": "Klicke auf den Hintergrund oder drücke ESC um Konzentrations-Modus zu beenden",
+      "title": "Konzentrations-Modus"
+    },
+    "alert_not_editable_permissions": "Du hast keine Berechtigung diese Frage zu bearbeiten, diese Ansicht ist daher schreibgeschützt.",
+    "alert_not_editable_other_user": "Da ein anderer Benutzer an dieser Frage arbeitet, ist diese Ansicht ist schreibgeschützt. Lade die Seite neu um die Kontrolle zu übernehmen.",
+    "question": {
+      "description_long": "Erstellt am {created} durch {owner}<br />Zuletzt bearbeitet {last_modified}",
+      "translated": "Automatische Übersetzung auf <em>{lang}</em> durchgeführt",
+      "translation_failed": "Automatische Übersetzung fehlgeschlagen!",
+      "inherits": "KI verknüpft mit Frage '<em>{ancestor}</em>'"
+    },
+    "translate": {
+      "show": "Übersetzungen anzeigen",
+      "show_helptip": "Zeige die Übersetzung anstatt des Originaltexts an, sofern du nicht im Konzentrationsmodus bist.",
+      "summary": "Originalsprache: {source}",
+      "helptip": "<em>Diese Antwort wurde mittels Google Translate automatisch von <b>{source}</b> auf <b>{target}</b> übersetzt.</em><p><b>Wieso wurde sie übersetzt?</b><br />Die Übersetzungsfunktion wurde für diese Frage aktiviert und Google Translate hat erkannt, dass diese Antwort nicht auf {target} verfasst ist.</p><p><b>Wie kann ich die Sprache in die übersetzt wird festlegen?</b><br />Die Hauptsprache kann beim Hochladen einer Frage definiert werden.</p><p><b>Wie kann ich die Sprache aus der übersetzt werden soll festlegen?</b><br />Die Original-Sprache wird automatisch pro Antwort eruiert und kann (noch) nicht manuell angepasst werden.</p><p><b>Welche Sprachen werden unterstützt?</b><br />Die unterstützten Sprachen werden auf folgender Seite aufgeführt: <a href=\"{link}\" style=\"display: block; position: absolute\" target=\"_blank\">{link}</a></p>"
+    },
+    "download": {
+      "graph": "Grafik herunterladen"
+    },
+    "sentiment": {
+      "-1": "Deutlich negativ",
+      "-0.5": "Eher negativ",
+      "0": "Mehrheitlich neutral",
+      "0.5": "Eher positiv",
+      "1": "Deutlich positiv",
+      "click_to_change": "Klicke um Wert anzupassen"
+    },
+    "view-opts": {
+      "title": "Anzeigeoptionen",
+      "no-data": "Diese Frage enthält keine weiteren Daten die angezeigt werden könnten.",
+      "alternativeID": "Eigene Daten-Spalte als ID anzeigen",
+      "additionalColumn": "Zusätzliche Datenspalte anzeigen",
+      "column": "Spalte",
+      "sentiment": "Sentiment anzeigen",
+      "fix_codes": "Code-Reihenfolge bei Anzeige fixieren",
+      "fix_codes_helptip": "Die Codes von Antworten immer in der Reihenfolge anzeigen, wie sie auch im Auswahlmenu vorkommen. Diese Reihenfolge ist wiederum von der Reihenfolge des Codebuchs abhängig. Für den Download ist diese Option nicht relevant."
+    },
+    "shortcuts": {
+      "title": "Tastatur-Kürzel",
+      "overview_mode": "Normalerweise",
+      "coding_mode": "Wenn Code-Auswahl-Menü offen",
+      "arrow_right": "Pfeil rechts",
+      "arrow_left": "Pfeil links",
+      "arrow_left_right": "Pfeil links / rechts",
+      "arrow_up": "Pfeil open",
+      "arrow_down": "Pfeil unten",
+      "next_answer": "Nächste Antwort",
+      "escape": "Escape",
+      "last_answer": "Vorherige Antwort",
+      "previous_next_code": "Vorheriger / nächster Code",
+      "tab": "Tabulator",
+      "enter": "Enter",
+      "mark_answer": "Antwort markieren",
+      "open_codingview": "Code-Auswahl-Menü öffnen",
+      "close_codingview": "Code-Auswahl-Menü schliessen",
+      "coding_enter": "Überprüft & nächste Antwort",
+      "coding_shift_enter": "Vorherige Antwort",
+      "move_code": "Markierten Code verschieben",
+      "sentiment_positive": "Positiveres Sentiment setzen",
+      "sentiment_negative": "Negativeres Sentiment setzen"
+    },
+    "savingError": {
+      "title": "Wir haben Schwierigkeiten deine Änderungen zu speichern.",
+      "authentication": "Authentifizierung fehlgeschlagen.",
+      "network": "Verbindungsprobleme.",
+      "todo": {
+        "title": "Was zu tun ist:",
+        "retry": "Wir probieren alle 5 Sekunden die Daten erneut zu speichern",
+        "network": "Stelle sicher, dass du eine funktionierende Internetverbindung hast",
+        "authentication": "Öffne <a target=\"_blank\" class=\"accent--text\" href=\"https://caplena.com\">https://caplena.com</a> in einem neuen Tab und logge dich ein. <br />Komme dann zu diesem Tab zurück und warte bis diese Meldung verschwindet.",
+        "refresh": "Wenn diese Nachricht bleibt, versuche diese Seite neu zu laden und den Cache zu löschen<br />Chrome / Firefox: Windows <em>Ctrl + F5</em> | Mac <em>Cmd + Shift + R</em>",
+        "persists": "Sollte das Problem bestehen bleiben, kontaktieren den Support unter <a class=\"accent--text\" href=\"mailto:support@caplena.com\">support@caplena.com</a>"
+      }
+    },
+    "coding": {
+      "loading": "Lade Antworten...",
+      "loading_error": "Ups, Beim Laden ist ein Fehler aufgetreten. Bitte probiere es später noch einmal.",
+      "save_error_codes": "Während des Speicherns der Codes ist ein Fehler aufgetreten! Wir probieren es gleich nochmal...",
+      "save_error_answers": "Während des Speicherns der Antworten ist ein Fehler aufgetreten! Wir probieren es gleich nochmal...",
+      "notreviewed_warn": "Die Antwort wurde nicht als überprüft markiert, da keine Codes eingetragen wurden!",
+      "last_answer": "Es kommen keine weiteren Antworten..  🙌🎉",
+      "last_answer_filtered": "Es gibt keine weiteren Antworten die zu diesen Filtern passen.",
+      "no_answers": {
+        "title": "Kein Treffer",
+        "details": "Es gibt keine Antworten die den gewählten Suchkriterien entsprechen"
+      },
+      "filled_predictions": "Kodierungs-Vorschläge für {number} Antworten eingetragen.",
+      "select_placeholder": "Codes auswählen",
+      "grouped_helptip": "{count} Duplikat(e) dieser Antwort sind versteckt. Die Codes dieser Antwort werden auch allen Duplikaten zugewiesen. Mehr Infos in den Anzeigeoptionen.",
+      "filter": {
+        "all": "Alle",
+        "reviewed": "Überprüfte",
+        "marked": "Markierte",
+        "unreviewed": "Nicht Überprüfte",
+        "nocodes": "Keine Codes",
+        "codes": "Nach Codes filtern",
+        "refresh": "Filter aktualisieren",
+        "bulk_edit": "Kollektivzuweisung",
+        "options": {
+          "label": "Filter Optionen",
+          "and_codes": {
+            "text": "<em>UND</em> Logik",
+            "helptip": "Wenn nach mehreren Codes gefiltert wird, diese mit <strong>UND</strong> Logik verknüpfen, anstatt der standardmässigen <strong>ODER</strong> Logik."
+          },
+          "invert": {
+            "text": "Invertieren",
+            "helptip": "Text- und Code-Filter invertieren. Wenn du beispielsweise nach <em>super</em> suchst, werden nur Antworten angezeigt welche <strong>nicht</strong> das Wort <em>super</em> enthalten. Dasselbe gilt für die Codes-Filter."
+          }
+        }
+      },
+      "codes": {
+        "autocoder": "Autocoder",
+        "autocoder_disabled_helptip": "Der Autocoder ist nur auf leere Fragen anwendbar.<br />Um den Autocoder auszuführen, setze die Umfrage zuerst zurück.",
+        "generator": "Codebuch-Assistent",
+        "generator_disabled_helptip": "Der Codebuch-Assistent ist nur auf leere Fragen anwendbar.<br />Um den Codebuch-Assistenten auszuführen, setze die Umfrage zuerst zurück.",
+        "reset_question": {
+          "title": "Frage zurücksetzen",
+          "description": "<b>Bist du sicher, dass du diese Frage zurücksetzen willst?</b><br />Alle Codes und Verkodungen der Antworten werden damit gelöscht. Dies kann nicht rückgängig gemacht werden.",
+          "btn": "Zurücksetzen",
+          "error_step": "Zurücksetzen deiner Frage"
+        },
+        "graph": "Grafiken",
+        "advanced_visualizations": "Erweiterte Visualisierungen",
+        "edit": "Codes",
+        "score": "Modell-Punktzahl",
+        "name": "Name",
+        "category": "Kategorie",
+        "numeric": "Code ID",
+        "count": "Häufigkeit",
+        "actions": "Aktionen",
+        "missing": {
+          "title": "Keine Codes definiert",
+          "details": "Füge durch das \"Plus\" Symbol welche hinzu.",
+          "details_generator": "Starte den Codebuch-Assistenten oder füge durch das \"Plus\" Symbol Codes hinzu."
+        },
+        "dirty_codebook_get_predictions": {
+          "alert": "Seit die letzten Vorschläge reinkamen, hast du Änderungen an deinem Codebuch vorgenommen. Wenn du mit den Anpassungen des Codebuchs durch bist, klicke auf untenstehenden Knopf um aktualisierte Vorschläge zu bekommen.",
+          "btn": "Aktualisierte Vorschläge anfordern"
+        },
+        "modify_inherit_helptip": "<p><strong>Codes werden durch ihre numerische ID über gekoppelte Fragen hinweg assoziiert.</strong> Code-Änderungen haben daher folgenden Einfluss auf den KI-Assistenten:</p><ul><li><em>Das Löschen eines Codes</em> ist simpel, dieser wird nun nicht mehr vorgeschlagen</li><li><em>Den Namen / die Kategorie anzupassen</em> ändert nichts für die KI, sie sieht dies weiterhin als den gleichen Code. (Vorsicht daher wenn die Bedeutung eines Codes zu stark geändert wird!)</li><li><em>Durch eine Änderung der ID</em> wird dies zu einem komplett anderen Code für die KI. Er hat keine Beziehung mehr zur früheren Version des Codes. <strong>Wenn jedoch in einer verknüpften Frage ein Code mit identischer ID existiert, geht die KI davon aus dass dies die gleichen Codes sind.</strong></li></ul>",
+        "n_selected": "{count} Code(s) ausgewählt",
+        "sort_by_id": "Codes nach ID sortieren",
+        "tooltip_new": "Neuen Code erstellen",
+        "tooltip_edit": "Ausgewählten Code bearbeiten",
+        "tooltip_delete": "Ausgewählte(n) Code(s) löschen",
+        "tooltip_rename_category": "Kategorie umbenennen",
+        "tooltip_merge": "Ausgewählte Codes zu einem verschmelzen",
+        "alert_inherit": "Diese Frage ist mit der Frage '{inherit_name}' verknüpft. Sei dir bewusst was es heisst hier Codes zu bearbeiten.",
+        "new": {
+          "title": "Neuer Code",
+          "edit": "Code{plural} '{code}' bearbeiten",
+          "name": "Name",
+          "category": "Kategorie",
+          "new_category": "Neue Kategorie",
+          "invalid_name": "Der Name muss mindestens drei Zeichen lang sein",
+          "invalid_category": "Die Kategorie muss mindestens drei Zeichen lang sein",
+          "select_category": "Wähle eine Kategorie aus",
+          "too_many_categories": "Es können höchstens {limit} Kategorien pro Frage erstellt werden. Wähle eine bestehende aus.",
+          "new_id": "ID",
+          "id_not_numeric": "Die ID muss numerisch sein",
+          "id_not_unique": "Diese ID wird bereits von einem anderen Code verwendet",
+          "id_not_in_range": "Die ID darf nicht kleiner als {minval} oder grösser als {maxval} sein",
+          "too_many": "Momentan sind maximal {allowed} Codes erlaubt. Kontaktiere bitte unseren Support falls du mehr benötigst."
+        },
+        "delete": {
+          "title": "Code löschen?",
+          "are_you_sure": "Sicher, dass du den Code <strong>{code}</strong> löschen willst?<br />Das kann nicht rückgängig gemacht werden, der Code wird aus allen bereits kodierten Antworten gelöscht.",
+          "are_you_sure_multi": "Sicher, dass du die Codes <strong>{code}</strong> löschen willst?<br />Das kann nicht rückgängig gemacht werden, die Codes werden aus allen bereits kodierten Antworten gelöscht."
+        },
+        "category_batch": {
+          "title": "Die Kategorie von <strong>{cnt} Codes</strong> anpassen"
+        },
+        "merge": {
+          "title": "Sicher, dass du diese Codes verschmelzen willst?",
+          "info": "Die {nCodes} Codes <em>{codes}</em> werden zu einem reduziert. Dies kann nicht rückgängig gemacht werden.",
+          "merge_into": "Code in den die anderen aufgehen sollen",
+          "invalid": "Wähle den Code der nach dem verschmelzen übrigbleiben soll",
+          "do_merge": "Verschmelzen"
+        },
+        "rename": {
+          "title": "Kategorie umbenennen",
+          "category_old": "Bestehende Kategorie",
+          "category_new": "Neuer Name",
+          "do_rename": "Umbenennen"
+        },
+        "click_filter_code": "Klicken um nach diesem Code zu filtern"
+      },
+      "statistics": {
+        "summary": "Letzte Vorschläge <code>{when}</code>, Punktzahl: <code>{score}%</code>",
+        "title": "Statistiken",
+        "general": "Allgemein",
+        "lastsaved": "Zuletzt gespeichert: ",
+        "number_of_answers": "Anzahl Antworten: ",
+        "number_nocodes": "Ohne Code: ",
+        "number_reviewed": "Manuell überprüft: ",
+        "tooltip_progress_towards_update": "Überprüfte Nennungen bis zu aktualisierten Vorschlägen",
+        "text_progress_towards_update": "{nreview} weitere Nennungen bis zu aktualisierten Vorschlägen",
+        "number_manual": "Manuell geändert: ",
+        "codes_total": "Vergebene Codes Total: ",
+        "thereof_unique": "davon {cnt} Einzigartige",
+        "model": {
+          "title": "Modell",
+          "last_update": "Letztes update: ",
+          "score_helptip": "Die Punktzahl stellt den <a href=\"{href}\" class=\"accent--text\" target=\"_blank\">gewichteten F1-Score</a> aller Codes dar. <br/><br /><h3>Was ist ein guter Punktwert?</h3><p>Das theoretische Maximum sind 100 Punkte, welche jedoch nie erreicht werden. Zum Vergleich: <ul><li>Bei einem Test haben wir <em>einer</em> (professionellen) Kodiererin <em>denselben Datensatz</em> zwei Mal zur Kodierung gegeben. Die Übereinstimmung der Resultate lag bei etwa <code>90</code> Punkten.</li><li>Wenn der gleiche Datensatz von verschiedenen Kodierern durchgearbeitet wird, erreichen diese meist eine Punktzahl in den <code>70ern bis 80ern</code>.</li><li>Für Resultate ähnlich einer händischen Kodierung, empfiehlt es sich eine Punktzahl in den <code>70ern</code> anzustreben. Für viele Applikationen (z.B. wenn es darum geht, die Distribution der Codes zu erhalten), reicht jedoch oft auch eine tiefere Genauigkeit aus – gegeben die Stichprobe ist gross genug.</ul></p><h3>Warum gebt ihr nicht die normale <em>Genauigkeit</em> zurück?</h3><p>Zur Qualitätsmessung einer Textklassifikation ist die Genauigkeit oft nicht geeignet. Bei unausgeglichenen Datensätzen, was bei der Kodierung praktisch immer der Fall ist (Codes kommen mit viel höherer Frequenz <em>nicht</em> vor, als dass sie vorkommen), wäre die Genauigkeit oft lächerlich hoch (über 98%), jedoch wenig Aussagekräftig.<p><h3>Wie messt ihr die Punktzahl?</h3><p>Beim Training lassen wir einen Teil der von dir kodierten Daten zufällig beiseite. Der Score wird anschliessend auf dieser Stichprobe gemessen.<p><h3>Wie erreiche ich eine höhere Punktzahl?</h3><p>Bevor zu sehr auf die nackte Punktzahl fokussiert wird, sollten die Resultate auch qualitativ evaluiert werden. Springe dazu in die Mitte oder an das Ende deines Datensatzes, und schaue dir dort die Vorschläge des Modells an (denke daran, dass die Nennungen nach Schwierigkeit sortiert werden, wobei die Schwierigsten zuletzt angezeigt werden). Manchmal kann auch mit einem tiefen numerischen Score eine gute Qualität erreicht werden. Um die Punktzahl zu verbessern, gibt es mehrere Hebel:<ul><li><b>Straffung des Codebuchs:</b> Ein umfangreiches Codebuch ist schwieriger zu lernen als ein kurzes, konzises. Wie auch Menschen, macht der Algorithmus mehr Fehler, wenn die Codes ähnlich oder nicht trennscharf sind.</li><li><b>Optimierung der Code-Namen:</b> Der Algorithmus stützt sich auch auf die Benennung der Codes. Es ist daher wichtig darauf zu achten, dass die Code-Namen aussagekräftig und nicht zu abstrakt sind.</li><li><b>Mehr Beispiele überprüften: </b>Je mehr Trainingsbeispiele der Algorithmus zur Verfügung hat, desto genauer werden seine Vorschläge. Wenn ihr über \"historische\" Daten verfügt, welche bereits kodiert, aber noch nicht auf Caplena hochgeladen sind, kontaktiere bitte den Support, sodass wir diese in deinen Account einspeisen können.</li><li>Falls du unsicher bist oder Hilfe benötigst, kontaktiere bitte den Support, wir schauen uns deine Daten gerne kurz an.</li>",
+          "eta_fromnow": "Aktualisierte Vorschläge folgen <code>{fromnow}</code>",
+          "eta_any_moment": "Aktualisierte Vorschläge folgen <code>jeden Moment</code>",
+          "eta_overdue": "Die Berechnung der Vorschläge dauert länger als erwartet. Sollte diese Nachricht in ein paar Minuten immer noch angezeigt werden, kontaktiere bitte den Support über den Chat.",
+          "not_enough_answers": "Nicht genug Daten um Code-Vorschläge zu berechnen",
+          "training": "Modell wird gerade trainiert ",
+          "not_trained": "Modell wurde noch nicht trainiert.",
+          "min_answers": "Erst wenn mindestens {min_answers} Antworten kodiert sind beginnt das Training.",
+          "score": "Punktzahl: ",
+          "updated": "Antworten angepasst:",
+          "number_training": "Anzahl Trainingsläufe: ",
+          "model_type": "Modelltyp: ",
+          "tolerance": {
+            "title": "Toleranz",
+            "reset": "Zurücksetzen",
+            "helptip": "Durch das Erhöhen der Toleranz macht der Assistent mehr Vorschläge, ist also \"mutiger\". Umgekehrt kannst du die Anzahl Vorschläge reduzieren, indem du die Toleranz senkst. Normalerweise sind die besten Resultate bei einer Toleranz von 50 zu erwarten.",
+            "not_ready": "Das Ändern der Toleranz ist für diese Frage momentan nicht möglich. Bitte warte bis neue Vorhersagen eingetroffen sind oder kontaktiere den Support."
+          }
+        }
+      }
+    },
+    "tour": {
+      "coding": {
+        "title": "Offene Frage",
+        "description": "Offene Nennungen werden semi-automatisiert kodiert: Du gibst dem System einige Beispiele, wie du die Kodierung gerne hättest. Das System übernimmt dann und macht den Rest automatisch. <br />Hier haben wir die Hälfte der offenen Nennungen bereits händisch kodiert."
+      },
+      "list": {
+        "title": "Listen-Antworten",
+        "description": "Listenantworten werden vollkommen automatisch kodiert. Du kannst den Assistenten jederzeit neu starten.<br />Nach Abschluss der Auto-Kodierung, kannst du die Code-Liste noch weiter verfeinern, überflüssige Codes löschen, zusammenfügen oder umbenennen."
+      },
+      "navigate": {
+        "title": "Navigieren",
+        "description": "Gehe zu Zeile {jumpTo}: Die gestreiften Codes hat der Algorithmus automatisch zugewiesen. Du kannst die Resultate direkt herunterladen oder die Vorschläge editieren / bestätigen. Nachdem du die Kodierung einer Nennung angepasst oder bestätigt hast (indem du Enter drückst ohne einen Code ausgewählt zu haben), erscheint ein Häkchen <i class=\"v-icon material-icons\">done</i>, der anzeigt, dass die Nennung überprüft wurde."
+      },
+      "ai": {
+        "title": "Intelligenter Assistent",
+        "description": "Wenn mindestens {n} Antworten kodiert sind, wird im Hintergrund ein Modell trainiert. Dieses fügt dann für alle Antworten welche du noch nicht angeschaut hast Vorschläge für die Kodierung ein. Je mehr Antworten du händisch überprüft hast, desto genauer werden die Vorhersagen des Algorithmus."
+      },
+      "smart_sort": {
+        "title": "Intelligente Sortierung",
+        "description": "Springe jetzt zu Zeile 800. Hier siehst du mehrheitlich simple Nennungen. <br />Die KI sortiert Nennungen automatisch nach ihrer Komplexität: Schwierige Antworten bei denen sich das Modell nicht sicher ist (oder wo es gar keine Vorschläge machen kann) werden dir zuerst angezeigt, die einfacheren bei denen sich das Modell sehr sicher ist, am Schluss."
+      },
+      "codebook": {
+        "title": "Codebuch",
+        "description": "Das Codebuch kann jederzeit angepasst und erweitert werden."
+      },
+      "graph": {
+        "title": "Grafiken",
+        "description": "Die Verteilung der Codes wird hier visualisiert."
+      },
+      "score": {
+        "title": "Modell-Punktzahl",
+        "description": "Hier wird die Genauigkeit des Modells für jeden Code einzeln visuell dargestellt."
+      },
+      "shortcuts": {
+        "title": "Tastatur-Kürzel",
+        "description": "Zur effizienten Kodierung ist es sehr ratsam, sich die Tastatur-Kürzel zu merken und ausschliesslich mit diesen zu arbeiten. Probiere es aus, es lohnt sich!"
+      },
+      "download": {
+        "title": "Download",
+        "description": "Die kodierten Antworten sowie das Codebuch können jederzeit in verschiedenen Formaten heruntergeladen werden."
+      }
+    },
+    "session_issue": {
+      "multiple_tabs": {
+        "title": "Diese Sitzung wurde geschlossen",
+        "content": "Du hast diese Frage in einem anderen Tab, Fenster oder Computer geöffnet. Du kannst diesen Tab nun schliessen oder die Seite neu laden um die Kontrolle wieder zu übernehmen."
+      },
+      "multiple_users": {
+        "title": "{user} bearbeitet diese Frage",
+        "content": "Du kannst diese Frage im <strong>schreibgeschützten</strong> Modus anschauen, jedoch keine Änderungen vornehmen.<br /><p>Solltest du die Kontrolle über diese Frage übernehmen, wird der andere Nutzer in den schreibgeschützten Modus transferiert.",
+        "takeover_control": "Kontrolle von {user} übernehmen"
+      },
+      "connection_lost": {
+        "title": "Diese Sitzung wurde geschlossen",
+        "content": "Dein Computer hat während mehrerer Minuten die Verbindung zum Server verloren. Um an dieser Frage weiterzuarbeiten <strong>lade bitte die Seite neu.</strong>"
+      },
+      "takeover_confirm": {
+        "title": "Du bist zurück am Steuer! 🏎",
+        "content": "Du kannst diese Frage nun bearbeiten."
+      },
+      "takeover_by": {
+        "title": "{user} hat die Kontrolle übernommen",
+        "content": "Du kannst diese Frage weiterhin im schreibgeschützten Modus anschauen, jedoch keine Änderungen vornehmen. Um die Kontrolle zurückzuholen, lade bitte die Seite neu."
+      },
+      "rows_uploaded": {
+        "title": "Neue Zeilen wurden hochgeladen ✨",
+        "content": "Aktualisiere die Seite um die neuen Zeilen zu laden und um am Projekt weiterzuarbeiten."
+      }
+    },
+    "new_feature": {
+      "smart_sort": {
+        "title": "Neues Feature: Intelligente Sortierung",
+        "content": "<b>Für diese Frage ist die intelligente Sortierung aktiviert.</b><br /> Ab ca. 100 händischen Kodierungen werden dir zuerst jene Antworten angezeigt, bei welchen sich der Assistent mit seinen Vorhersagen nicht besonders sicher ist. Somit erhöht sich die Genauigkeit bei den verbleibenden Antworten und du kannst früher aufhören zu kodieren. Beim Download werden die Antworten in der ursprünglichen Reihenfolge ausgegeben.<p><em>Du kannst die Funktion über die Anzeigeoptionen jederzeit deaktivieren, wir empfehlen aber sie eingeschaltet zu lassen.</em></p>"
+      },
+      "close_once": "Schliessen",
+      "close_forever": "Nicht mehr anzeigen"
+    }
+  },
+  "en": {
+    "title": "Coding",
+    "focus_mode": {
+      "description": "Click on the background or press ESC to end focus view.",
+      "title": "Focus view"
+    },
+    "alert_not_editable_permissions": "You are not authorized to edit this question. This view is therefore read-only.",
+    "alert_not_editable_other_user": "As another user is working on this question you have read-only access. Refresh the page to take over control.",
+    "translate": {
+      "show": "Show translations",
+      "show_helptip": "Show the translations instead of the original text when you're not in the focus mode.",
+      "summary": "Translated from {source}",
+      "helptip": "<em>This answers was automatically translated from <b>{source}</b> to <b>{target}</b> using Google Translate.</em><p><b>Why was it translated?</b><br />The translation functionality was activated for this question during upload and Google Translate recognized this answer not to be written in {target}.</p><p><b>How can I set the destination language?</b><br />The main language of the question is defined during the upload process.</p><p><b>How can I change the source language?</b><br />The source language is determined automatically for every answer and can't be modified manually (yet).</p><p><b>Which languages are supported?</b><br />All supported languages are listed on the following page: <a href=\"{link}\" style=\"display: block; position: absolute\" target=\"_blank\">{link}</a></p>"
+    },
+    "sentiment": {
+      "-1": "Strongly negative",
+      "-0.5": "Rather negative",
+      "0": "Mostly neutral",
+      "0.5": "Rather positive",
+      "1": "Strongly positive",
+      "click_to_change": "Click to change"
+    },
+    "view-opts": {
+      "title": "View Options",
+      "no-data": "This question does not contain any further data to display.",
+      "alternativeID": "Display custom data column as ID",
+      "additionalColumn": "Display additional data column",
+      "column": "Column",
+      "sentiment": "Display sentiment",
+      "fix_codes": "Fix the code display order",
+      "fix_codes_helptip": "Display the codes of answers in the same order as they appear in the code selection menu. That order is determined by the sorting applied to the codebook. When downloading the data this option is not relevant."
+    },
+    "question": {
+      "description_long": "Created {created} by {owner}<br />last modified {last_modified}",
+      "translated": "Completed automatic translation into <em>{lang}</em>",
+      "translation_failed": "Automatic translation failed!",
+      "inherits": "AI is trained based on question '<em>{ancestor}</em>'"
+    },
+    "download": {
+      "graph": "Download chart"
+    },
+    "shortcuts": {
+      "title": "Keyboard-Shortcuts",
+      "overview_mode": "Normally",
+      "coding_mode": "With code selection menu open",
+      "arrow_right": "Arrow right",
+      "arrow_left": "Arrow left",
+      "arrow_left_right": "Arrow left / right",
+      "arrow_up": "Arrow up",
+      "arrow_down": "Arrow down",
+      "next_answer": "Next answer",
+      "last_answer": "Previous answer",
+      "previous_next_code": "Previous / next code",
+      "tab": "Tabulator",
+      "escape": "Escape",
+      "enter": "Enter",
+      "mark_answer": "Mark answer",
+      "open_codingview": "Open code selection menu",
+      "close_codingview": "Close code selection menu",
+      "coding_enter": "Reviewed & next answer",
+      "coding_shift_enter": "Previous answer",
+      "move_code": "Move selected code",
+      "sentiment_positive": "Set more positive sentiment",
+      "sentiment_negative": "Set more negative sentiment"
+    },
+    "savingError": {
+      "title": "We're having trouble saving your changes.",
+      "authentication": "Authentication failed.",
+      "network": "Connection error.",
+      "todo": {
+        "title": "What to do now:",
+        "retry": "We'll retry saving every 5 seconds",
+        "network": "Make sure you have a working internet connection",
+        "authentication": "Open a new tab, go to <a target=\"_blank\" class=\"accent--text\" href=\"https://caplena.com\">https://caplena.com</a> and log in to your account. <br />Then come back to this tab and wait for a few seconds for this message to disappear.",
+        "refresh": "If this message persists, try reloading this page and clearing the cache <br />Chrome / Firefox: Windows <em>Ctrl + F5</em> | Mac <em>Cmd + Shift + R</em>",
+        "persists": "If the problem persists, contact Caplena support at <a class=\"accent--text\" href=\"mailto:support@caplena.com\">support@caplena.com</a>"
+      }
+    },
+    "coding": {
+      "save_error_codes": "An error occurred while saving the codes, sorry for that! We'll give it another try in a few seconds...",
+      "save_error_answers": "An error occurred while saving the answers, sorry for that! We'll give it another try in a few seconds...",
+      "filled_predictions": "Auto-completed {number} answers.",
+      "select_placeholder": "Select codes",
+      "grouped_helptip": "{count} duplicate(s) are hidden. The codes of this answer are also assigned to all duplicates. See also the view options.",
+      "notreviewed_warn": "Answer was not marked as reviewed, as no codes were selected!",
+      "no_answers": {
+        "title": "No matches",
+        "details": "There are no answers matching your search criteria"
+      },
+      "last_answer": "No more answers to show, Yay 🙌🎉",
+      "last_answer_filtered": "No more answers to show with current filters.",
+      "filter": {
+        "all": "All",
+        "reviewed": "Reviewed",
+        "marked": "Starred",
+        "unreviewed": "Not reviewed",
+        "nocodes": "No codes",
+        "codes": "Filter by codes",
+        "refresh": "Refresh filtering",
+        "bulk_edit": "Bulk assign codes",
+        "options": {
+          "label": "Filtering options",
+          "and_codes": {
+            "text": "<em>AND</em> logic",
+            "helptip": "When filtering by multiple codes, use <strong>AND</strong> logic instead of the default <strong>OR</strong>."
+          },
+          "invert": {
+            "text": "Invert",
+            "helptip": "Invert text and code filters. This means if you search for <em>great</em>, all answers <strong>not</strong> containing <em>great</em> will be shown. The same applies to codes."
+          }
+        }
+      },
+      "codes": {
+        "autocoder": "Autocoder",
+        "autocoder_disabled_helptip": "The autocoder can only be applied to questions in a blank state.<br />To run the autocoder, please reset your question first.",
+        "generator": "Codebook assistant",
+        "generator_disabled_helptip": "The codebook assistant can only be applied to questions in a blank state.<br />To run the codebook assistant, please <b>reset</b> your question first.",
+        "reset_question": {
+          "title": "Reset question",
+          "description": "<b>Are you sure you want to reset this question?</b>All codes and code assignments will be removed. This cannot be undone.",
+          "btn": "Reset",
+          "error_step": "resetting your question"
+        },
+        "graph": "Visualizations",
+        "advanced_visualizations": "Advanced Visualizations",
+        "edit": "Codes",
+        "score": "Model score",
+        "name": "Name",
+        "category": "Category",
+        "numeric": "Code ID",
+        "count": "Count",
+        "actions": "Actions",
+        "missing": {
+          "title": "No codes defined",
+          "details": "Add codes using the \"Plus\" icon.",
+          "details_generator": "Start the codebook generator or add codes using the \"Plus\" icon."
+        },
+        "dirty_codebook_get_predictions": {
+          "alert": "Your codes have changed since the last predictions arrived. Once you have completed your modifications of the codebook, click the button below to request updated predictions.",
+          "btn": "Request updated predictions"
+        },
+        "modify_inherit_helptip": "<p><strong>Codes are identified by their numeric ID across linked questions.</strong> Changing codes in this question has the following effects on the AI assistant:</p><ul><li><em>Removing a code</em> is simple, this code won't be suggested anymore</li><li><em>Changing its name / category</em> will not change anything for the AI, it still considers this as the same code (therefore be careful when changing the meaning of a code too drastically)</li><li><em>Changing its ID</em> will mean this becomes a completely different code for the AI, it will not relate it anymore to the previous code. <strong>However, if there is a code with the exact same ID in a linked question, the AI will assume those are identical.</strong></li></ul>",
+        "n_selected": "{count} code(s) selected",
+        "sort_by_id": "Sort codes by ID",
+        "tooltip_new": "New code",
+        "tooltip_edit": "Edit selected code",
+        "tooltip_delete": "Delete selected code(s)",
+        "tooltip_rename_category": "Rename category",
+        "tooltip_merge": "Merge selected codes into one",
+        "alert_inherit": "This question is linked to the question '{inherit_name}'. Be sure you know what the consequences are of changing codes.",
+        "new": {
+          "title": "New code",
+          "edit": "Edit code{plural} '{code}'",
+          "name": "Name",
+          "category": "Category",
+          "new_category": "New category",
+          "invalid_name": "Name must be at least 3 characters long",
+          "invalid_category": "Category must be at least 3 characters long",
+          "select_category": "Select a category",
+          "too_many_categories": "No more than {limit} categories per question are allowed.",
+          "new_id": "ID",
+          "id_not_numeric": "The ID needs to be numeric",
+          "id_not_unique": "This ID is already in use by another code",
+          "id_not_in_range": "The ID may not be smaller than {minval} or larger than {maxval}",
+          "too_many": "Currently a maximum of {allowed} codes are supported. Please contact support if you require more."
+        },
+        "delete": {
+          "title": "Delete code(s)?",
+          "are_you_sure": "Are you sure you want to delete code <strong>{code}</strong>? <br />This action cannot be undone; the code will be removed from all answers!",
+          "are_you_sure_multi": "Are you sure you want to delete the codes <strong>{code}</strong>? <br />This action cannot be undone; the codes will be removed from all answers!"
+        },
+        "category_batch": {
+          "title": "Set the category for <strong>{cnt} codes</strong>"
+        },
+        "merge": {
+          "title": "Are you sure you want to merge these codes?",
+          "info": "The {nCodes} codes <em>{codes}</em> are going to be reduced to one. This cannot be undone.",
+          "merge_into": "Select the code into which the other ones will be merged",
+          "invalid": "Select a code into which the others shall be merged",
+          "do_merge": "Merge"
+        },
+        "rename": {
+          "title": "Rename category",
+          "category_old": "Existing category",
+          "category_new": "New name",
+          "do_rename": "Rename"
+        },
+        "click_filter_code": "Click to filter by this code"
+      },
+      "statistics": {
+        "summary": "Latest suggestions <code>{when}</code>, score <code>{score}%</code>",
+        "title": "Statistics",
+        "general": "General",
+        "lastsaved": "Last saved: ",
+        "tooltip_progress_towards_update": "Progress towards updated suggestions",
+        "text_progress_towards_update": "Review {nreview} more responses to get updated suggestions",
+        "number_of_answers": "Number of answers: ",
+        "number_nocodes": "Without code: ",
+        "number_reviewed": "Manually reviewed: ",
+        "number_manual": "Manually changed: ",
+        "codes_total": "Total codes assigned: ",
+        "thereof_unique": "thereof {cnt} unique",
+        "model": {
+          "title": "Model",
+          "last_update": "Last update: ",
+          "score_helptip": "The score represents the <a href=\"{href}\" class=\"accent--text\" target=\"_blank\">Weighted F1</a> of all codes. <br/><br /><h3>What is a good score?</h3><p>The theoretical maximum is 100, but this is never reached. A few benchmarks: <ul><li>We had the <em>same person</em> (a coding professional) annotate <em>the same question</em> twice. She achieved an overlap of the two iterations of around <code>90</code>.</li><li>When two different people code the same survey, they usually achieve an overlap score in the <code>70s to 80s</code>.</li><li>When aiming for \"human-level\" performance, it makes sense to aim at a score in the <code>70s</code>. However, for many applications (such as getting a reliable distribution), a lower score is already sufficient – given there are enough samples.</ul></p><h3>Why don't you state the <em>accuracy</em> measure?</h3><p>For text classification, accuracy is often not a very good measure. If datasets are unbalanced, which is almost always the case when tagging texts (codes usually are <em>not</em> present at a much higher rate than <em>being</em> present), the accuracy would almost always be ridiculously high (above 98%), but not meaningful.<p><h3>How do you measure the score?</h3><p>When training our machine learning models, we leave out a part of the data you have annotated. Scoring is then done on the left out data.<p><h3>How do I get to a higher score?</h3><p>Before focusing purely on the score, be sure to also check a few responses in the middle and towards the end of your dataset for their qualitative performance (remember, we sort the responses by difficulty, with the easiest ones coming last). Sometimes even a low numeric score can still lead to qualitatively good results. To improve the score, there are a few strategies:<ul><li><b>Streamline your codebook:</b> A very large codebook is more difficult to learn than a slimmer one. As humans would, the model will also make more mistakes distinguishing between similar / not well differentiated codes.</li><li><b>Optimize code names:</b> The model also takes the code names into account. Therefore, make sure the code names are meaningful and not too abstract.</li><li><b>Review more examples:</b> The more examples the model has, the better it will become. If you have \"historical\" data which is already coded but not uploaded to Caplena, contact support to help you ingest that into your account.</li><li>If you're unsure, please contact support any time, we're happy to have a quick look into your data.</li>",
+          "training": "Model is being trained...",
+          "eta_fromnow": "Updated suggestions arrive <code>{fromnow}</code>",
+          "eta_any_moment": "Updated suggestions ready <code>any moment</code>",
+          "eta_overdue": "Suggestions are taking longer than expected. If this message persists, please contact support through the chat.",
+          "not_enough_answers": "There are not enough responses to compute suggestions",
+          "min_answers": "Model training will only start when at least {min_answers} answers are coded.",
+          "not_trained": "Model has not been trained yet.",
+          "score": "Score: ",
+          "updated": "Answers updated: ",
+          "number_training": "Number of training-runs: ",
+          "model_type": "Model type: ",
+          "tolerance": {
+            "title": "Tolerance",
+            "reset": "Reset",
+            "helptip": "By increasing the tolerance, our intelligent assistant will give you more code suggestions, being \"bolder\" about its predictions. If you decrease the tolerance on the other hand, the number of suggestions will be reduced. Usually the best results are achieved with the default setting of 50.",
+            "not_ready": "Setting prediction certainty is currently not possible for this question. Please wait for new predictions to arrive or contact support."
+          }
+        }
+      }
+    },
+    "tour": {
+      "coding": {
+        "title": "Open-ends responses",
+        "description": "Open-ended responses are tagged in a semi-automatic way: You teach the system how you want them to be categorized, it then takes over and does the rest automatically. <br />We have already annotated half of them."
+      },
+      "list": {
+        "title": "List answers",
+        "description": "List answers are tagged fully-automatically. You can restart the assistant any time by clicking this button.<br />After completing the assistant, refine the codebook to suit your needs, by deleting unnecessary tags, merging or renaming them."
+      },
+      "navigate": {
+        "title": "Navigate",
+        "description": "Jump to answer {jumpTo}: The striped codes have been automatically assigned by our algorithm. You can download the results directly or confirm / edit the suggestions. After changing a prediction or confirming it (by pressing enter without selecting a code), a checkmark <i class=\"v-icon material-icons\">done</i> will indicate that this response has been reviewed."
+      },
+      "ai": {
+        "title": "AI-assistance",
+        "description": "Training of the AI will start when you have coded at least {n} answers. It will then auto-complete the codes for the remaining answers and update its predictions every few minutes, whereby it will become more accurate the more you review."
+      },
+      "smart_sort": {
+        "title": "Smart sorting",
+        "description": "Now jump to row 800. You will see that these are mostly simple verbatims. <br />The AI sorts the responses by difficulty, presenting you the hard ones where it might need help (or couldn't make any prediction at all) first and the easy ones, where it is very confident about its predictions, last."
+      },
+      "codebook": {
+        "title": "Codebook",
+        "description": "The codebook can be changed on the fly."
+      },
+      "graph": {
+        "title": "Visualizations",
+        "description": "Charts of codes-distribution"
+      },
+      "score": {
+        "title": "Modell-Score",
+        "description": "The model score is visualized here on a per-code basis."
+      },
+      "shortcuts": {
+        "title": "Keyboard-Shortcuts",
+        "description": "Utilize keyboard shortcuts only while coding to be as fast as possible!"
+      },
+      "download": {
+        "title": "Download",
+        "description": "Download the coded answers anytime in different formats"
+      }
+    },
+    "new_feature": {
+      "smart_sort": {
+        "title": "New feature: Smart sorting",
+        "content": "<b>Smart sorting is activated for this question.</b><br /> Once you have coded around 100 answers, the assistant will sort the remaining uncoded answers according to decreasing difficulty (i.e. showing answers where he is sure last). This increases the score for the remaining responses and enables you to stop coding earlier. When downloading the results, your responses will be in the original order again. <p><em>You can disable this feature anytime in the view options, but we recommend keeping it enabled.</em></p>"
+      },
+      "close_once": "Close",
+      "close_forever": "Don't show again"
+    },
+    "session_issue": {
+      "multiple_tabs": {
+        "title": "This session has been closed",
+        "content": "You have opened this question in another tab, window or computer. Either close this tab or reload the page if you would like to take back control."
+      },
+      "multiple_users": {
+        "title": "{user} is editing this question",
+        "content": "You can view this question in <strong>read-only</strong> mode, but not make any changes.<br /><p>If you take over control of this question, the other user will be put into read-only mode.",
+        "takeover_control": "Take over control from {user}"
+      },
+      "connection_lost": {
+        "title": "This session has been closed",
+        "content": "Your computer has been unable to connect to the server for multiple minutes. To continue working on this question <strong>please refresh the page.</strong>"
+      },
+      "takeover_confirm": {
+        "title": "You are back in the driver seat! 🏎",
+        "content": "You have taken control and can now start editing this question."
+      },
+      "takeover_by": {
+        "title": "{user} has taken over control",
+        "content": "You can still look at this question in read-only mode, but will not be able to make changes anymore. To get back control of this question, reload the page."
+      },
+      "rows_uploaded": {
+        "title": "New rows were uploaded ✨",
+        "content": "Refresh the page to load the new rows and continue working on the project."
+      }
+    }
+  }
+}

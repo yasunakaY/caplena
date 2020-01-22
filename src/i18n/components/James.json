@@ -1,0 +1,114 @@
+{
+  "de": {
+    "labels": {
+      "info": "Info",
+      "tip": "Tipp"
+    },
+    "and": "und",
+    "more": "Weitere(n)",
+    "old_removed": "[ Alte Nachrichten entfernt ]",
+    "introduction": "Hallo {name}^500, ich werde dich beim Kodieren dieser Umfrage mit Tipps und Infos unterstützen.",
+    "reviewed": {
+      "all": "Du hast bereits alle Antworten überprüft! Starke Arbeit 🙌",
+      "partial": "Du hast bereits {reviewed}/{total} Antworten überprüft. ",
+      "none": "Du hast noch keine Antworten überprüft. "
+    },
+    "preds_state": {
+      "not_enough_annotated": "Ich werde dir Code-Vorschläge machen sobald du {ncodes} weitere Antworten annotiert hast.",
+      "predicting_from_inherited": "Basierend auf der verknüpften Umfrage <span class=\"label\">{inherits_from_name}</span> berechne ich gerade Code-Vorschläge, dies kann bis zu einigen Minuten dauern.",
+      "predicting": "Ich berechne gerade Code-Vorschläge, dies kann bis zu einigen Minuten dauern.",
+      "trained": "Für den Rest habe ich bereits einige Vorschläge gemacht. "
+    },
+    "new_preds": [
+      "Neue Code-Vorschläge! Ich habe {nPredicted} Antworten damit ausgestattet. ",
+      "Ich habe die Code-Vorschläge für {nPredicted} Antworten überarbeitet. ",
+      "Brandneue Code-Vorschläge für {nPredicted} Antworten sind grad reingekommen. ",
+      "Soeben sind die Code-Vorschläge für {nPredicted} Antworten angekommen. ",
+      "Für {nPredicted} Antworten gab's neue Code-Vorschläge. "
+    ],
+    "model_results": {
+      "active_learning": "Ich habe die Antworten neu sortiert: Von jetzt an werde ich dir zuerst jene zeigen, bei denen ich mir nicht besonders sicher bin. Das sollte dir helfen früher mit dem Kodieren aufhören zu können.",
+      "lower50": "Ich bin mir meiner Sache aber noch nicht so sicher, hilf mir besser zu werden indem du weitere Antworten kodierst.",
+      "lower60": "Die Resultate sind ein guter Anfang, aber ich brauche noch etwas mehr Hilfe von dir!",
+      "lower70": "Die Resultate sehen nicht schlecht aus, es gibt aber noch Luft nach oben.",
+      "lower80": "Die Resultate sehen bereits ziemlich gut aus",
+      "lower90": "Die Resultate sehen sehr gut aus. Je nach Projekt kannst du nun bereits mit dem Kodieren aufhören.",
+      "higher90": "Die Resultate sehen fantastisch aus 🤩. Du kannst nun sehr wahrscheinlich mit dem Kodieren aufhören und den Rest von mir automatisch machen lassen.",
+      "codes_bad_lower70": " Insbesondere bei den Codes {codesBad} bin ich mir noch nicht so sicher.",
+      "codes_bad_lower80": ", aber für die Codes {codesBad} gibt's noch Potenzial nach oben.",
+      "codes_bad_higher80": [
+        ", aber für die Codes {codesBad} gibt's immer noch Luft nach oben. Versuche Antworten, welche diese Codes enthalten sollten, direkt über die Suchfunktion zu finden.",
+        ", aber bei den Codes {codesBad} bin ich noch nicht ganz zufrieden. Versuche Antworten, welche diese Codes enthalten sollten, direkt über die Suchfunktion zu finden."
+      ]
+    },
+    "autocoder": {
+      "fresh": "Für diese Listenantwort kannst du die Kodierung vollautomatisch durchführen.",
+      "generated": "Die automatische Kodierung wurde durchgeführt. Du kannst die Nennungen des <em>Andere</em>-Codes entweder weiter verfeinern oder die Resultate direkt herunterladen! Du kannst die Auto-Kodierung jederzeit neu starten indem auf den <span class=\"label\">Auto-Kodierung</span> Knopf im Codes-Bearbeiten Tab klickst."
+    },
+    "generator": {
+      "applied": "Das Codebuch wurde auf deine Frage angewendet. Bis die Vorhersagen für alle Nennungen eintreffen, kann es einige Minuten dauern. Du kannst nun das Codebuch verfeinern, sowie zur Feinjustierung des Modells mit der Überprüfung der Kodierung beginnen."
+    },
+    "keyboard": {
+      "ans_focus": "Verwende Tastenkürzel um zwischen Antworten zu navigieren: Drücke <span class=\"label\">Enter</span> falls das Code-Auswahl-Menü offen ist oder sonst `<span class=\"label\"><span class=\"mdi mdi-unfold-more-horizontal\"></span></span>`.",
+      "code_delete": "Verwende Tastenkürzel um Codes zu löschen: Wähle den zu löschenden Code mit den `<span class=\"label\"><span class=\"mdi mdi-unfold-more-vertical\"></span></span>` Tasten aus und drücke dann die <span class=\"label\">Backspace- oder Löschtaste</span>.",
+      "code_select": "Verwende Tastenkürzel um bereist hinzugefügte Codes anzuwählen: Drücke die `<span class=\"label\"><span class=\"mdi mdi-unfold-more-vertical\"></span></span>` Tasten um einen der hinzugefügten Codes auszuwählen.",
+      "code_add": "Verwende Tastenkürzel um Codes zu einer Antwort hinzuzufügen: Suche einen Code indem du Teile seines Namens / der Kategorie oder mit den `<span class=\"label\"><span class=\"mdi mdi-unfold-more-horizontal\"></span></span>` Tasten; Drücke anschliessend `<span class=\"label\">enter</span>`."
+    }
+  },
+  "en": {
+    "labels": {
+      "info": "info",
+      "tip": "tip"
+    },
+    "and": "and",
+    "more": "more",
+    "old_removed": "[ Old messages removed ]",
+    "introduction": "Hi {name}^500, I will help you through coding this survey by giving you tips and information.",
+    "reviewed": {
+      "all": "You have already reviewed all answers! Nice work 🙌",
+      "partial": "You have already reviewed {reviewed}/{total} answers. ",
+      "none": "You haven't reviewed any answers yet. "
+    },
+    "model_results": {
+      "active_learning": "I have resorted the responses: From now on you will show you the ones I'm not too sure about myself first. This will enable you to hopefully stop coding earlier.",
+      "lower50": "But I'm not very sure yet about them, help me help you better by coding some more.",
+      "lower60": "The results are a good start, but I still need some more help from you!",
+      "lower70": "The results are not bad but can still be further improved.",
+      "lower80": "The results look pretty good overall already",
+      "lower90": "The results look great overall. Depending on your project you can already stop coding.",
+      "higher90": "The results look fantastic overall 🤩. You can probably stop coding now and let the rest be done by me automatically.",
+      "codes_bad_lower70": " Notably for the codes {codesBad} I'm not too sure of myself yet.",
+      "codes_bad_lower80": ", but for the codes {codesBad} there's still room for improvement.",
+      "codes_bad_higher80": [
+        ", but for the codes {codesBad} there's still room for improvement. Try finding answers that should have these codes directly using the search.",
+        ", but for the codes {codesBad} I'm still not quite happy. Try finding answers that should have these codes directly using the search."
+      ]
+    },
+    "autocoder": {
+      "fresh": "This list-question can be coded fully automatically.",
+      "generated": "Auto-coding is completed. Either further review the <span class=\"label\">other</span> code or download your results! You can always restart the coding assistant by clicking the <span class=\"label\">Auto-Coding</span> button in the code editing tab."
+    },
+    "generator": {
+      "applied": "The selected codebook has been applied to your question. It might take a few minutes until the suggestions for all the responses arrive. You can now refine the codebook and start reviewing the coding, to fine-tune the model on your data."
+    },
+    "preds_state": {
+      "not_enough_annotated": "I will start making predictions for unreviewed answers once you annotated {ncodes} more answers.",
+      "predicting_from_inherited": "I am currently computing suggestions based on the survey <span class=\"label\">{inherits_from_name}</span>, this may take up to a couple of minutes.",
+      "predicting": "I am currently computing new code suggestions; this may take up to a couple of minutes.",
+      "trained": "For the rest I have made some suggestions. "
+    },
+    "new_preds": [
+      "New code suggestions arrived! I've updated {nPredicted} answers. ",
+      "I've updated the predictions for {nPredicted} answers. ",
+      "Hot new code suggestions for {nPredicted} responses just got in. ",
+      "Just received new suggestions for {nPredicted} answers. ",
+      "For {nPredicted} answers I got new predictions, just updated them. "
+    ],
+    "keyboard": {
+      "ans_focus": "Use keyboard shortcuts to navigate between answers: press <span class=\"label\">enter</span> when having the code selection menu open or `<span class=\"label\"><span class=\"mdi mdi-unfold-more-horizontal\"></span></span>` otherwise.",
+      "code_delete": "Use keyboard shortcuts to remove codes: Select the code you want to remove using the `<span class=\"label\"><span class=\"mdi mdi-unfold-more-vertical\"></span></span>` keys and then press <span class=\"label\">backspace / delete</span>.",
+      "code_select": "Use keyboard shortcuts to select codes: Use the `<span class=\"label\"><span class=\"mdi mdi-unfold-more-vertical\"></span></span>` keys to select one of the assigned codes.",
+      "code_add": "Use keyboard shortcuts to assign codes: Search for a code by typing parts of its category and / or name, or use the `<span class=\"label\"><span class=\"mdi mdi-unfold-more-horizontal\"></span></span>` keys and then press <span class=\"label\">enter</span>."
+    }
+  }
+}

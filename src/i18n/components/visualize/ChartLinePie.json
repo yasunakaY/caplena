@@ -1,0 +1,48 @@
+{
+  "en": {
+    "helptip": "<h3>The <strong>combined line pie chart</strong> is a charting method optimized towards series, e.g. the development of over time.</h3><br /><p>The value axis displays the percentages or counts of rows in which the respective class appears. The <strong>pie chart</strong> shows the distribution of the currently <em>focused dataset</em>. You can focus on a different dataset by hovering over it in the line-chart.</p>",
+    "controls": {
+      "general": {
+        "show_pie": "Show pie chart",
+        "sort_by": {
+          "title": "Sort series by",
+          "none": "Don't sort",
+          "frequency": "Frequency",
+          "alphabet": "Alphabet"
+        },
+        "yfield": {
+          "title": "Values to plot",
+          "codes": "Codes",
+          "categories": "Categories",
+          "groups": "Custom groups"
+        }
+      },
+      "value_axis": {
+        "percentages": "Show percentages instead of counts"
+      }
+    }
+  },
+  "de": {
+    "helptip": "<h3>Das <strong>kombinierte Linien- und Kuchendiagramm</strong> ist auf Serien, wie z.B. die Veränderung über die Zeit oder andere Variablen hinweg optimiert.</h3><br /><p>Die Wertachse zeigt wie häufig eine Klasse im Datensatz vorkommt. Das <strong>Kuchendiagramm</strong> zeigt die Verteilung des <em>momentan fokussierten Datensatzes</em>. Um auf einen anderen Datensatz zu fokussieren, fahre mit der Maus über den entsprechenden Ort im Liniendiagramm.</p>",
+    "controls": {
+      "general": {
+        "show_pie": "Zeige Kuchendiagramm",
+        "sort_by": {
+          "title": "Sortiere Serien nach",
+          "none": "Keine",
+          "frequency": "Frequenz",
+          "alphabet": "Alphabet"
+        },
+        "yfield": {
+          "title": "Darzustellende Werte",
+          "codes": "Codes",
+          "categories": "Kategorien",
+          "groups": "Gruppen"
+        }
+      },
+      "value_axis": {
+        "percentages": "Prozente anstatt Anzahl anzeigen"
+      }
+    }
+  }
+}

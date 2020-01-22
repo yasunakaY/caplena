@@ -1,0 +1,151 @@
+{
+  "de": {
+    "title": "Deine Projekte",
+    "search": "Suche",
+    "search_term": "Nach Namen suchen...",
+    "hide_completed": "Nur nicht Abgeschlossene",
+    "hide_incomplete": "Nur Abgeschlossene",
+    "edit": {
+      "dialog_title": "{item}&nbsp; <em>{name}</em> &nbsp;bearbeiten",
+      "done": "Änderungen zu {item} '{name}' wurden gespeichert",
+      "name_invalid": "Der Name muss mindestens 3 Zeichen lang sein"
+    },
+    "labels": {
+      "title": "Tags",
+      "no_labels": "Keine Tags definiert. Bearbeite die Einstellungen eines Projekts, um neue Tags hinzuzufügen.",
+      "attach_placeholder": "Tags bearbeiten",
+      "attach_placeholder_multiple": "Klicke hier um die Tags für alle angewählten Projekte neu zu setzen",
+      "filter_placeholder": "Nach Tags filtern"
+    },
+    "actions": {
+      "title": "Aktionen",
+      "mark_completed": "Als abgeschlossen markieren",
+      "permissions": "Berechtigungen anpassen",
+      "edit": "Einstellungen bearbeiten",
+      "delete": "Löschen",
+      "append": "Zusätzliche Antworten hochladen",
+      "download": "Gesamtes Projekt herunterladen",
+      "coding_view": "Kodierung öffnen",
+      "visualizations_view": "Visualisierungen",
+      "visualizations_view_disabled": "Die Visualisierungen sind erst verfügbar, wenn du mindestens einen Code angelegt hast. Gehe zuerst zur Kodieransicht."
+    },
+    "no_projects": {
+      "title": "Keine Projekte gefunden",
+      "details": "Es wurde keine Projekte gefunden, die deinen Suchkriterien entsprechen."
+    },
+    "pagination": {
+      "description": "Projekte pro Seite",
+      "of": "von"
+    },
+    "delete_inherit_warn_project": "Andere Projekte sind mit einem der ausgewählten Projekte verknüpft! Löschst du dieses trotzdem, wird diese Verknüpfung aufgehoben. Damit wird potentiell die <strong>Qualität der Vorhersagen</strong> des anderen Projekts reduziert.",
+    "delete_inherit_warn_question": "Andere Fragen lernen von dieser! Löschst du dieses trotzdem, wird diese Verknüpfung aufgehoben. Damit wird potentiell die <strong>Qualität der Vorhersagen</strong> der anderen Frage reduziert.",
+    "drawer_title": "<b>{n}</b> Frage im Projekt <em>{project}</em> | <b>{n}</b> Fragen im Projekt <em>{project}</em>",
+    "question": {
+      "info_str": "Zuletzt bearbeitet {last_modified}<br />{nreviewed} von {nanswers} Antworten überprüft ({reviewed_percentage}%)<br />{ncodes} Codes",
+      "empty_headline": "Dieses Projekt enthält keine Fragen.",
+      "empty_action": "Klicke hier um dies zu ändern",
+      "inherits": {
+        "from": "Lernt von",
+        "none": "keiner anderen Frage",
+        "to": "{n} Fragen lernen von dieser",
+        "show_relationships": "Verknüpfungen anzeigen"
+      }
+    },
+    "flowtree": {
+      "title": "Verknüpfungen der Frage &nbsp;<em>{question}</em>",
+      "not_related": "Diese Frage ist mit keiner anderen verknüpft.",
+      "created": "Erstellt am "
+    },
+    "tour": {
+      "list": {
+        "title": "Gespeicherte Projekte",
+        "description": "Alle hochgeladenen Projekte werden hier angezeigt. Um zur Kodierungs-Ansicht zu wechseln, klicke auf ein Projekt."
+      },
+      "edit": {
+        "title": "Bearbeiten",
+        "description": "Projekte könnnen<br /><i class=\"v-icon material-icons\">delete</i> Gelöscht werden<br /><i class=\"mv-icon material-icons\">mode_edit</i> Umbenannt werden<br /><i class=\"v-icon material-icons\">check_circle</i> Als abgeschlossen markiert werden"
+      },
+      "sort": {
+        "title": "Sortieren",
+        "description": "Durch Klicken auf die Spaltennamen können die Projekte sortiert werden."
+      },
+      "tools": {
+        "title": "Funktionen",
+        "description": "Hier kannst du ein neues Projekt hochladen oder bestehende nach Namen suchen."
+      }
+    }
+  },
+  "en": {
+    "title": "Your projects",
+    "subtitle": "Manage your projects",
+    "search": "Search",
+    "search_term": "Type the name of a project...",
+    "hide_completed": "Hide completed",
+    "hide_incomplete": "Hide incomplete",
+    "edit": {
+      "dialog_title": "Edit {item}&nbsp; <em>{name}</em>",
+      "done": "Changes on {item} '{name}' were saved",
+      "name_invalid": "Name has to be at least 3 characters"
+    },
+    "labels": {
+      "title": "Tags",
+      "no_labels": "No tags defined. Edit the settings of a project to attach a new tag to it.",
+      "attach_placeholder": "Edit tags",
+      "attach_placeholder_multiple": "Click to set the tags for all selected projects",
+      "filter_placeholder": "Filter by tags"
+    },
+    "actions": {
+      "title": "Actions",
+      "mark_completed": "Mark as completed",
+      "permissions": "Modify permissions",
+      "edit": "Edit settings",
+      "delete": "Delete",
+      "append": "Upload further answers",
+      "download": "Download entire project",
+      "coding_view": "Coding view",
+      "visualizations_view": "Visualizations",
+      "visualizations_view_disabled": "The visualizations are only available once you have created at least one code. Please open the coding view first."
+    },
+    "drawer_title": "<b>{n}</b> question in project <em>{project}</em> | <b>{n}</b> questions in project <em>{project}</em>",
+    "question": {
+      "info_str": "Last modified {last_modified}<br />{nanswers} answers, thereof {nreviewed} reviewed ({reviewed_percentage}%)<br />{ncodes} Codes",
+      "empty_headline": "This project does not have any questions.",
+      "empty_action": "Click here to change this",
+      "inherits": {
+        "from": "Learns from",
+        "none": "no other question",
+        "to": "{n} question learn from this one",
+        "show_relationships": "Show relationship details"
+      }
+    },
+    "delete_inherit_warn_project": "Other projects learn from one of the selected projects! If you delete it, this relationship will be removed, potentially <strong>reducing the quality of the predictions</strong> for the other project.",
+    "delete_inherit_warn_question": "Other questions learn from this one! If you delete it, this relationship will be removed, potentially <strong>reducing the quality of the predictions</strong> for the other question.",
+    "flowtree": {
+      "title": "Relationships of question &nbsp;<em>{question}</em>",
+      "not_related": "This question is not related to any others.",
+      "created": "Created on "
+    },
+    "tour": {
+      "list": {
+        "title": "View projects",
+        "description": "All uploaded projects are shown. Click on a project to get to the coding-view."
+      },
+      "edit": {
+        "title": "Edit",
+        "description": "Click <br /><i class=\"v-icon material-icons\">delete</i> to delete <br /><i class=\"v-icon material-icons\">mode_edit</i> to rename<br /><i class=\"v-icon material-icons\">check_circle</i> to mark project as done"
+      },
+      "sort": {
+        "title": "Sort",
+        "description": "Projects can be sorted by clicking on the column titles."
+      },
+      "tools": {
+        "title": "Navigate",
+        "description": "Upload a new project or search existing project by name."
+      }
+    },
+    "no_projects": {
+      "title": "No projects found",
+      "details": "There was no project found matching your criteria."
+    }
+  }
+}

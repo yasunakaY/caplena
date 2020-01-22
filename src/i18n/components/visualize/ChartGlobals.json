@@ -1,0 +1,34 @@
+{
+  "en": {
+    "chart_title": "Chart title",
+    "download_chart": "Download chart",
+    "groups": {
+      "instructions": "Drag codes from one group to another.",
+      "new_group": "New Group",
+      "default_group_name": "Group"
+    },
+    "controls": {
+      "error_billing_failed": "An error occured while deducting the credits from your account. Please refresh the page and try again.",
+      "warning_no_access": "Your current plan does not include the advanced visualizations module. You will not be able to download any charts. Furthermore, all created graphics will be branded by a watermark. Get in touch with our support team to learn more about the visualizations module pricing.",
+      "warning_read_only": "You don't have editing permissions on this chart. Changes you make will not be saved.",
+      "warning_codes_not_matching": "The codes of your different datasets are <strong>not all the same</strong>. <br>Only the <strong>{n_codes_available} codes</strong> that are present in all datasets will be plotted. Codes are matched by their ID.",
+      "value_axis_name": "Frequency"
+    }
+  },
+  "de": {
+    "chart_title": "Titel",
+    "download_chart": "Grafik herunterladen",
+    "groups": {
+      "instructions": "Ziehe Codes zwischen den Gruppen hin und her.",
+      "new_group": "Neue Gruppe",
+      "default_group_name": "Gruppe"
+    },
+    "controls": {
+      "error_billing_failed": "Währen der Belastung der Credits ist ein Fehler aufgetreten. Bitte lade die Seite neu und probiere es nocheinmal.",
+      "warning_no_access": "Die erweiterten Visualisierungen sind nicht Teil deines momentanen Abos. Damit ist das Herunterladen von Grafiken nicht möglich. Alle erstellten Grafiken werden ausserdem mit einem Wasserzeichen versehen sein. Kontaktiere unser Support-Team um mehr über unsere Angebote zu erfahren.",
+      "warning_read_only": "Du hast keine Schreiberechtigung auf dieser Grafik. Änderungen die du vornimmst werden nicht gespeichert.",
+      "warning_codes_not_matching": "Die Codes deiner verschiedenen Datensätze <strong>stimmen nicht alle überein</strong>. <br>Nur die <strong>{n_codes_available} Codes</strong> welche in allen Datensätzen vorkommen, werden visualisiert. Codes werden durch ihre ID identifiziert.",
+      "value_axis_name": "Frequenz"
+    }
+  }
+}

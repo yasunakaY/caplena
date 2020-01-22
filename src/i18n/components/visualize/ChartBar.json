@@ -1,0 +1,138 @@
+{
+  "en": {
+    "helptip": "<h3>The <strong>bar-chart</strong> is a flexible plotting method suited for many applications.</h3><br /><p>The value axis displays the counts of the respective classes, i.e. in how many rows of the dataset it is present.</p>",
+    "controls": {
+      "general": {
+        "bar_orientation": {
+          "title": "Bar orientation",
+          "vertical": "Vertical",
+          "horizontal": "horizontal"
+        },
+        "stack_datasets": "Stack datasets",
+        "stack": {
+          "title": "Stack bars by",
+          "codes": "Don't stack",
+          "category": "Category",
+          "groups": "Custom groups"
+        }
+      },
+      "labels": {
+        "label_position": {
+          "title": "Label position",
+          "dont_show": "Don't show",
+          "inside": "Inside bar",
+          "outside": "Next to bar"
+        },
+        "tooltips": {
+          "label_position_outside_disabled": "Not available when bars are stacked, and individual values are shown.",
+          "label_position_inside_disabled": "Not available when totals are shown.",
+          "total_disabled": "Showing totals is only available when the bars are stacked."
+        },
+        "labels_total": "Show totals instead of individual values"
+      },
+      "ordinal_axis": {
+        "plot_categories": "Plot categories",
+        "tooltip_plot_categories_disabled": "Not available when bars are stacked or bars are colored by custom group.",
+        "sort_by": {
+          "title": "Sort by",
+          "none": "Don't sort",
+          "frequency": "Frequency",
+          "alphabet": "Alphabet"
+        }
+      },
+      "value_axis": {
+        "percentages": "Show percentages instead of counts",
+        "tooltip_percentages_disabled": "Not available when bars are stacked."
+      }
+    },
+    "stack_warning": {
+      "alert": "The way counts are computed has changed!",
+      "standalone": {
+        "title": "Standalone bars",
+        "description": "Responses are always only counted once, also if multiple codes of the same category are present.",
+        "how_often": "Once"
+      },
+      "stacked": {
+        "title": "Stacked bars",
+        "description": "Responses may be counted multiple times — every occurrence of a code is considered.",
+        "how_often": "Twice"
+      },
+      "example": {
+        "intro": "Example: A single response with the two codes",
+        "category": "SERVICE",
+        "code1": "Positive",
+        "code2": "Call Center",
+        "outro": "will be counted towards the category"
+      },
+      "btn_got_it": "Got it"
+    }
+  },
+  "de": {
+    "helptip": "<h3>Das <strong>Säulendiagramm</strong> ist eine für verschiedenste Anwendungen geeignete Grafik.</h3><br /><p>Die Wertachse beschreibt wie oft eine Klasse vorkommt, d.h. in wievielen Zeilen des Datensatzes sie präsent ist.</p>",
+    "controls": {
+      "general": {
+        "bar_orientation": {
+          "title": "Orientierung",
+          "vertical": "vertikal",
+          "horizontal": "horizontal"
+        },
+        "stack_datasets": "Datensätze aufschichten",
+        "stack": {
+          "title": "Aufschichtung",
+          "codes": "Keine",
+          "category": "nach Kategoire",
+          "groups": "nach Gruppen"
+        }
+      },
+      "labels": {
+        "label_position": {
+          "title": "Position der Beschriftung",
+          "dont_show": "Nicht anzeigen",
+          "inside": "innerhalb der Säulen",
+          "outside": "neben Säulen"
+        },
+        "tooltips": {
+          "label_position_outside_disabled": "Nicht verfügbar wenn Säulen aufgeschichtet sind und Einzelwerte gezeigt werden.",
+          "label_position_inside_disabled": "Nicht verfügbar wenn Totale angezeigt werden.",
+          "total_disabled": "Totale können nur bei aufgeschichteten Säulen angezeigt werden."
+        },
+        "labels_total": "Totale anstatt von Einzelwerten anzeigen"
+      },
+      "ordinal_axis": {
+        "plot_categories": "Kategorien anzeigen",
+        "tooltip_plot_categories_disabled": "Nicht verfügbar wenn Säulen aufgeschichtet sind oder Farbgebung anhand einer benutzerdefinierten Gruppe erstellt wird.",
+        "sort_by": {
+          "title": "Sortieren nach",
+          "none": "Keine Sortierung",
+          "frequency": "Frequenz",
+          "alphabet": "Alphabet"
+        }
+      },
+      "value_axis": {
+        "percentages": "Prozente anstatt Anzahl anzeigen",
+        "tooltip_percentages_disabled": "Nicht verfügbar wenn Säulen aufgeschichtet sind."
+      }
+    },
+    "stack_warning": {
+      "alert": "Die Art der Darstellung hat sich geändert!",
+      "standalone": {
+        "title": "Selbständige säulen",
+        "description": "Jede Zeile wird immer nur einfach gezählt, auch wenn mehrere Codes derselben Kategorie vorkommen.",
+        "how_often": "Einfach"
+      },
+      "stacked": {
+        "title": "Geschichtete Säulen",
+        "description": "Zeilen können mehrfach gezählt werden, sollten beispielsweise zwei Codes derselben Kategorie in einer Zeile vorkommen.",
+        "how_often": "Zweifach"
+      },
+      "example": {
+        "intro": "Beispiel: Eine Nennung mit den zwei Codes",
+        "category": "SERVICE",
+        "code1": "Positiv",
+        "code2": "Call-Center",
+        "outro": "zählt zur Kategorie"
+      },
+      "btn_got_it": "Alles klar"
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "en": {
+    "confirm_navigate_away": "Are you sure you want to navigate away? There are unsaved changes in your dashboard.",
+    "warning_no_access": "Your current plan does not include the advanced visualizations module. You will not be able to save or share any dashboards.",
+    "editing_toolbar": {
+      "name": "Dashboard name",
+      "name_new": "New Dashboard",
+      "is_public_label": "Enable public link",
+      "is_public_helptip": "When enabled, anyone with the public link to this dashboard will be able to view it, also without logging in. <br />Caution: Beware that anyone in posession of the public link will be able to see any data related to any project in this dashboard.",
+      "public_link_tooltip": "Public link to this dashboard",
+      "public_link_save_first": "Save the dashboard to retrieve the public link here"
+    },
+    "add_hint": "Hover and click on empty space to add new elements.",
+    "add_or_edit": {
+      "title": "Add element",
+      "title_label": "Title",
+      "type_select": {
+        "chart": {
+          "title": "Existing chart",
+          "subtitle": "Select a chart from your library"
+        },
+        "text": {
+          "title": "Text",
+          "subtitle": "Add a new text element"
+        },
+        "verbatim": {
+          "title": "Verbatim sample",
+          "subtitle": "Insert a sample of verbatims from a question"
+        }
+      },
+      "chart": {
+        "title": "Select chart to add"
+      },
+      "verbatims": {
+        "title_question": "Select question for verbatims",
+        "title_dataset": "Configure which verbatims to show",
+        "select_question": "Select question",
+        "additional_column_select": "Additional column to show besides text",
+        "display_column_select": "Allow selecting the additional column from the dashboard directly",
+        "display_count": "Show number of matched rows"
+      },
+      "text": {
+        "instructions": "Enter text elements and style them according to your desire.",
+        "title": "Title",
+        "text": "Text",
+        "preview": "Preview"
+      },
+      "color": {
+        "label": "Color",
+        "palette": {
+          "title": "Color palette",
+          "default": "Caplena default",
+          "bold": "Bold"
+        }
+      },
+      "add": "Add element"
+    }
+  },
+  "de": {
+    "confirm_navigate_away": "Bist du sicher, dass du diese Seite verlassen willst? Dieses Dashboard enthält Änderungen welche noch nicht gespeichert wurden.",
+    "warning_no_access": "Die erweiterten Visualisierungen sind nicht Teil deines momentanen Abos. Damit ist das Speichern oder Teilen von Dashboards nicht möglich.",
+    "editing_toolbar": {
+      "name": "Dashboard-Name",
+      "name_new": "Neues Dashboard",
+      "is_public_label": "Öffentlichen Link aktivieren",
+      "is_public_helptip": "Sobald aktiviert, kann jeder der im Besitz dieses Links ist das Dashboard betrachten, auch ohne eingeloggt zu sein. <br />Achtung: Auch die zugrundeliegenden Daten aller in diesem Dashboard auftretenden Projekte sind für Besitzer des Links einsehbar.",
+      "public_link_tooltip": "Öffentlicher Link zu diesem Dashboard",
+      "public_link_save_first": "Speichere das Dashboard um den öffentlichen Link angezeigt zu bekommen"
+    },
+    "add_hint": "Klicke auf eine leere Fläche um Elemente hinzuzufügen.",
+    "add_or_edit": {
+      "title": "Neues Element",
+      "title_label": "Titel",
+      "type_select": {
+        "chart": {
+          "title": "Bestehende Grafik",
+          "subtitle": "Wähle eine Grafik aus deiner Bibliothek aus"
+        },
+        "text": {
+          "title": "Text",
+          "subtitle": "Neues Textelement hinzufügen"
+        },
+        "verbatim": {
+          "title": "Verbatim-Auszug",
+          "subtitle": "Ein Sample der Nennungen einer Frage anzeigen"
+        }
+      },
+      "chart": {
+        "title": "Wähle hinzuzufügende Grafik aus"
+      },
+      "verbatims": {
+        "title_question": "Wähle Frage für Verbatim-Sample",
+        "title_dataset": "Konfiguriere welche Verbatims angezeigt werden",
+        "select_question": "Frage auswählen",
+        "additional_column_select": "Weitere Spalte anzeigen",
+        "display_column_select": "Die Auswahl der weiteren Spalte direkt im Dashboard erlauben",
+        "display_count": "Anzahl passender Zeilen im Dashboard anzeigen"
+      },
+      "text": {
+        "instructions": "Füge Textelemente hinzu und gestalte sie nach deinen Bedürfnissen.",
+        "title": "Titel",
+        "text": "Text",
+        "preview": "Vorschau"
+      },
+      "color": {
+        "label": "Farbe",
+        "palette": {
+          "title": "Farbpalette",
+          "default": "Caplena-Standard",
+          "bold": "Kräftig"
+        }
+      },
+      "add": "Hinzufügen"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+	"de": {
+	    "title": "Herzlichen willkommen bei Caplena",
+	    "subtitle": "Klicke auf eine Schaltfläche unten oder wähle einen Menüpunkt um zu beginnen.",
+		"overview": {
+			"title": "Übersicht",
+			"description": "Die wichtigsten Kennzahlen",
+			"number_of_projects": "Anzahl Projekte: ",
+			"number_of_questions": "Anzahl Fragen: ",
+			"number_incomplete_questions": "Nicht abgeschlossene Fragen: ",
+			"number_total": "Antworten gesamt: "
+		},
+		"current": {
+			"title": "Aktuelle Fragen",
+			"description": "Deine neusten, noch nicht abgeschlossenen Fragen.",
+			"item": "mit {answers} Antworten, davon {reviewed} überprüft. Zuletzt bearbeitet {lastmodified}, erstellt am {created}."
+		},
+		"tour": {
+			"welcome": {
+				"title": "Herzlich willkommen",
+				"description": "Diese Tour gibt dir eine kurze Einführung in die Applikation. Du kannst sie jederzeit beenden und über dieses Menu wieder starten. Hier kannst du uns auch kontaktieren, falls du mal Hilfe benötigst."
+			},
+			"mainmenu": {
+				"title": "Hauptmenu",
+				"description": "Dies ist das Hauptmenu, über welches alle wichtigen Seiten erreichen werden können."
+			},
+			"bugreport": {
+				"title": "Fehler / Rückmeldung",
+				"description": "Hier kannst du uns allgemeine Verbesserungsvorschläge mitteilen oder Fehler auf der Seite melden. Wir freuen uns über jede Idee :)"
+			},
+			"example": {
+				"title": "Beispiel",
+				"description": "Klicke auf diese Frage mit Beispieldaten um die Tour fortzusetzen..."
+			}
+		}
+	},
+	"en": {
+	    "title": "Welcome to Caplena",
+	    "subtitle": "Click on a filed below or on the menu to start.",
+		"overview": {
+			"title": "Overview",
+			"description": "Key figures at a glance.",
+			"number_of_projects": "Number of projects: ",
+			"number_of_questions": "Number of questions: ",
+			"number_incomplete_questions": "Incomplete questions: ",
+			"number_total": "Answers total: "
+		},
+		"current": {
+			"title": "Current questions",
+			"description": "Your latest incomplete questions.",
+			"item": "with {answers} answers, thereof {reviewed} verified. Last modified {lastmodified}, created on {created}."
+		},
+		"tour": {
+			"welcome": {
+				"title": "Hi there",
+				"description": "This tour gives you a short introduction into the application. You can quit this tour anytime and restart it using through this menu. Here you can also get help and contact us for support."
+			},
+			"mainmenu": {
+				"title": "Main menu",
+				"description": "This is the main menu, use it to navigate."
+			},
+			"bugreport": {
+				"title": "Bugs / Feedback",
+				"description": "Tell us your feedback and potential errors. Suggestions for improvement are always welcome :)"
+			},
+			"help": {
+				"title": "Help",
+				"description": "Get help for the current page."
+			},
+			"example": {
+				"title": "Example",
+				"description": "Select this question with example data to continue this tour..."
+			}
+		}
+	}
+}

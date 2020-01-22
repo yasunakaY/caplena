@@ -1,0 +1,219 @@
+{
+  "refill_text": "Dein Account wird am {date} wieder auf {credits} aufgefüllt",
+  "de": {
+    "change_subscription": "Abonnement anpassen",
+    "current_plan": "Du verwendest momentan das <strong>{plan}</strong> Abonnement",
+    "credits_monthly": "Credits / Monat",
+    "credits_oneoff": "Credits einmalig",
+    "credits_unlimited": "Unbeschränkte Credits",
+    "price_monthly": "pro Monat",
+    "monthly_advance": "monatlich im Voraus verrechnet",
+    "on_request": "Auf Anfrage",
+    "subscribe": "abonnieren",
+    "subscription_info": "Abos werden monatlich im Voraus verrechnet und können jederzeit gekündigt werden.",
+    "buy": "kaufen",
+    "packages": "Gelegenheitsnutzer",
+    "packages_subtitle": "Kaufe einmalig Credits",
+    "stripe_failed": "Wir können zurzeit keine Zahlungen entgegen nehmen, bitte probiere es später noch einmal.'",
+    "valid_until": "gültig bis",
+    "helptip_credit": "Ein Kredit kann verwendet werden um einen Datenpunkt zu kodieren, z.B. eine Antwort zu einer Offenen Frage, ein Tweet oder ein Feedback.",
+    "helptip_credit_detail": "Ein Kredit kann verwendet werden um einen Datenpunkt zu kodieren, z.B. eine Antwort zu einer Offenen Frage, ein Tweet oder ein Feedback. Credits werden beim Herunterladen von Daten abgebucht.",
+    "checkout": {
+      "title": "Bestellung",
+      "subtitle": "Kauf der oben gewählten Produkte abschliessen",
+      "pre_payment_issue": "Wir haben gerade Schwierigkeiten Zahlungen zu verarbeiten, bitte probiere es später noch einmal!",
+      "billing": "Rechnungsadresse",
+      "save_address_as_default": "Adresse als Standard speichern",
+      "order": "Bestellübersicht",
+      "payment": "Zahlungsmethode",
+      "credit_card": "Kreditkarte",
+      "use_card": "Karte",
+      "use_other_card": "Andere Kreditkarte verwenden",
+      "use_invoice": "Firmenkunden können auch per Rechnung bezahlen, bitte kontaktiere dazu ",
+      "confirm": "Bestellung abschliessen",
+      "vat": "MwSt.",
+      "validate": {
+        "invalid": "Bitte korrigiere einige Deiner obigen Angaben.",
+        "zip_invalid": "Gib eine gültige Postleitzahl ein",
+        "country_invalid": "Wähle das Land deines Wohnortes aus"
+      },
+      "error": "Während dem Bearbeiten der Bestellung ist ein Fehler aufgetreten. Sorry, wir kümmern uns darum!",
+      "loading_title": "Verarbeite Bestellung",
+      "loading_tagline": "(Dies kann einige Sekunden dauern, bitte bleibe auf dieser Seite)"
+    },
+    "success": {
+      "title_purchase": "Danke für deinen Einkauf!",
+      "title_downgrade": "Abonnement wurde gewechselt",
+      "subtitle_purchase": "Die Zahlung war erfolgreich. Du wirst die Abrechnung in kürze per Email erhalten.",
+      "subtitle_downgrade": "Dein Abonnement wurde gekündigt, dieses wird zukünftig nicht mehr verrechnet.",
+      "text_subscription_paid": "Du hast nun das <strong>{plan}</strong> abonniert. Das Abo wird bis zur Kündigung automatisch monatlich verlängert.",
+      "text_credits_filled": "Dein Konto wurde mit <strong>{credits}</strong> Credits aufgefüllt",
+      "text_downgrade": "Du bist nun auf dem <strong>kostenlosen Abo</strong>."
+    },
+    "downgrade": {
+      "title": "Abonnement zurückstufen",
+      "subtitle": "Bist du sicher, dass du dein jetziges Abonnement kündigen und auf das kostenlose Abo wechseln willst?",
+      "text": "Dein jetziges <strong>{plan}</strong> Abo wird gekündigt und du wirst künftig auf {credits} Credits pro Monat beschränkt.",
+      "confirm": "Jetzt wechseln"
+    },
+    "remove_card": {
+      "action": "Gespeicherte Karte löschen",
+      "not_possible": "Diese Karte kann nicht gelöscht werden, da ein monatliches Abo besteht und dies die einzige gespeicherte Karte ist",
+      "dialog_title": "Gespeicherte Karte löschen?",
+      "dialog_content": "Bist du sicher, dass du die gespeicherte Karte <strong>{card}</strong> löschen willst?",
+      "success": "Deine Karte wurde gelöscht",
+      "error": "Während des Löschens der Karte ist ein Fehler aufgetreten, wir kümmern uns darum!"
+    },
+    "enterprise": {
+      "title": "Enterprise-Abo",
+      "subtitle": "Für Geschäftskunden welche hohe Limiten, spezifische Funktionalitäten und professionellsten Support benötigen",
+      "content": "Wir offerieren gerne massgeschneiderte Lösungen. Bitte kontaktiere uns unter "
+    },
+    "plans": {
+      "10": {
+        "name_checkout": "Kostenloses Abonnement",
+        "features": [
+          "Email Support",
+          "&nbsp;"
+        ]
+      },
+      "15": {
+        "name_checkout": "Starter-Abonnement",
+        "features": [
+          "Premium & Telefon Support"
+        ]
+      },
+      "20": {
+        "name_checkout": "Profi-Abonnement",
+        "features": [
+          "API Integration",
+          "Premium & Telefon Support"
+        ]
+      },
+      "99": {
+        "name": "Enterprise",
+        "name_checkout": "Enterprise-Abonnement",
+        "features": [
+          "Prozesse & Benutzerrollen",
+          "Kundenspezifische Funktionen"
+        ]
+      },
+      "100": {
+        "name": "Ad-Hoc",
+        "name_checkout": "Paket Ad-Hoc 750",
+        "features": [
+          "Keine wiederkehrenden Kosten",
+          "&nbsp;"
+        ]
+      }
+    }
+  },
+  "en": {
+    "change_subscription": "Change Subscription",
+    "current_plan": "You are currently on the <strong>{plan}</strong> plan",
+    "credits_monthly": "monthly credits",
+    "credits_oneoff": "credits once",
+    "credits_unlimited": "Unlimited credits",
+    "price_monthly": "per month",
+    "on_request": "On request",
+    "subscribe": "subscribe",
+    "monthly_advance": "billed monthly in advance",
+    "buy": "buy",
+    "subscription_info": "Subscriptions are billed monthly in advance and can be cancelled anytime.",
+    "packages": "Occasional user",
+    "packages_subtitle": "Purchase one-off credits",
+    "stripe_failed": "Currently we're unable to process payments. Please try again later!'",
+    "valid_until": "Valid until",
+    "helptip_credit": "A credit can be used to code one unit of your text data, e.g. a response to a question, a tweet or a feedback.",
+    "helptip_credit_detail": "A credit can be used to code one unit of your text data, e.g. a response to a question, a tweet or a feedback. Credits are deducted from your account when you download your results.",
+    "checkout": {
+      "title": "Checkout",
+      "subtitle": "Complete purchase of items selected above",
+      "pre_payment_issue": "We're currently having some issues with processing payments, please try again later",
+      "billing": "Billing Address",
+      "save_address_as_default": "Save address as default",
+      "order": "Order summary",
+      "payment": "Payment method",
+      "credit_card": "Credit card",
+      "use_card": "Card",
+      "use_other_card": "Use another card",
+      "use_invoice": "If you represent a company and would like to pay by invoice, please contact us at ",
+      "confirm": "Complete checkout",
+      "vat": "VAT",
+      "validate": {
+        "invalid": "Please correct some of the fields above.",
+        "zip_invalid": "Enter a valid ZIP Code",
+        "country_invalid": "Choose your country of residence"
+      },
+      "error": "An error occurred while processing your order. Sorry for that, please try again later.",
+      "loading_title": "Processing order",
+      "loading_tagline": "(This can take a few seconds, don't navigate away)"
+    },
+    "success": {
+      "title_purchase": "Thank you for your purchase!",
+      "title_downgrade": "Subscription changed successfully",
+      "subtitle_purchase": "Your payment was successful. The invoice will be sent to you by email shorty.",
+      "subtitle_downgrade": "Your old subscription was cancelled, you will not be billed for it anymore in the future.",
+      "text_subscription_paid": "You are now subscribed to the <strong>{plan}</strong> plan. The subscription will be renewed every month automatically until you cancel it.",
+      "text_credits_filled": "Your account has been filled with <strong>{credits}</strong> credits",
+      "text_downgrade": "You are now subscribed to the <strong>Free</strong> plan again"
+    },
+    "downgrade": {
+      "title": "Downgrade subscription",
+      "subtitle": "Are you sure you want to cancel your current subscription and revert to the free plan?",
+      "text": "Your current <strong>{plan}</strong> subscription will be cancelled, and you will be limited to {credits} credits per month.",
+      "confirm": "Downgrade now"
+    },
+    "remove_card": {
+      "action": "Remove saved card",
+      "not_possible": "This card cannot be removed, as a paid plan is active and no other payment methods are stored",
+      "dialog_title": "Remove saved card?",
+      "dialog_content": "Are you sure you want to remove the saved card <strong>{card}</strong>?",
+      "success": "Your card was removed",
+      "error": "An error occurred while deleting your card, we'll look into it"
+    },
+    "enterprise": {
+      "title": "Enterprise subscription",
+      "subtitle": "For corporate customers requiring high limits, custom functionality and enterprise-grade support",
+      "content": "We are very happy to make you a tailored offer matching your specific needs. Please contact us at "
+    },
+    "plans": {
+      "10": {
+        "name_checkout": "Free subscription",
+        "features": [
+          "Email support",
+          "&nbsp;"
+        ]
+      },
+      "15": {
+        "name_checkout": "Starter subscription",
+        "features": [
+          "Premium & phone support"
+        ]
+      },
+      "20": {
+        "name_checkout": "Pro subscription",
+        "features": [
+          "API integration",
+          "premium & phone support"
+        ]
+      },
+      "99": {
+        "name": "Enterprise",
+        "name_checkout": "Enterprise plan",
+        "features": [
+          "workflow & user management",
+          "custom functionalities"
+        ]
+      },
+      "100": {
+        "name": "Ad Hoc",
+        "name_checkout": "Ad Hoc 750 package",
+        "features": [
+          "No recurring fees",
+          "&nbsp;"
+        ]
+      }
+    }
+  }
+}

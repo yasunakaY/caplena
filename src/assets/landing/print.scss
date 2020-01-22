@@ -1,0 +1,37 @@
+@media print {
+  .top-banner {
+    .actions { display: none; }
+  }
+  .wow{
+      animation-name: none !important;
+      visibility: visible !important;
+  }
+
+  section {
+    padding: 0!important;
+  }
+
+  #register { display: none }
+
+  footer { display: none }
+
+  .hide-everything > *:not(.modal-text) {
+    display: none!important;
+  }
+
+  .modal-text {
+    .mfp-close { display: none }
+
+    top: 0!important;
+    left: 0!important;
+    height: auto!important;
+    width: auto!important;
+    margin: 50px 20px!important;
+    position: static!important;
+    overflow: visible!important;
+  }
+
+  #drift-widget-container {
+    display: none;
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "ntrainings_rnn": 1,
+  "training_completed_svm": "2018-03-26T13:44:26.234635Z",
+  "ntrainings_svm": 4,
+  "answers": [
+    {
+      "id": 165768,
+      "codes": [
+        21
+      ],
+      "sortval": 1
+    },
+    {
+      "id": 165769,
+      "codes": [
+        21
+      ],
+      "sortval": 2
+    },
+    {
+      "id": 165770,
+      "codes": [
+        11,
+        21
+      ],
+      "sortval": 0
+    },
+    {
+      "id": 165771,
+      "codes": [
+        11,
+        21
+      ],
+      "sortval": 4
+    },
+    {
+      "id": 165772,
+      "codes": [
+        21
+      ],
+      "sortval": 5
+    },
+    {
+      "id": 165773,
+      "codes": [
+        12,
+        22
+      ],
+      "sortval": 6
+    },
+    {
+      "id": 165774,
+      "codes": [
+        11,
+        12,
+        22
+      ],
+      "sortval": 100
+    },
+    {
+      "id": 165775,
+      "codes": [
+        11
+      ],
+      "sortval": 101
+    },
+    {
+      "id": 165776,
+      "codes": [
+        11,
+        12
+      ],
+      "sortval": 10
+    },
+    {
+      "id": 165777,
+      "codes": [
+        21
+      ],
+      "sortval": 11
+    },
+    {
+      "id": 165778,
+      "codes": [
+        11,
+        12
+      ],
+      "sortval": 12
+    },
+    {
+      "id": 165779,
+      "codes": [
+        22
+      ],
+      "sortval": 50
+    },
+    {
+      "id": 165780,
+      "codes": [
+        12,
+        22
+      ],
+      "sortval": 49
+    },
+    {
+      "id": 165781,
+      "codes": [
+        11,
+        21,
+        99,
+        120,
+        -10
+      ],
+      "sortval": 48
+    }
+  ],
+  "training_completed_rnn": "2018-03-26T13:44:29.775103Z",
+  "model": {
+    "score_per_code": [
+      {
+        "id": 11,
+        "score": 0.38
+      },
+      {
+        "id": 12,
+        "score": 0.7026299953546012
+      },
+      {
+        "id": 21,
+        "score": 0.9744347792646413
+      },
+      {
+        "id": 22,
+        "score": 0.8696140194865012
+      }
+    ],
+    "score": 0.7695263313675454,
+    "score_remaining": 0.8,
+    "score_svm": 0.7518518518518518,
+    "score_rnn": 0.7695263313675454,
+    "active_learning": true
+  }
+}

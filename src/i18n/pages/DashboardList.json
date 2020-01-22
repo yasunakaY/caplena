@@ -1,0 +1,67 @@
+{
+  "de": {
+    "title": "Deine Dashboards",
+    "search": "Suche",
+    "search_term": "Nach Namen suchen...",
+    "is_public_label": "Teilen-Link",
+    "is_public_true": "Geteilt",
+    "is_public_false": "Privat",
+    "edit": {
+      "dialog_title": "{item}&nbsp; <em>{name}</em> &nbsp;bearbeiten",
+      "done": "Änderungen zu {item} '{name}' wurden gespeichert",
+      "name_invalid": "Der Name muss mindestens 3 Zeichen lang sein"
+    },
+    "labels": {
+      "title": "Tags",
+      "no_labels": "Keine Tags definiert. Bearbeite die Einstellungen eines Dashboards, um neue Tags hinzuzufügen.",
+      "attach_placeholder": "Tags bearbeiten",
+      "attach_placeholder_multiple": "Klicke hier um die Tags für alle angewählten Dashboards neu zu setzen",
+      "filter_placeholder": "Nach Tags filtern"
+    },
+    "actions": {
+      "title": "Aktionen",
+      "permissions": "Berechtigungen anpassen",
+      "edit": "Einstellungen bearbeiten",
+      "delete": "Löschen"
+    },
+    "no_dashboards": {
+      "title": "Keine Dashboards gefunden",
+      "details": "Es wurde keine Dashboards gefunden, die deinen Suchkriterien entsprechen."
+    },
+    "pagination": {
+      "description": "Dashboards pro Seite",
+      "of": "von"
+    }
+  },
+  "en": {
+    "title": "Your dashboards",
+    "subtitle": "Manage your dashboards",
+    "search": "Search",
+    "search_term": "Type the name of a dashboard...",
+    "is_public_label": "Filter by shared status",
+    "is_public_true": "Shared",
+    "is_public_false": "Private",
+    "edit": {
+      "dialog_title": "Edit {item}&nbsp; <em>{name}</em>",
+      "done": "Changes on {item} '{name}' were saved",
+      "name_invalid": "Name has to be at least 3 characters"
+    },
+    "labels": {
+      "title": "Tags",
+      "no_labels": "No tags defined. Edit the settings of a dashboard to attach a new tag to it.",
+      "attach_placeholder": "Edit tags",
+      "attach_placeholder_multiple": "Click to set the tags for all selected dashboards",
+      "filter_placeholder": "Filter by tags"
+    },
+    "actions": {
+      "title": "Actions",
+      "permissions": "Modify permissions",
+      "edit": "Edit settings",
+      "delete": "Delete"
+    },
+    "no_dashboards": {
+      "title": "No dashboards found",
+      "details": "There was no dashboard found matching your criteria."
+    }
+  }
+}

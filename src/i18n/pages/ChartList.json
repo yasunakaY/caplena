@@ -1,0 +1,24 @@
+{
+  "en": {
+    "title": "Charts",
+    "filters": {
+      "term": "Search by chart name",
+      "questions": "Filter by questions"
+    },
+    "no_charts": {
+      "title": "No matching charts",
+      "details": "There was no chart found matching your criteria."
+    }
+  },
+  "de": {
+    "title": "Grafiken",
+    "filters": {
+      "term": "Nach Name suchen",
+      "questions": "Nach Frage filtern"
+    },
+    "no_charts": {
+      "title": "Keine Grafiken gefunden",
+      "details": "Es wurde keine Grafiken gefunden, die deinen Suchkriterien entsprechen."
+    }
+  }
+}

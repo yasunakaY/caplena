@@ -1,0 +1,44 @@
+{
+  "en": {
+    "helptip": "<h3>The <strong>graph chart</strong> presents the relationships between codes in an innovative way.</h3><br /><p>The size of the circularly arranged nodes represent the counts of these codes. The thickness of the links between codes is determined by how often both codes appear in the same response, i.e. <em>their correlation</em>.</p>",
+    "controls": {
+      "general": {
+        "group_by": {
+          "title": "Group codes by",
+          "categories": "Categories",
+          "groups": "Custom groups"
+        },
+        "plot_value": {
+          "title": "Correlation",
+          "helptip": "<h3>The measure which is used to compute the correlation between two codes.</h3><br /><ul><li><strong>Co-occurrences:</strong> The count of how often two codes appear together.</li><li><strong><a class=\"accent--text\" href=\"{href_jaccard}\" target=\"_blank\">Jaccard index:</a></strong> Intersection over union of co-occurrences</li><li><strong><a class=\"accent--text\" href=\"{href_kulc}\" target=\"_blank\">Kulczynski 2:</a></strong> average conditional probability of co-occurrences</li.></ul>",
+          "cooccurrences": "Co-occurrences",
+          "jaccard": "Jaccard",
+          "kulc": "Kulczynski",
+          "yule": "Yule's Y"
+        },
+        "min_edge_value": "Min cooccurrences to plot link"
+      }
+    }
+  },
+  "de": {
+    "helptip": "<h3>Das <strong>Netzwerkdiagramm</strong> präsentiert Beziehungen zwischen Codes auf innovative Art.</h3><br /><p>Die Grösse der Knoten repräsentiert dabei die Häufigkeit mit der ein Code vorkommt, währenddessen die Dicke der Links dadurch bestimmt wird, wie oft die zwei Codes in derselben Nennung vorkommen (ihre <em>Korrelation</em>).</p>",
+    "controls": {
+      "general": {
+        "group_by": {
+          "title": "Gruppiere Codes nach",
+          "categories": "Kategorien",
+          "groups": "Gruppen"
+        },
+        "plot_value": {
+          "title": "Korrelation",
+          "helptip": "<h3>Die Metrik welche zur Berechnung der Korrelation verwendet wird.</h3><br /><ul><li><strong>Gemeinsames Auftreten:</strong> Wie oft zwei Codes zusammen in einer Nennung vorkommen.</li><li><strong><a class=\"accent--text\" href=\"{href_jaccard}\" target=\"_blank\">Jaccard index:</a></strong> Intersection over union des gemeinsamen Auftretens.</li><li><strong><a class=\"accent--text\" href=\"{href_kulc}\" target=\"_blank\">Kulczynski 2:</a></strong> Durchschnittliche bedingte Wahrscheinlichkeit des gemeinsamen Auftretens.</li></ul>",
+          "cooccurrences": "Gemeinsames Auftreten",
+          "jaccard": "Jaccard",
+          "kulc": "Kulczynski",
+          "yule": "Yule's Y"
+        },
+        "min_edge_value": "Minimales Link Häufigkeit"
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "de": {
+     "download": {
+      "title": "Daten exportieren",
+      "filetype": "Dateityp",
+      "format": {
+        "title": "Format",
+        "inorder": "Codes in Reihenfolge",
+        "binary": "Binäres Format pro Code"
+      },
+      "answers": "Alle Zeilen herunterladen",
+      "codebook": "Codebuch herunterladen",
+      "filename": "CodingResultate_"
+    }
+  },
+
+  "en": {
+    "download": {
+      "title": "Export data",
+      "filetype": "File type",
+      "format": {
+        "title": "Format (only relevant when downloading all rows)",
+        "inorder": "Codes in order of mentioning",
+        "binary": "Binary format code-wise"
+      },
+      "answers": "Download all rows",
+      "codebook": "Download codebook",
+      "filename": "CodingResults_"
+    }
+  }
+}
+
+

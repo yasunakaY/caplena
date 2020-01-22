@@ -1,0 +1,566 @@
+{
+  "de": {
+    "language": {
+      "title": "Sprache",
+      "af": "Afrikaans",
+      "bg": "Bulgarisch",
+      "bs": "Bosnisch",
+      "ca": "Katalanisch",
+      "cs": "Tschechisch",
+      "cy": "Kymrisch",
+      "da": "Dänisch",
+      "de": "Deutsch",
+      "el": "Griechisch",
+      "en": "Englisch",
+      "es": "Spanisch",
+      "et": "Estnisch",
+      "fi": "Finnisch",
+      "fr": "Französisch",
+      "ga": "Irisch",
+      "hr": "Kroatisch",
+      "hu": "Ungarisch",
+      "id": "Indonesisch",
+      "it": "Italienisch",
+      "ka": "Georgisch",
+      "lb": "Luxemburgisch",
+      "lt": "Litauisch",
+      "lv": "Lettisch",
+      "mk": "Makedonisch",
+      "ml": "Malayalam",
+      "nl": "Niederländisch",
+      "no": "Norwegisch",
+      "pl": "Polnisch",
+      "pt": "Portugiesisch",
+      "ro": "Rumänisch",
+      "sk": "Slowakisch",
+      "sq": "Albanisch",
+      "sr": "Serbisch",
+      "sv": "Schwedisch",
+      "tr": "Türkisch",
+      "uk": "Ukrainisch"
+    },
+    "and": "und",
+    "you": "Du",
+    "menu": {
+      "home": "Home",
+      "projects_group": "Projekte",
+      "upload": "Daten importieren",
+      "profile": "Benutzerkonto",
+      "logout": "Ausloggen",
+      "logout_error": "Beim Abmelden ist ein Fehler aufgetreten",
+      "visualizations_subheader": "Visualisierungen",
+      "charts_group": "Grafiken",
+      "dashboards_group": "Dashboards",
+      "subscription": "Abonnement & Pakete",
+      "new": "Neu",
+      "manage": "Verwalten"
+    },
+    "breadcrumbs": {
+      "home": "Home",
+      "projects-manage": "Projekte",
+      "coding": "{question} ∙ Kodierung",
+      "upload": "Hochladen",
+      "append": "Zeilen hinzufügen",
+      "account": "Benutzerkonto",
+      "subscription": "Abo-Verwaltung",
+      "charts-manage": "Grafiken",
+      "dashboards-manage": "Dashboards"
+    },
+    "app_actions": {
+      "title": "Aktionen",
+      "new": "Neue Kodierung",
+      "profile": "Benutzerkonto",
+      "projects_manage": "Projekte verwalten",
+      "next_steps": "Die nächsten Schritte von hier."
+    },
+    "actions": {
+      "retry": "Erneut versuchen"
+    },
+    "chat": {
+      "welcome_online": "Hallo {name}, können wir mit irgendwas behilflich sein?",
+      "welcome_offline": "Hallo {name}, wir sind gerade nicht online, aber hinterlasse uns doch hier eine Nachricht, wir werden schnellstmöglich auf dich zurückkommen!",
+      "follow_up": "Danke für deine Nachricht, wir kommen bald auf dich zurück."
+    },
+    "close": "Schliessen",
+    "project": {
+      "item": "Projekt",
+      "items": "Projekt | Projekte",
+      "of_this": "dieses Projekts"
+    },
+    "question": {
+      "item": "Frage",
+      "items": "Frage | Fragen",
+      "type": "Fragen-Typ",
+      "of_project": "{question} (Projekt {project})",
+      "of_this": "dieser Frage",
+      "category": {
+        "title": "Umfragetyp",
+        "CS": "Kundenzufriedenheit / NPS",
+        "EF": "Mitarbeiterzufriedenheit",
+        "BR": "Markenwahrnehmung",
+        "PP": "Produktwahrnehmung",
+        "EV": "Event-Feedback",
+        "LA": "Listenfrage",
+        "DE": "Demo",
+        "OT": "Andere",
+        "NO": "Unbekannt"
+      }
+    },
+    "chart": {
+      "item": "Grafik",
+      "items": "Grafik | Grafiken",
+      "types": {
+        "bar": {
+          "title": "Säulen",
+          "slogan": "Arbeitspferd",
+          "subtitle": "Flexible Grafik zur Darstellung einer oder mehrerer Fragen"
+        },
+        "line-pie": {
+          "title": "Linien & Kuchen",
+          "slogan": "Trends",
+          "subtitle": "Wie sich Werte über die Zeit (oder andere Variablen) verändern"
+        },
+        "treemap": {
+          "title": "Kacheln",
+          "slogan": "Distribution",
+          "subtitle": "Intuitive und übersichtliches Diagramm zur Darstellung hierarchischer Strukturen"
+        },
+        "graph": {
+          "title": "Netzwerk",
+          "slogan": "Beziehungen",
+          "subtitle": "Gemeinsames Auftreten von Codes innovativ visualisiert"
+        }
+      }
+    },
+    "dashboard": {
+      "item": "Dashboard",
+      "items": "Dashboard | Dashboards"
+    },
+    "eprops": {
+      "name": "Name",
+      "created": "Erstellt",
+      "owner": "Eigner",
+      "last_modified": "Zuletzt bearbeitet",
+      "number_answers": "Antworten",
+      "number_codes": "Codes",
+      "number_reviewed": "Händisch überprüft",
+      "number_questions": "Fragen",
+      "number_datasets": "# Datensätze",
+      "number_elements": "# Elemente",
+      "questions": "Enthaltene Fragen",
+      "labels": "Tags",
+      "status": {
+        "title": "Status",
+        "completed": "Abgeschlossen",
+        "inprogress": "In Arbeit",
+        "new": "Noch nicht begonnen"
+      },
+      "inherits_project": {
+        "final_leaf": "Dieses Projekt enthält Fragen, welche das letzte Glied einer Reihe von Verknüpfungen sind",
+        "to": "Andere Projekte lernen von Fragen in diesem Projekt",
+        "to_and_from": "Andere Projekte lernen von Fragen in diesem Projekt und dieses Projekt lernt selbst auch von anderen."
+      },
+      "inherits_question": {
+        "final_leaf": "Diese Frage ist das letzte Glied in einer Reihe von Verknüpfungen",
+        "to": "Andere Fragen lernen von Dieser",
+        "to_and_from": "Andere Fragen lernen von Dieser und gleichzeitig lernt diese auch von anderen."
+      },
+      "users_online": {
+        "status_project": "{users} arbeitet momentan an {n_questions} Frage(n) dieses Projekts | {users} arbeiten momentan an {n_questions} Frage(n) dieses Projekts",
+        "status_question": "{users} arbeitet momentan an dieser Frage | {users} arbeiten momentan an dieser Frage"
+      }
+    },
+    "answer_fields": {
+      "standards": "Standardfelder",
+      "empty": "Leere Nennungen",
+      "codes": "Codes",
+      "text": "Text der Nennung",
+      "sentiment": "Sentiment",
+      "reviewed": "Überprüfungs-Status",
+      "changed": "Geänderten-Status",
+      "auxiliary": "Benutzerdefinierte Felder"
+    },
+    "answer": "Antwort",
+    "answers": "Antworten",
+    "row": "Zeile",
+    "rows": "Zeilen",
+    "code": "Code",
+    "codes": "Codes",
+    "yes": "Ja",
+    "no": "Nein",
+    "ok": "Ok",
+    "none": "Keine",
+    "cancel": "Abbrechen",
+    "error": "Beim {step} ist ein Fehler aufgetreten, sorry! Bitte probiere es noch einmal.",
+    "error_item": "Beim {step} einer {item} ist ein Fehler aufgetreten, sorry! Bitte probiere es noch einmal.",
+    "semiopen": "Halboffen",
+    "fullyopen": "Offen",
+    "next": "Weiter",
+    "back": "Zurück",
+    "all": "Alle",
+    "done": "Fertig",
+    "skip": "Überspringen",
+    "finish": "Beenden",
+    "loading": {
+      "title": "Lade Daten",
+      "item": "Lade {item}...",
+      "while": "Laden"
+    },
+    "n_items_selected": "{cnt} {item} ausgewählt",
+    "credits_remaining": "Verbleibende Credits: {credits}",
+    "helptip_credit_acctmenu": "Credits werden beim Herunterladen von Daten abgebucht. Ein Credit entspricht einer Zeile.",
+    "save": {
+      "title": "Speichern",
+      "item": "Speichere {item}",
+      "done": "Die {type} {name} wurde gespeichert.",
+      "saving": "Speichern"
+    },
+    "delete": {
+      "title": "Löschen",
+      "done": "{item} {name} wurde gelöscht.",
+      "description": "Alle dazugehörenden Informationen werden damit gelöscht. Dies kann nicht rückgängig gemacht werden.",
+      "are_you_sure": "Sicher, dass du {type}&nbsp; <em>{name}</em> löschen willst?"
+    },
+    "pagination": {
+      "description": "{item} pro Seite",
+      "of": "von",
+      "jump_to": "Springe zu {item} "
+    },
+    "search": {
+      "title": "Suche",
+      "description": "Suchtext eingeben..."
+    },
+    "processing": "Verarbeitung läuft",
+    "warning": "Warnung: ",
+    "upload": "Hochladen",
+    "dataprocessing": "Verarbeiten der Daten",
+    "bugreport": {
+      "title": "Fragen, Feedback & Fehlermeldungen",
+      "description": "Schreibe uns falls dir ein Fehler aufgefallen ist, du generelle Rückmeldungen oder sonst irgendwelche Fragen zu der Applikation hast",
+      "bug": "Es ist ein Fehler aufgetreten",
+      "feedback": "Ich habe eine Frage oder generelles Feedback",
+      "placeholder": {
+        "U": "Beschreibe möglichst genau was passiert ist und welche Schritte zu dem Fehler geführt haben.",
+        "F": "Schiess los! Wir freuen uns Fragen oder Vorschläge zur Verbesserung und neuen Funktionen zu erhalten!"
+      },
+      "message": "Deine Nachricht",
+      "send": "Abschicken",
+      "success": "Abgeschickt! Vielen Dank für dein Feedback, wir werden uns so schnell als möglich darum kümmern."
+    },
+    "help": {
+      "title": "Hilfe",
+      "description": "Klicke {0} um das Tutorial für diese Seite noch einmal zu sehen.",
+      "link": "hier",
+      "notour": "Diese Seite hat kein Tutorial.",
+      "sendmessage": "Fragen & Feedback"
+    },
+    "sentiment": {
+      "helptip": "Das automatisch berechnete Sentiment als zusätzliche Spalte anzeigen. Diese Einstellung kann jederzeit angepasst werden."
+    },
+    "smart_sort": {
+      "title": "Intelligente Sortierung",
+      "helptip": "Falls aktiviert, werden dir zuerst die Antworten angezeigt, bei welchen sich der Assistent mit seinen Vorhersagen nicht besonders sicher ist. Somit erhöht sich die Genauigkeit bei den verbleibenden Antworten und du kannst früher aufhören zu kodieren. Beim Download werden die Antworten in der ursprünglichen Reihenfolge ausgegeben.<p><b>Wir empfehlen diese Funktion zu aktivieren.</b></p>"
+    },
+    "group_identical": {
+      "title": "Identische Antworten gruppieren",
+      "helptip": "Falls aktiviert, werden Nennungen die identisch sind (Gross- & Kleinschreibung wird ignoriert) in der Applikation nur einmal angezeigt. Die Codes werden im Hintergrund aber allen Nennungen zugewiesen. Bei den Statistiken sowie im Download werden alle Nennungen angezeigt.<br /><p><b>Wir empfehlen diese Funktion zu aktivieren.</b></p>",
+      "exclude_regex": "Antworten die diesem regulären Ausdruck entsprechen nie gruppieren",
+      "exclude_regex_helptip": "Wenn die Gruppierung für bestimmte Antworten (aufgrund ihres Textes) deaktiviert werden soll, schreibe einen <a class=\"accent--text\" target=\"_blank\" href=\"https://www.ibm.com/developerworks/aix/library/au-speakingunix9/index.html\">regulären Ausdruck</a> in dieses Feld. Jede Antwort, die dem eingegebenen Ausdruck entspricht, <em>wird nicht</em> gruppiert. Anmerkungen: <ul><li>Ungültige reguläre Ausdrücke werden ignoriert</li><li>Teste den regulären Ausdruck vor dem Speichern <a target=\"_blank\" class=\"accent--text\" href=\"http://www.pyregex.com/\">auf dieser Webseite</a></li><li>Die Gross- & Kleinschreibung wird ignoriert (<code>re.I</code> Parameter)</li><li>Lasse dieses Feld leer um alle identischen Antworten zu gruppieren</li></ul>"
+    },
+    "task": {
+      "eta_duration_roughly": "Ungefähr {duration} verbleibend",
+      "eta_any_moment": "Jeden Moment abgeschlossen"
+    },
+    "permission": {
+      "no_permission": "Zur Durchführung dieser Aktion fehlt dir die Berechtigung. Kontaktiere deinen Organisations-Administrator unter <a href=\"mailto:{email}\">{email}</a>, um Zugang zu erhalten.</a>"
+    },
+    "privacy_policy": {
+      "change_acceptance": {
+        "title": "Wir haben unsere Datenschutzrichtlinie überarbeitet",
+        "intro": "Bitte studiere die angepasste Datenschutzrichtlinie <a href=\"{href}\" target=\"_blank\">hier</a>. Die wichtigsten Änderungen sind:",
+        "accept": "Akzeptieren"
+      }
+    }
+  },
+  "en": {
+    "language": {
+      "title": "Language",
+      "af": "Afrikaans",
+      "bg": "Bulgarian",
+      "bs": "Bosnian",
+      "ca": "Catalan",
+      "cs": "Czech",
+      "cy": "Welsh",
+      "da": "Danish",
+      "de": "German",
+      "el": "Greek",
+      "en": "English",
+      "es": "Spanish",
+      "et": "Estonian",
+      "fi": "Finnish",
+      "fr": "French",
+      "ga": "Irish",
+      "hr": "Croatian",
+      "hu": "Hungarian",
+      "id": "Indonesian",
+      "it": "Italian",
+      "ka": "Georgian",
+      "lb": "Luxembourgish",
+      "lt": "Lithuanian",
+      "lv": "Latvian",
+      "mk": "Macedonian",
+      "ml": "Malayalam",
+      "nl": "Dutch",
+      "no": "Norwegian",
+      "pl": "Polish",
+      "pt": "Portuguese",
+      "ro": "Romanian",
+      "sk": "Slovak",
+      "sq": "Albanian",
+      "sr": "Serbian",
+      "sv": "Swedish",
+      "tr": "Turkish",
+      "uk": "Ukrainian"
+    },
+    "and": "and",
+    "you": "You",
+    "menu": {
+      "home": "Home",
+      "projects_group": "Projects",
+      "charts_group": "Charts",
+      "dashboards_group": "Dashboards",
+      "upload": "Import data",
+      "profile": "Account",
+      "logout": "Logout",
+      "logout_error": "An error occurred during logout",
+      "subscription": "Subscription & packages",
+      "manage": "Manage",
+      "new": "New"
+    },
+    "breadcrumbs": {
+      "home": "Home",
+      "projects-manage": "Projects",
+      "coding": "{question} ∙ Coding",
+      "upload": "Upload",
+      "append": "Append rows",
+      "account": "Account",
+      "subscription": "Subscription",
+      "charts-manage": "Charts",
+      "dashboards-manage": "Dashboards"
+    },
+    "app_actions": {
+      "title": "Actions",
+      "new": "Start new analysis",
+      "profile": "Account",
+      "projects_manage": "Manage projects",
+      "next_steps": "Next steps from here."
+    },
+    "actions": {
+      "retry": "Retry"
+    },
+    "chat": {
+      "welcome_online": "Hi {name}, can we help you with anything?",
+      "welcome_offline": "Hi {name}, we're not currently online right now, but if you leave a message, we'll get back to you as soon as possible!",
+      "follow_up": "Thanks for your message! We'll get back to you soon."
+    },
+    "close": "Close",
+    "project": {
+      "item": "Project",
+      "items": "Project | Projects",
+      "of_this": "of this project"
+    },
+    "question": {
+      "item": "question",
+      "type": "Type of question",
+      "items": "question | questions",
+      "of_project": "{question} (Project {project})",
+      "of_this": "of this question",
+      "category": {
+        "title": "Survey type",
+        "CS": "Customer Satisfaction / NPS",
+        "EF": "Employee Feedback",
+        "BR": "Brand Perception",
+        "PP": "Product Perception",
+        "EV": "Event Evaluation",
+        "LA": "List question",
+        "DE": "Demo",
+        "OT": "Other",
+        "NO": "Unknown"
+      }
+    },
+    "chart": {
+      "item": "chart",
+      "items": "chart | charts",
+      "types": {
+        "bar": {
+          "title": "Bar",
+          "slogan": "Working horse",
+          "subtitle": "Highly flexible chart for one or more questions or subsets thereof"
+        },
+        "line-pie": {
+          "title": "Line & pie",
+          "slogan": "Trends",
+          "subtitle": "How values change over time (or other variables)"
+        },
+        "treemap": {
+          "title": "Treemap",
+          "slogan": "Distribution",
+          "subtitle": "Intuitive overview of the hierarchical distribution"
+        },
+        "graph": {
+          "title": "Graph",
+          "slogan": "Relationships",
+          "subtitle": "Co-occurrence of codes charted plotted in innovative way"
+        }
+      }
+    },
+    "dashboard": {
+      "item": "dashboard",
+      "items": "dashboard | dashboards"
+    },
+    "eprops": {
+      "name": "Name",
+      "created": "Created",
+      "owner": "Owner",
+      "last_modified": "Last modified",
+      "number_answers": "Responses",
+      "number_questions": "Questions",
+      "number_codes": "Codes",
+      "number_datasets": "# Datasets",
+      "number_elements": "# Elements",
+      "questions": "Related Questions",
+      "labels": "Tags",
+      "number_reviewed": "Manually reviewed",
+      "status": {
+        "title": "Status",
+        "completed": "Completed",
+        "inprogress": "Work in progress",
+        "new": "Not yet started"
+      },
+      "inherits_project": {
+        "final_leaf": "This project contains questions which are the final element in a chain of connected questions.",
+        "to": "This project contains questions which are referenced in other questions.",
+        "to_and_from": "This project contains questions, which learn from another question and are referenced by other questions."
+      },
+      "inherits_question": {
+        "to": "Other questions reference to this one.",
+        "final_leaf": "This question is the final element in the chain of connected questions.",
+        "to_and_from": "This question learns from another question and is itself referred to by other questions"
+      },
+      "users_online": {
+        "status_project": "{users} currently works on {n_questions} question(s) of this project | {users} currently work on {n_questions} question(s) of this project",
+        "status_question": "{users} currently works on this question | {users} currently work on this question"
+      }
+    },
+    "answer_fields": {
+      "standards": "Standard fields",
+      "empty": "Empty responses",
+      "codes": "Codes",
+      "text": "Verbatim text",
+      "sentiment": "Sentiment",
+      "reviewed": "Reviewed status",
+      "changed": "Changed status",
+      "auxiliary": "User-uploaded column"
+    },
+    "answer": "Answer",
+    "answers": "Answers",
+    "row": "row",
+    "rows": "row",
+    "codes": "codes",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "none": "None",
+    "cancel": "Cancel",
+    "error": "An error occurred while {step}. Please try again.",
+    "error_item": "An error occurred while {step} {item}. Please try again.",
+    "semiopen": "Semiopen",
+    "fullyopen": "Open",
+    "next": "Next",
+    "back": "Back",
+    "all": "All",
+    "done": "Done",
+    "skip": "Skip",
+    "finish": "Finish",
+    "loading": {
+      "title": "Loading",
+      "item": "Loading {item}...",
+      "while": "loading"
+    },
+    "n_items_selected": "{cnt} {item} selected",
+    "credits_remaining": "Credits remaining: {credits}",
+    "helptip_credit_acctmenu": "Credits are deducted from your account when you download your results. A credit is equivalent to one row.",
+    "save": {
+      "title": "Save",
+      "item": "Save {item}",
+      "done": "The {type} {name} has been saved.",
+      "saving": "saving"
+    },
+    "delete": {
+      "title": "Delete",
+      "done": "{item} {name} has been deleted.",
+      "description": "All corresponding information will be deleted. This cannot be undone.",
+      "are_you_sure": "Are you sure that you want to delete the {type} &nbsp;<em>{name}</em>?"
+    },
+    "pagination": {
+      "description": "{item} per page",
+      "of": "of",
+      "jump_to": "Jump to {item} "
+    },
+    "search": {
+      "title": "Search",
+      "description": "Enter your search query..."
+    },
+    "processing": "Processing",
+    "warning": "Warning: ",
+    "upload": "Upload",
+    "dataprocessing": "Processing data",
+    "bugreport": {
+      "title": "Questions, feedback & bug-reports",
+      "description": "Let us know if you encountered any errors, have general feedback or questions.",
+      "bug": "I found a bug",
+      "feedback": "I have a question or general feedback",
+      "placeholder": {
+        "U": "Describe what happened and how you got there in as much detail as possible.",
+        "F": "Ask us anything. We're also looking forward to getting your suggestions for improvement and new features!"
+      },
+      "message": "Your message",
+      "send": "Send",
+      "success": "Report has been sent! Thanks for your feedback, we'll take care of it as soon as possible."
+    },
+    "help": {
+      "title": "Help",
+      "description": "Click {0} to restart the tutorial.",
+      "link": "here",
+      "notour": "This page doesn't have a tutorial.",
+      "sendmessage": "Questions & Feedback"
+    },
+    "sentiment": {
+      "helptip": "Show automatically computed sentiment polarity as further column during coding. This setting can be adapted any time."
+    },
+    "smart_sort": {
+      "title": "Smart Sorting",
+      "helptip": "If activated, the responses where the assistant is not too sure about his predictions will be displayed first. This increases the accuracy for the remaining responses and enables you to stop coding earlier. When downloading the results, your responses will be in the original order again. <p><b>We recommend enabling this option.</b></p>"
+    },
+    "group_identical": {
+      "title": "Group identical answers",
+      "helptip": "If activated, all texts that are identical (case is ignored) will only be displayed once in the application. Codes will be attributed to all of the identical answers. For the statistics and when downloading the answers grouping is not applied (i.e. also duplicates are considered).<br /><p><b>We recommend enabling this option.</b></p>",
+      "exclude_regex": "Never group answers that match this regular expression",
+      "exclude_regex_helptip": "If you want to disable grouping for answers depending on their text, enter a <a  class=\"accent--text\" target=\"_blank\" href=\"https://www.ibm.com/developerworks/aix/library/au-speakingunix9/index.html\">regular expression</a> here. Every answer that matches the entered expression <em>will not</em> be grouped. Note that: <ul><li>Invalid regular expressions are ignored</li><li>Check the regex on <a target=\"_blank\" class=\"accent--text\" href=\"http://www.pyregex.com/\">this website</a> before saving it</li><li>The case is ignored (<code>re.I</code> flag)</li><li>Leave the field empty to group all identical answers</li></ul>"
+    },
+    "task": {
+      "eta_duration_roughly": "Around {duration} remaining",
+      "eta_any_moment": "Completed any moment"
+    },
+    "permission": {
+      "no_permission": "You don't have permission to perform this task. Contact your organization administrator at <a href=\"mailto:{email}\">{email}</a> if you require access.</a>"
+    },
+    "privacy_policy": {
+      "change_acceptance": {
+        "title": "We have updated our privacy policy",
+        "intro": "Please read the detailed privacy policy <a href=\"{href}\" target=\"_blank\">here</a>. The most important changes include:",
+        "accept": "I accept"
+      }
+    }
+  }
+}

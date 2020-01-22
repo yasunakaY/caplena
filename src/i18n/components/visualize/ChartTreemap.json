@@ -1,0 +1,32 @@
+{
+  "en": {
+    "helptip": "<h3>The <strong>treemap chart</strong> allows exploring the relative importance of different classes in a visually intuitive way.</h3><br /><p>The area of each class represents the percentage of rows in which the respective class appears.</p>",
+    "controls": {
+      "general": {
+        "group_by": {
+          "title": "Group codes by",
+          "categories": "Categories",
+          "groups": "Custom groups"
+        }
+      },
+      "labels": {
+        "percentages": "Show percentages"
+      }
+    }
+  },
+  "de": {
+    "helptip": "<h3>Das <strong>Kacheldiagramm</strong> stellt die relative Wichtigkeit der verschiedenen Klassen intuitiv und interaktiv dar.</h3><br /><p>Die Fläche welche eine Klasse beansprucht, entspricht der prozentualen Häufigkeit der Anzahl Zeilen in denen die Klasse vorkommt.</p>",
+    "controls": {
+      "general": {
+        "group_by": {
+          "title": "Codes anordnen nach",
+          "categories": "Kategorien",
+          "groups": "Gruppen"
+        }
+      },
+      "labels": {
+        "percentages": "Prozentzahlen anzeigen"
+      }
+    }
+  }
+}

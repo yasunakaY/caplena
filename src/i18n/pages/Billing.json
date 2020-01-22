@@ -1,0 +1,20 @@
+{
+  "de": {
+    "billing": {
+      "not_enough_credits_month": "Die Anzahl noch nicht abgebuchter Antworten {of_this_entity} ({rows}) übersteigt deine verbleibenden Credits ({credits_remaining}). Du wirst zwar alles kodieren können, das Herunterladen der Daten ist aber erst möglich wenn du zusätzliche Credits kaufst oder dein Konto am Ende des Monats aufgefüllt wurde.",
+      "not_enough_credits_ever": "Die Anzahl noch nicht abgebuchter Antworten {of_this_entity} ({rows}) übersteigt deine monatlich verfügbaren Credits ({credits}). Du wirst zwar kodieren können, das Herunterladen der Daten ist aber erst möglich wenn du zusätzliche Credits kaufst oder auf eine anderes Abo umsteigst.",
+      "buy_additional": "Abo wechseln oder zusätzliche Credits kaufen",
+      "bill_credits_info": "Durch das Herunterladen der Daten werden von deinem Konto {credits_deduct} Credits abgezogen ({credits_available} verfügbar). Dies passiert einmal pro Frage und führt zu keinen direkten zusätzlichen Kosten.",
+      "success": "Die Credits wurden von deinem Konto abgezogen, du kannst diese Frage nun so oft herunterladen wie du willst."
+    }
+  },
+  "en": {
+    "billing": {
+      "not_enough_credits_month": "The number of unbilled rows {of_this_entity} ({rows}) exceeds the number of credits you have remaining ({credits_remaining}). While you will be able to code everything, downloading the data will only be possible once you have purchased additional credits or your account has been refilled at the end of the month.",
+      "not_enough_credits_ever": "The number of unbilled rows {of_this_entity} ({rows}) exceeds the number of your monthly available credits ({credits}). While you will be able to code everything, downloading the data will only be possible once you have purchased additional credits or changed to another subscription.",
+      "buy_additional": "Change subscription or buy additional credits",
+      "bill_credits_info": "By downloading this data {credits_deduct} Credits will be deducted from your account ({credits_available} available). This happens once per question and does not incur any direct additional costs.",
+      "success": "The credits were deducted from your account, you can now download this question as often as you like."
+    }
+  }
+}

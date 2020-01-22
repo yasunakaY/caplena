@@ -1,0 +1,153 @@
+{
+  "de": {
+    "profile": {
+      "settings": {
+        "title": "Profildaten",
+        "description": "Passe hier deine Profildaten an",
+        "name": "Name",
+        "email": "Email",
+        "address": "Adresse",
+        "city": "Stadt",
+        "zip": "Postleitzahl",
+        "country": "Land",
+        "opt_out_tracking": "Ich will nicht, dass mein Verhalten auf dieser Website zur Fehlerbehebung und zu Supportzwecken aufgezeichnet wird",
+        "save": "Speichern",
+        "new_password": "Neues Passwort",
+        "new_password_repeat": "Passwort wiederholen"
+      },
+      "infos": {
+        "title": "Allgemeine Infos",
+        "subtitle": "Generelle Informationen zu deinem Konto",
+        "created": "Profil erstellt: ",
+        "last_login": "Letzter Login: ",
+        "number_of_projects": "Anzahl Projekte: "
+      },
+      "save": {
+        "profile_success": "Die Änderungen wurden gespeichert",
+        "password_success": "Das neue Passwort wurde gespeichert."
+      }
+    },
+    "organization": {
+      "title": "Organisation",
+      "subtitle": "Als Mitglied dieser Organisation, wird die Abo-Verwaltung zentral geregelt. Ausserdem werden dir eventuell spezifische Rollen oder Berechtigungen zugewiesen.",
+      "rbac": {
+        "disabled": "Deine Organisation verwendet keine erweiterten Zugriffsrechte. Du kannst alle Funktionen der Applikation uneingeschränkt verwenden, wirs jedoch nur Zugriff auf deine eigenen Daten haben. Credits werden über die Organisation verwaltet und darüber abgebucht.",
+        "enabled": "Deine Organisation verwendet erweiterte Zugriffsrechte. Dir wurden die Rolle(n) <em>{roles}</em> zugewiesen. Damit kannst du:",
+        "role_root": "Root-Administrator",
+        "permissions": {
+          "projects_inherit": "von allen Fragen deiner Organisation <b>erben</b>.",
+          "projects_create": "<b>neue Projekte erstellen &amp; hochladen</b>.",
+          "projects_download": "alle Projekte deiner Organisation <b>herunterladen</b>.",
+          "projects_view": "alle Projekte deiner Organisation <b>ansehen</b>.",
+          "projects_delete": "alle Projekte deiner Organisation <b>löschen</b>.",
+          "projects_edit": "alle Projekte deiner Organisation <b>bearbeiten</b>.",
+          "projects_append": "allen Projekten deiner Organisation <b>weitere Zeilen hinzufügen</b>.",
+          "projects_permissions": "an allen Projekten deiner Organisation <b>die Berechtigungen anpassen</b>.",
+          "subscription_mgmt": "<b>das Abo</b> deiner Organisation zu verwalten.",
+          "owner": "<b>alle Aktionen</b> auf Objekten ausführen <b>welche dir gehören</b>, z.B. auf Projekten, welche du selbst hochgeladen hast."
+        }
+      }
+    },
+    "payment_methods": {
+      "title": "Zahlungsinformationen",
+      "subtitle": "Deine gespeicherten Kreditkarten",
+      "action_add": "Zahlungsmethode hinzufügen",
+      "action_store": "Karte speichern",
+      "loading_title": "Verarbeite Zahlungsinformationen",
+      "loading_tagline": "(Dies kann einige Sekunden dauern, bitte bleibe auf dieser Seite)",
+      "add_success": "Die Kreditkarte wurde erfolgreich als standardmässige Zahlungsmethode hinzugefügt.",
+      "add_failed": "Beim Hinzufügen der Karte ist ein Fehler aufgetreten, wir kümmern uns darum!",
+      "no_cards": "Keine gespeicherten Karten"
+    },
+    "subscription": {
+      "title": "Abo & Credits",
+      "subtitle": "Verwalte dein Abo und kaufe zusätzliche Credits.",
+      "infotext_plan": "Du bist momentan auf dem <strong>{plan}-Abo</strong>.",
+      "infotext_paid": "Dieses wird bis zur Kündigung monatlich automatisch verlängert. ",
+      "infotext_refill": "Dein Konto wird am {date} wieder auf <strong>{credits} Credits</strong> aufgefüllt.",
+      "credits_remaining_monthly": "Verbleibende monatliche Credits: ",
+      "credits_remaining_oneoff": "Verbleibende Ad-Hoc Credits: ",
+      "action_change": "Wechsle dein Abo oder kaufe Credits"
+    },
+    "payment_history": {
+      "title": "Vergangene Zahlungen",
+      "subtitle": "Deine letzten Zahlungen per Kreditkarte an Caplena",
+      "no_payments": "Keine erfolgten Zahlungen"
+    }
+  },
+  "en": {
+    "profile": {
+      "settings": {
+        "title": "Basic Settings",
+        "description": "Edit your basic profile settings.",
+        "name": "Name",
+        "email": "Email",
+        "address": "Address",
+        "city": "City",
+        "zip": "ZIP Code",
+        "country": "Country",
+        "opt_out_tracking": "I don't want that my behaviour on this website is tracked for debugging and support purposes",
+        "new_password": "New password",
+        "new_password_repeat": "Repeat password"
+      },
+      "infos": {
+        "title": "General information",
+        "subtitle": "Miscellaneous data about your account",
+        "created": "Profile has been created: ",
+        "last_login": "Last login: ",
+        "number_of_projects": "Number of projects: "
+      },
+      "save": {
+        "profile_success": "Your changes have been saved",
+        "password_success": "New password has been saved."
+      }
+    },
+    "subscription": {
+      "title": "Subscription & Credits",
+      "subtitle": "Manage your subscription and buy additional credits",
+      "infotext_plan": "You are currently on the <strong>{plan} plan</strong>.",
+      "infotext_paid": "The subscription will be renewed every month automatically. ",
+      "infotext_refill": "Your account will be refilled to <strong>{credits} credits</strong> on {date}.",
+      "credits_remaining_monthly": "Monthly credits remaining: ",
+      "credits_remaining_oneoff": "Ad hoc credits remaining: ",
+      "action_change": "Change subscription or buy credits"
+    },
+    "payment_methods": {
+      "title": "Payment methods",
+      "subtitle": "Your saved credit cards",
+      "action_add": "Add payment method",
+      "action_store": "Store card",
+      "loading_title": "Processing card",
+      "loading_tagline": "(This can take a few seconds, please don't navigate away)",
+      "add_success": "Successfully added credit card as default payment method.",
+      "add_failed": "An error occurred while adding your card, sorry for that, we're looking into it.",
+      "no_cards": "No stored cards"
+    },
+    "payment_history": {
+      "title": "Payment history",
+      "subtitle": "Your recent credit card payments to Caplena",
+      "no_payments": "No payments to show"
+    },
+    "organization": {
+      "title": "Organization",
+      "subtitle": "As part of this organization, billing is handled centrally, and you might have specific roles and permissions.",
+      "rbac": {
+        "disabled": "Your organization doesn't make use of advanced rights and roles. You can access all functionalities of the application, but you will always only see your own projects, questions and other objects. Credits will be added to and deducted from your organization's account.",
+        "enabled": "Advanced permissions and roles are enabled for your organization. You are assigned the role(s) <em>{roles}</em>. Specifically, you can:",
+        "role_root": "Root administrator",
+        "permissions": {
+          "projects_inherit": "<b>inherit from</b> all projects of your organization.",
+          "projects_create": "<b>create new projects</b>.",
+          "projects_download": "<b>download all projects</b> of your organization.",
+          "projects_view": "<b>view all projects</b> of your organization.",
+          "projects_delete": "<b>delete all projects</b> of your organization.",
+          "projects_edit": "<b>edit all</b> projects of your organization.",
+          "projects_append": "<b>append rows</b> to all projects of your organization.",
+          "projects_permissions": "<b>change permissions</b> on all projects of your organization.",
+          "subscription_mgmt": "<b>manage the subscription</b> of your organization.",
+          "owner": "<b>execute all actions</b> on objects where <b>you are the owner</b>, e.g. on projects you uploaded yourself."
+        }
+      }
+    }
+  }
+}

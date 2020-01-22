@@ -1,0 +1,152 @@
+{
+  "en": {
+    "title": "Codebook Assistant",
+    "codes": {
+      "label": "Code name",
+      "category": "Category"
+    },
+    "intro": {
+      "step": "Start",
+      "hero": "Code-frame templates & keywords",
+      "subtitle": " Click here to start"
+    },
+    "templates": {
+      "step": "Templates",
+      "select_codebook": {
+        "title": "Choose a code-frame",
+        "subtitle": "We will then show you how it applies to your data"
+      },
+      "language_select": "Codebook language",
+      "loading_failed": "An error occurred while loading the templates, please try again later. Sorry for that, we're looking into it.",
+      "info": "Choose a template as basis for your code-frame. You can customize it in the next step."
+    },
+    "keywords": {
+      "step": "Customization",
+      "loading": "Generating keywords",
+      "loading_failed": "An error occurred while generating keywords, please try again later. Sorry for that, we're looking into it.",
+      "empty_codebook": {
+        "title": "Empty codebook",
+        "subtitle": "Create new codes from the generated keywords"
+      },
+      "max_codes_reached": "Currently a maximum of {allowed} codes are supported. Please contact support if you require more.",
+      "cluster": "Cluster",
+      "tab_sample": "Coded sample",
+      "tab_wordcloud": "Keyword word clouds",
+      "tab_list": "Keywords list",
+      "keyword_cnt": "{cnt} mention | {cnt} mentions",
+      "new_code": {
+        "label": "New code",
+        "category": "NEW CATEGORY"
+      },
+      "k2c": {
+        "label": "New code name",
+        "category": "Code category",
+        "create": "Create",
+        "label_invalid": "Code-Name must be at least {n_chars} characters",
+        "category_invalid": "Category must be at least {n_chars} characters"
+      },
+      "info": "Use the keywords to customize your codebook. <b>Experiment</b> and see how adding or editing codes influences the sample. <br>Fine tune the codebook <b>after hitting save</b>, where you will have the options to merge, bulk delete etc."
+    },
+    "coded_sample": {
+      "loading": "Applying codebook to a sample of your data",
+      "failed": "An error occurred while coding a sample of your data. Please try again. If the error persists, contact support.",
+      "no_matches": "For the sample of responses we took, no codes of this template could be matched.",
+      "not_customized": "Create new codes from the keywords to see how they are applied to your responses.",
+      "is_dirty": "Your codebook has changed since the last update. Click the <em>refresh sample</em> button to get an updated sample.",
+      "empty_codebook": "Create codes first to see how they apply to your data.",
+      "update_sample": "Refresh sample"
+    },
+    "completed": {
+      "step": "Completed",
+      "title": "The new codebook and predictions for the samples have been assigned.",
+      "next_steps": "Next steps",
+      "step_refine": {
+        "title": "Suggestions for all responses",
+        "description": "Predictions on your entire dataset have been requested, they will arrive in a couple of minutes."
+      },
+      "step_review": {
+        "title": "Review responses & add codes",
+        "description": "Help the model understand your data better, by assigning missing codes or creating new codes where necessary."
+      },
+      "step_done": {
+        "title": "Quality check & download",
+        "description": "Jump towards the end of your dataset and check the quality of the predictions. If you're satisfied, download the results and reap the sweet fruit of your hard work. 🍎🍊"
+      }
+    }
+  },
+  "de": {
+    "title": "Codebuch-Assistent",
+    "codes": {
+      "label": "Code-Name",
+      "category": "Kategorie"
+    },
+    "intro": {
+      "step": "Start",
+      "hero": "Codebuch-Vorlagen & Schlüsselbegriffe.",
+      "subtitle": " Klicke hier, um zu beginnen"
+    },
+    "templates": {
+      "step": "Vorlagen",
+      "language_select": "Codebuch-Sprache",
+      "select_codebook": {
+        "title": "Wähle eine Vorlage",
+        "subtitle": "Wir zeigen dir dann, wie sich diese auf deinen Daten verhält"
+      },
+      "loading_failed": "Während des Ladens der Vorlagen ist ein Fehler aufgetreten. Bitte probiere es später noch einmal. Entschuldige die Umstände!",
+      "info": "Wähle eine Vorlage als Grundlage für dein Codebuch. Im <b>nächsten Schritt</b> kannst du die Codes anpassen."
+    },
+    "keywords": {
+      "step": "Individualisierung",
+      "loading": "Berechne Schlüsselbegriffe",
+      "loading_failed": "Während der Berechnung der Schlüsselbegriffe ist ein Fehler aufgetreten, bitte probiere es später nochmals. Entschuldige bitte, wir kümmern uns darum.",
+      "max_codes_reached": "Momentan sind maximal {allowed} Codes erlaubt. Kontaktiere bitte unseren Support falls du mehr benötigst.",
+      "empty_codebook": {
+        "title": "Keine Codes",
+        "subtitle": "Erstelle aus den Schlüsselbegriffen neue Codes"
+      },
+      "cluster": "Gruppen",
+      "tab_sample": "Kodierte Stichprobe",
+      "tab_wordcloud": "Word-Clouds",
+      "tab_list": "Liste der Schlüsselworte",
+      "keyword_cnt": "{cnt} Nennung | {cnt} Nennungen",
+      "new_code": {
+        "label": "Neuer Code",
+        "category": "KATEGORIE"
+      },
+      "k2c": {
+        "label": "Neuer Code-Name",
+        "category": "Kategorie",
+        "create": "Erstellen",
+        "label_invalid": "Code-Name must aus mindestens {n_chars} Zeichen bestehen",
+        "category_invalid": "Kategorie must aus mindestens {n_chars} Zeichen bestehen"
+      },
+      "info": "Verwende die Schlüsselworte um, das Codebuch auf Deine Bedürfnisse anzupassen. Experimentiere in dieser Ansicht, indem du Codes hinzufügst oder änderst. <br>Die Feinjustierung des Codebuchs solltest du jedoch <b>erst nach dem Speichern</b> vornehmen, da dort weitere Optionen wie die Verschmelzung von Codes verfügbar sind."
+    },
+    "coded_sample": {
+      "loading": "Wende Codebuch auf eine Stichprobe deiner Daten an",
+      "failed": "Während des Kodierens einer Stichprobe deiner Daten ist ein Fehler aufgetreten. Bitte probiere es noch einmal. Sollte der Fehler wiederholt auftreten, kontaktiere bitte unseren Support.",
+      "no_matches": "In der genommenen Stichprobe konnten wir keine Beispiele finden, auf die ein Code aus der Vorlage passen würde.",
+      "not_customized": "Erstelle aus den Schlüsselbegriffen neue Codes, um zu sehen wie diese auf deine Daten angewandt werden.",
+      "is_dirty": "Seit dem letzten Update hat sich dein Codebuch verändert. Klicke auf den <em>Stichprobe aktualisieren</em> Knopf, um die Stichprobe zu aktualisieren.",
+      "empty_codebook": "Erstelle zuerst Codes, um zu sehen wie diese auf deine Daten angewandt werden.",
+      "update_sample": "Stichprobe aktualisieren"
+    },
+    "completed": {
+      "step": "Fertig",
+      "title": "Das neue Codebuch wurde übernommen und die Kodierung der Stichprobe gespeichert.",
+      "next_steps": "Nächste Schritte",
+      "step_refine": {
+        "title": "Vorschläge für alle Nennungen",
+        "description": "Die Code-Vorschläge für den gesamten Datensatz wurden in Auftrag gegeben, die Resultate sollten in einigen Minuten eintreffen."
+      },
+      "step_review": {
+        "title": "Nennungen überprüfen & Codes hinzufügen",
+        "description": "Hilf dem Modell deine Daten besser zu verstehen, indem du die Vorschläge überprüfst und wo nötig Anpassungen vornimmst oder neue Codes hinzufügst."
+      },
+      "step_done": {
+        "title": "Qualitäts-Check und Download",
+        "description": "Springe zum Ende der Nennungen und überprüfe die Qualität der Vorschläge. Wenn du zufrieden bist, lade die Resultate herunter und ernte die süssen Früchte deiner harten Arbeit! 🍎🍊"
+      }
+    }
+  }
+}

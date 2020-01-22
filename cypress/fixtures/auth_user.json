@@ -1,0 +1,41 @@
+{
+  "id": 1,
+  "first_name": "Maurice",
+  "email": "maurice@caplena.com",
+  "last_login": "2018-03-23T17:32:49.944043Z",
+  "date_joined": "2017-10-02T13:55:46Z",
+  "profile": {
+    "pages_visited": [
+      "projects-manage",
+      "coding",
+      "feature:smart_sort",
+      "home"
+    ],
+    "app_settings": {
+      "MAX_CODES_PER_SURVEY": 150
+    },
+    "credits_remaining_monthly": 500,
+    "credits_remaining_oneoff": 0,
+    "address_street": "",
+    "address_city": "",
+    "address_zip": 50679,
+    "address_country": "",
+    "language": "en",
+    "signup_reason": "",
+    "organization": null
+  },
+  "subscription": {
+    "plan": {
+      "id": 10,
+      "name": "Free",
+      "recurring": true,
+      "credits_monthly": 500,
+      "credits_oneoff": 0,
+      "price_monthly": 0,
+      "price_oneoff": 0
+    },
+    "start": "2018-02-13T21:02:52.143095Z",
+    "end": "9999-01-01T00:00:00Z"
+  },
+  "n_surveys": 11
+}

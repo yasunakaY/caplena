@@ -1,0 +1,149 @@
+.uspg ul li { line-height: 1.0; }
+
+.uspg .v-input.highlight0 label {
+  background: $col-highlight-0;
+}
+
+.uspg .v-input.highlight1 label {
+  background: $col-highlight-1;
+}
+
+.uspg .v-input.highlight2 label {
+  background: $col-highlight-2;
+}
+
+.uspg .v-input.highlight3 label {
+  background: $col-highlight-3;
+}
+
+.uspg .v-input.highlight4 label {
+  background: $col-highlight-4;
+}
+
+.uspg .v-input.highlight5 label {
+  background: $col-highlight-5;
+}
+
+.uspg .v-input.highlight6 label {
+  background: $col-highlight-6;
+}
+
+.uspg .v-input.highlight7 label {
+  background: $col-highlight-7;
+}
+
+.uspg .v-input.highlight8 label {
+  background: $col-highlight-8;
+}
+
+.uspg .v-input.highlight9 label {
+  background: $col-highlight-9;
+}
+
+.uspg .v-input.highlight10 label {
+  background: $col-highlight-0;
+}
+
+.uspg .v-input.highlight11 label {
+  background: $col-highlight-1;
+}
+
+.uspg .v-input.highlight12 label {
+  background: $col-highlight-2;
+}
+
+.uspg .v-input.highlight13 label {
+  background: $col-highlight-3;
+}
+
+.uspg .v-input.highlight14 label {
+  background: $col-highlight-4;
+}
+
+.uspg .v-input.highlight15 label {
+  background: $col-highlight-5;
+}
+
+.uspg .v-input.highlight16 label {
+  background: $col-highlight-6;
+}
+
+.uspg .v-input.highlight17 label {
+  background: $col-highlight-7;
+}
+
+.uspg .v-input.highlight18 label {
+  background: $col-highlight-8;
+}
+
+.uspg .v-input.highlight19 label {
+  background: $col-highlight-9;
+}
+
+.uspg .importSample {
+  width: 95%;
+  position: relative;
+  max-height: 300px;
+  overflow: scroll;
+
+  max-width: 95%;
+  margin-bottom: 20px;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+
+    th, td {
+      height: 48px;
+      padding: 0 16px;
+    }
+    th {
+      color: rgba(0,0,0,.54);
+      font-size: 12px;
+    }
+    td {
+      font-size: 14px;
+    }
+
+    tbody tr {
+      border-top: 1px solid rgba(0,0,0,.12);
+      &:hover { background: #eee }
+    }
+  }
+
+  .highlight0 { background: $col-highlight-0; }
+  .highlight1 { background: $col-highlight-1; }
+  .highlight2 { background: $col-highlight-2; }
+  .highlight3 { background: $col-highlight-3; }
+  .highlight4 { background: $col-highlight-4; }
+  .highlight5 { background: $col-highlight-5; }
+  .highlight6 { background: $col-highlight-6; }
+  .highlight7 { background: $col-highlight-7; }
+  .highlight8 { background: $col-highlight-8; }
+  .highlight9 { background: $col-highlight-9; }
+  .highlight10 { background: $col-highlight-0; }
+  .highlight11 { background: $col-highlight-1; }
+  .highlight12 { background: $col-highlight-2; }
+  .highlight13 { background: $col-highlight-3; }
+  .highlight14 { background: $col-highlight-4; }
+  .highlight15 { background: $col-highlight-5; }
+  .highlight16 { background: $col-highlight-6; }
+  .highlight17 { background: $col-highlight-7; }
+  .highlight18 { background: $col-highlight-8; }
+  .highlight19 { background: $col-highlight-9; }
+
+  .v-table__overflow {
+    overflow-x: initial;
+    overflow-y: initial;
+  }
+
+}
+
+.uspg .optselect {
+  max-width: 400px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+
+.uspg ol { font-size: inherit }

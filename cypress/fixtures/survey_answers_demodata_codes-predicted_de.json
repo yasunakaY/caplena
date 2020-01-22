@@ -1,0 +1,679 @@
+[
+  {
+    "id": 165750,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.204021Z",
+    "codes": [
+      11,
+      21
+    ],
+    "marking": [],
+    "text": "Die protestantische Merkel zu Besuch beim Papst",
+    "auxiliary_columns": [
+      1
+    ],
+    "sentiment": -0.600750088691711,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": true,
+    "changed": true,
+    "sentiment_changed": false,
+    "idx_continuous": 1,
+    "idx_sorted": 1
+  },
+  {
+    "id": 165751,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.204088Z",
+    "codes": [
+      22,
+      12
+    ],
+    "marking": [],
+    "text": "Ich fordere Tempolimit f\u00fcr Siegmar Gabriel!",
+    "auxiliary_columns": [
+      3
+    ],
+    "sentiment": -0.784995913505554,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": true,
+    "changed": true,
+    "sentiment_changed": false,
+    "idx_continuous": 2,
+    "idx_sorted": 2
+  },
+  {
+    "id": 165752,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.204138Z",
+    "codes": [
+      22,
+      12
+    ],
+    "marking": [],
+    "text": "SPD-Chef Gabriel lenkt im Streit ums Tempolimit ein: Die SPD pfeift ihren Chef zur\u00fcck",
+    "auxiliary_columns": [
+      9
+    ],
+    "sentiment": -0.731297552585602,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": true,
+    "changed": true,
+    "sentiment_changed": false,
+    "idx_continuous": 3,
+    "idx_sorted": 3
+  },
+  {
+    "id": 165753,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.204186Z",
+    "codes": [
+      21
+    ],
+    "marking": [],
+    "text": "Konklave im Vatikan: Weisser Rauch - neuer Papst ist gew\u00e4hlt",
+    "auxiliary_columns": [
+      15
+    ],
+    "sentiment": -0.479017376899719,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": true,
+    "changed": true,
+    "sentiment_changed": false,
+    "idx_continuous": 4,
+    "idx_sorted": 4
+  },
+  {
+    "id": 165754,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.204234Z",
+    "codes": [
+      22
+    ],
+    "marking": [],
+    "text": "Mit dem Herzmenschen Autobahn fahren und nen krass gutes Album h\u00f6ren.",
+    "auxiliary_columns": [
+      19
+    ],
+    "sentiment": -0.567182898521423,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": true,
+    "changed": true,
+    "sentiment_changed": false,
+    "idx_continuous": 5,
+    "idx_sorted": 5
+  },
+  {
+    "id": 165755,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.204282Z",
+    "codes": [
+      11
+    ],
+    "marking": [],
+    "text": "Merkel: \"Es kann keinen Zugriff auf geistige Leistung geben, der v\u00f6llig kostenlos ist\"",
+    "auxiliary_columns": [
+      24
+    ],
+    "sentiment": -0.988878726959229,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": true,
+    "changed": true,
+    "sentiment_changed": false,
+    "idx_continuous": 6,
+    "idx_sorted": 6
+  },
+  {
+    "id": 165756,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.204329Z",
+    "codes": [
+      11,
+      12
+    ],
+    "marking": [],
+    "text": "naja das war doch das viel von #CDU/#CSU und #SPD oder habe ich da was falsch verstanden, bzw zu offen gesagt?",
+    "auxiliary_columns": [
+      29
+    ],
+    "sentiment": -0.73005747795105,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": true,
+    "changed": true,
+    "sentiment_changed": false,
+    "idx_continuous": 7,
+    "idx_sorted": 7
+  },
+  {
+    "id": 165757,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.204377Z",
+    "codes": [
+      21
+    ],
+    "marking": [],
+    "text": "Schon wieder so ein alter Papst;(",
+    "auxiliary_columns": [
+      33
+    ],
+    "sentiment": -0.363547831773758,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": true,
+    "changed": true,
+    "sentiment_changed": false,
+    "idx_continuous": 8,
+    "idx_sorted": 8
+  },
+  {
+    "id": 165758,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.204424Z",
+    "codes": [
+      21
+    ],
+    "marking": [],
+    "text": "Der neue Papst Franziskus wird wohl kein Pontifex sein, der die Rechte von Schwulen und Lesben unterst\u00fctzen wird",
+    "auxiliary_columns": [
+      38
+    ],
+    "sentiment": -0.561996936798096,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": true,
+    "changed": true,
+    "sentiment_changed": false,
+    "idx_continuous": 9,
+    "idx_sorted": 9
+  },
+  {
+    "id": 165759,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.204471Z",
+    "codes": [
+      21
+    ],
+    "marking": [],
+    "text": "Habemus Papam; Und wo sind die Tweets von Pontifex?",
+    "auxiliary_columns": [
+      43
+    ],
+    "sentiment": -0.237660631537437,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": true,
+    "changed": true,
+    "sentiment_changed": false,
+    "idx_continuous": 10,
+    "idx_sorted": 10
+  },
+  {
+    "id": 165760,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.204518Z",
+    "codes": [
+      11,
+      12
+    ],
+    "marking": [],
+    "text": "Der Peer Steinbr\u00fcck ist doch bestimmt ein Undercover-Politiker der CDU um die SPD auffliegen zu lassen. ;-)",
+    "auxiliary_columns": [
+      48
+    ],
+    "sentiment": -0.777101337909698,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": true,
+    "changed": true,
+    "sentiment_changed": false,
+    "idx_continuous": 11,
+    "idx_sorted": 11
+  },
+  {
+    "id": 165761,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.204565Z",
+    "codes": [
+      22
+    ],
+    "marking": [],
+    "text": "FDP: Rot-Gr\u00fcn w\u00fcrde bei Wahlsieg Tempolimit von 120 einf\u00fchren",
+    "auxiliary_columns": [
+      53
+    ],
+    "sentiment": -0.877650141716003,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": true,
+    "changed": true,
+    "sentiment_changed": false,
+    "idx_continuous": 12,
+    "idx_sorted": 12
+  },
+  {
+    "id": 165762,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.204612Z",
+    "codes": [
+      12,
+      22
+    ],
+    "marking": [],
+    "text": "Berlin: SPD-Chef Gabriel rudert bei Tempo 120 zur\u00fcck",
+    "auxiliary_columns": [
+      57
+    ],
+    "sentiment": -0.400534421205521,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": true,
+    "changed": true,
+    "sentiment_changed": false,
+    "idx_continuous": 13,
+    "idx_sorted": 13
+  },
+  {
+    "id": 165763,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.204659Z",
+    "codes": [
+      12
+    ],
+    "marking": [],
+    "text": "Was der #SPD zum Wahlsieg verhelfen k\u00f6nnte: Beweisfotos die belegen...",
+    "auxiliary_columns": [
+      62
+    ],
+    "sentiment": -0.638545334339142,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": true,
+    "changed": true,
+    "sentiment_changed": false,
+    "idx_continuous": 14,
+    "idx_sorted": 14
+  },
+  {
+    "id": 165764,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.204706Z",
+    "codes": [
+      11
+    ],
+    "marking": [],
+    "text": "Latte Macchiato Osterurlaub: Auch Frau Merkel muss sich mal zur\u00fcckmenscheln",
+    "auxiliary_columns": [
+      67
+    ],
+    "sentiment": -0.130892470479012,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": true,
+    "changed": true,
+    "sentiment_changed": false,
+    "idx_continuous": 15,
+    "idx_sorted": 15
+  },
+  {
+    "id": 165765,
+    "revision": 1,
+    "last_modified": "2018-03-26T13:43:38.395772Z",
+    "codes": [
+      21
+    ],
+    "marking": [],
+    "text": "Gleich erstmal dem Papst folgen. ;--)",
+    "auxiliary_columns": [
+      72
+    ],
+    "sentiment": -0.378253668546677,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": true,
+    "changed": true,
+    "sentiment_changed": false,
+    "idx_continuous": 16,
+    "idx_sorted": 16
+  },
+  {
+    "id": 165766,
+    "revision": 1,
+    "last_modified": "2018-03-26T13:43:48.388397Z",
+    "codes": [
+      11
+    ],
+    "marking": [],
+    "text": "Diese Milliardeneinnahmen sind selbst Sch\u00e4uble peinlich #cdu",
+    "auxiliary_columns": [
+      77
+    ],
+    "sentiment": -0.870229482650757,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": true,
+    "changed": true,
+    "sentiment_changed": false,
+    "idx_continuous": 17,
+    "idx_sorted": 17
+  },
+  {
+    "id": 165767,
+    "revision": 1,
+    "last_modified": "2018-03-26T13:43:48.388397Z",
+    "codes": [
+      21
+    ],
+    "marking": [],
+    "text": "Ich fand den Papst geiler, als er noch Underground war. Das ist doch Sellout!",
+    "auxiliary_columns": [
+      81
+    ],
+    "sentiment": -0.343792796134949,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": true,
+    "changed": true,
+    "sentiment_changed": false,
+    "idx_continuous": 18,
+    "idx_sorted": 18
+  },
+  {
+    "id": 165768,
+    "revision": 1,
+    "last_modified": "2018-03-26T13:43:58.646777Z",
+    "codes": [
+      11
+    ],
+    "marking": [],
+    "text": "Papst feiert Osternacht: Die Neuheit Gottes zeige sich im Sieg \u00fcber die S\u00fcnde, das B\u00f6se und den Tod.",
+    "auxiliary_columns": [
+      86
+    ],
+    "sentiment": -0.716948866844177,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": true,
+    "changed": true,
+    "sentiment_changed": false,
+    "idx_continuous": 19,
+    "idx_sorted": 20
+  },
+  {
+    "id": 165769,
+    "revision": 1,
+    "last_modified": "2018-03-26T13:43:58.646777Z",
+    "codes": [
+      21
+    ],
+    "marking": [],
+    "text": "Twitter Pontifex",
+    "auxiliary_columns": [
+      91
+    ],
+    "sentiment": -0.28507262468338,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": true,
+    "changed": true,
+    "sentiment_changed": false,
+    "idx_continuous": 20,
+    "idx_sorted": 19
+  },
+  {
+    "id": 165770,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.204989Z",
+    "codes": [],
+    "marking": [],
+    "text": "Ischia-Erholung statt Zypern-Krise: Merkel elektrisiert auch im Urlaub",
+    "auxiliary_columns": [
+      96
+    ],
+    "sentiment": -0.35155126452446,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": false,
+    "changed": false,
+    "sentiment_changed": false,
+    "idx_continuous": 21,
+    "idx_sorted": 21
+  },
+  {
+    "id": 165771,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.205036Z",
+    "codes": [
+      21
+    ],
+    "marking": [],
+    "text": "Angela Merkel reiste heute in den Vatikan und wurde dort von Papst Franziskus zu einer Privataudienz empfangen",
+    "auxiliary_columns": [
+      101
+    ],
+    "sentiment": -0.285297095775604,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": false,
+    "changed": false,
+    "sentiment_changed": false,
+    "idx_continuous": 22,
+    "idx_sorted": 22
+  },
+  {
+    "id": 165772,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.205083Z",
+    "codes": [
+      21
+    ],
+    "marking": [],
+    "text": "Flotter Papst, hat schon getweetet! #Twitter @pontifex",
+    "auxiliary_columns": [
+      105
+    ],
+    "sentiment": 0.0285787545144558,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": false,
+    "changed": false,
+    "sentiment_changed": false,
+    "idx_continuous": 23,
+    "idx_sorted": 23
+  },
+  {
+    "id": 165773,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.205131Z",
+    "codes": [
+      12,
+      22
+    ],
+    "marking": [],
+    "text": "Gabriel und das Tempolimit - Wahlkampf auf eigene Rechnung: Mitten im Vorwahlkampf hat SPD-Chef Sigmar Gabri...",
+    "auxiliary_columns": [
+      110
+    ],
+    "sentiment": -0.737001895904541,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": false,
+    "changed": false,
+    "sentiment_changed": false,
+    "idx_continuous": 24,
+    "idx_sorted": 24
+  },
+  {
+    "id": 165774,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.205178Z",
+    "codes": [
+      12,
+      22
+    ],
+    "marking": [],
+    "text": "Jetzt kriegt dieser Alfred E. Neumann von der CDU also doch endlich sein Tempolimit f\u00fcr die Datenautobahn #Drosselkom",
+    "auxiliary_columns": [
+      115
+    ],
+    "sentiment": -0.639045596122742,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": false,
+    "changed": false,
+    "sentiment_changed": false,
+    "idx_continuous": 25,
+    "idx_sorted": 25
+  },
+  {
+    "id": 165775,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.205265Z",
+    "codes": [],
+    "marking": [],
+    "text": "G\u00fcring-Eckardt schliesst Koalition mit Merkel aus. Das entscheidet die doch gar net :-)",
+    "auxiliary_columns": [
+      120
+    ],
+    "sentiment": -0.944574475288391,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": false,
+    "changed": false,
+    "sentiment_changed": false,
+    "idx_continuous": 26,
+    "idx_sorted": 26
+  },
+  {
+    "id": 165776,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.205319Z",
+    "codes": [
+      12
+    ],
+    "marking": [],
+    "text": "10 Dinge die man als SPD Spitzenkandidat im Wahlkampf nicht tun sollte",
+    "auxiliary_columns": [
+      125
+    ],
+    "sentiment": -0.804018259048462,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": false,
+    "changed": false,
+    "sentiment_changed": false,
+    "idx_continuous": 27,
+    "idx_sorted": 27
+  },
+  {
+    "id": 165777,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.205367Z",
+    "codes": [
+      21
+    ],
+    "marking": [],
+    "text": "Franziskus I. nennt sich der neue Papst. Wer ist der neue Pontifex?",
+    "auxiliary_columns": [
+      129
+    ],
+    "sentiment": -0.149971455335617,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": false,
+    "changed": false,
+    "sentiment_changed": false,
+    "idx_continuous": 28,
+    "idx_sorted": 28
+  },
+  {
+    "id": 165778,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.205415Z",
+    "codes": [
+      12
+    ],
+    "marking": [],
+    "text": "Partei will Armutsfl\u00fcchtlinge ausweisen - SPD und Gr\u00fcne werfen CDU Populismus vor",
+    "auxiliary_columns": [
+      134
+    ],
+    "sentiment": -0.969289064407349,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": false,
+    "changed": false,
+    "sentiment_changed": false,
+    "idx_continuous": 29,
+    "idx_sorted": 29
+  },
+  {
+    "id": 165779,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.205463Z",
+    "codes": [
+      22
+    ],
+    "marking": [],
+    "text": "Rot-Gr\u00fcn w\u00fcrde bei Wahlsieg Tempolimit von 120 einf\u00fchren",
+    "auxiliary_columns": [
+      139
+    ],
+    "sentiment": -0.872535586357117,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": false,
+    "changed": false,
+    "sentiment_changed": false,
+    "idx_continuous": 30,
+    "idx_sorted": 30
+  },
+  {
+    "id": 165780,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.205511Z",
+    "codes": [
+      12,
+      22
+    ],
+    "marking": [],
+    "text": "Ich schlage ein #Tempolimit f\u00fcr SPD und Gr\u00fcne vor. Der sozialdemokratische Staatswahn geht mir zu weit!",
+    "auxiliary_columns": [
+      144
+    ],
+    "sentiment": -0.732469320297241,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": false,
+    "changed": false,
+    "sentiment_changed": false,
+    "idx_continuous": 31,
+    "idx_sorted": 31
+  },
+  {
+    "id": 165781,
+    "revision": 0,
+    "last_modified": "2018-03-26T13:01:34.205558Z",
+    "codes": [
+      21
+    ],
+    "marking": [],
+    "text": "Angela Merkel reiste heute in den Vatikan und wurde dort von Papst Franziskus zu einer Privataudienz empfangen....",
+    "auxiliary_columns": [
+      149
+    ],
+    "sentiment": -0.285297095775604,
+    "translated_text": "",
+    "source_language": "",
+    "reviewed": false,
+    "changed": false,
+    "sentiment_changed": false,
+    "idx_continuous": 32,
+    "idx_sorted": 32
+  }
+]

@@ -1,0 +1,10 @@
+@import '~css/colors';
+
+@keyframes highlight-ani {
+  0% {
+    background: $col-medium-orange;
+  }
+  100% {
+    background: default;
+  }
+}

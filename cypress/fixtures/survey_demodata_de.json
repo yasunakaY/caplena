@@ -1,0 +1,61 @@
+{
+  "id": 1234567,
+  "owner": "DEMODATA",
+  "ncodes": 4,
+  "nanswers": 32,
+  "nreviewed": 15,
+  "credits_open": 0,
+  "codebook_revision": 0,
+  "model": {
+    "score_per_code": [],
+    "score": -1,
+    "active_learning": false
+  },
+  "translated": 0,
+  "codebook": [
+    {
+      "id": 11,
+      "category": "PARTEI",
+      "label": "CDU"
+    },
+    {
+      "id": 12,
+      "category": "PARTEI",
+      "label": "SPD"
+    },
+    {
+      "id": 21,
+      "category": "NEWS",
+      "label": "Papst"
+    },
+    {
+      "id": 22,
+      "category": "NEWS",
+      "label": "Tempolimit"
+    }
+  ],
+  "training_completed_svm": null,
+  "training_completed_rnn": null,
+  "training_requested_svm": null,
+  "training_requested_rnn": null,
+  "is_training_svm": false,
+  "is_training_rnn": false,
+  "ntrainings_svm": 0,
+  "ntrainings_rnn": 0,
+  "auxiliary_column_names": [
+    "ID"
+  ],
+  "inherits_from_name": null,
+  "created": "2017-10-03T15:24:35.454000Z",
+  "last_modified": "2018-02-18T19:40:28.001209Z",
+  "name": "Demo - Tweets Deutsche Politik",
+  "surveytype": "FO",
+  "description": "Beispieldaten mit Tweets die kategorisiert werden sollen",
+  "language": "de",
+  "group_identical": false,
+  "group_identical_exclude": "",
+  "show_sentiment": true,
+  "completed": false,
+  "inherits_from": null,
+  "smart_sort": true
+}

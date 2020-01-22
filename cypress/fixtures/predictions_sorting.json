@@ -1,0 +1,67 @@
+{
+  "ntrainings_rnn": 1,
+  "training_completed_svm": "2018-03-26T13:44:26.234635Z",
+  "ntrainings_svm": 4,
+  "answers": [
+    {
+      "id": 100,
+      "codes": [
+        12
+      ],
+      "probas": [0.51],
+      "sortval": 1
+    },
+    {
+      "id": 101,
+      "codes": [
+        12
+      ],
+      "probas": [0.51],
+      "sortval": 2
+    },
+    {
+      "id": 102,
+      "codes": [
+        12
+      ],
+      "probas": [0.51],
+      "sortval": 3
+    },
+    {
+      "id": 103,
+      "codes": [
+        12
+      ],
+      "probas": [0.51],
+      "sortval": 4
+    },
+    {
+      "id": 104,
+      "codes": [
+        12
+      ],
+      "probas": [0.51],
+      "sortval": 5
+    }
+  ],
+  "training_completed_rnn": "2018-03-26T13:44:29.775103Z",
+  "model": {
+    "score_per_code": [
+      {
+        "id": 11,
+        "score": 0.38,
+        "score_remaining": 0.7
+      },
+      {
+        "id": 12,
+        "score": 0.7026299953546012,
+        "score_remaining": 0.7
+      }
+    ],
+    "score": 0.7695263313675454,
+    "score_remaining": 0.8,
+    "score_svm": 0.7518518518518518,
+    "score_rnn": 0.7695263313675454,
+    "active_learning": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "de": {
+    "bulk_edit": {
+      "title": "Kollektivzuweisung",
+      "subtitle-1": "{nanswers} den aktuellen Filtern entsprechende Antworte(n) werden angepasst.",
+      "mode": {
+        "append": "Neue Codes den Existierenden hinzufügen",
+        "replace": "Existierende mit neuen Codes ersetzen"
+      },
+      "select_placeholder": "Codes auswählen"
+    }
+  },
+
+
+  "en": {
+    "bulk_edit": {
+      "title": "Bulk assign codes",
+      "subtitle-1": "{nanswers} answer(s) matching the current filters will be updated.",
+      "mode": {
+        "append": "Add new codes to existing ones",
+        "replace": "Replace existing codes with new codes"
+      },
+      "select_placeholder": "Select codes"
+    }
+  }
+}

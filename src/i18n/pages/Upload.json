@@ -1,0 +1,287 @@
+{
+  "de": {
+    "upload_not_allowed": {
+      "to_upload": "Um eigene Daten hochzuladen, buche bitte ",
+      "link_text": "hier eine Demo",
+      "subtitle-1": "Nach der Demo werden wir dein Pro-Trial aktivieren, mit dem du in den kommenden zwei Monaten 15'000 Nennungen hochladen, kodieren und herunterladen kannst - <strong>gratis und ohne weitere Verpflichtungen</strong>."
+    },
+    "title": "Antworten und Codebuch importieren",
+    "title_append": "Antworten zu bestehendem Projekt hinzufügen",
+    "helptip_anchor": "Wie funktioniert das",
+    "download_sample": "Beispieldateien: ",
+    "upload": "Datei hochladen",
+    "input": "Direkteingabe",
+    "inherit": "Bestehendes kopieren",
+    "merge": "Innerhalb Projekt verknüpfen",
+    "later": "Später definieren",
+    "sample": "Beispiel",
+    "more_options": "Mehr Optionen",
+    "choose_file": "Excel, CSV, SPSS oder TXT-Datei auswählen",
+    "upload_file": "Datei hochladen",
+    "encoding_info": "(Passen dieses nur an falls z.B. Umlaute im Text unten falsch dargestellt werden)",
+    "sampledata": "Daten-Vorschau:",
+    "encoding": "Encoding",
+    "ncolumns": "Anzahl Spalten",
+    "nrows": "Anzahl Datenzeilen",
+    "ndropped": "Leere Datenzeilen gelöscht",
+    "header": {
+      "title": "Kopfzeile",
+      "auto": "Automatisch erkennen",
+      "yes": "Ja",
+      "no": "Nein"
+    },
+    "error_file_too_big": "Die maximal zulässige Dateigrösse ist {maxSize}MB. Falls du mehr benötigst, kontaktiere uns.",
+    "answers": {
+      "title": "Antworten hochladen",
+      "title_append": "An Projekt <em>{project}</em> anhängen",
+      "input_placeholder": "Antworten eingeben, eine pro Zeile (Enter drücken um Zeile hinzuzufügen)",
+      "verify": "Wähle eine oder mehrere Text-Spalten, welche du kodieren willst. Verifiziere dann ob die Daten unten richtig angezeigt werden. Alle weiteren Spalten werden gespeichert (du kannst sie optional während der Kodierung anzeigen lassen) und beim Export zurückgegeben, sonst jedoch nicht berücksichtigt.",
+      "question_column": "Text-Spalte der Frage {question}",
+      "question_column_no_data": "Keine passende Spalte",
+      "question_name": "Name der Frage {question}",
+      "question_description": "Beschreibung der Frage {question}",
+      "add_text_column": "Textspalte hinzufügen",
+      "errors": {
+        "too_many": "Momentan sind maximal {allowed} Antworten pro Projekt erlaubt. Kontaktiere bitte unseren Support falls du mehr benötigst.",
+        "auxiliary_columns_count_missmatch": "Die hochgeladene Datei hat {length_new} Spalten, das existierende Projekt jedoch {length_old}. Die Anzahl Spalten muss bei beiden übereinstimmen.",
+        "name_short": "Der Name muss mindestens {n} Zeichen lang sein.",
+        "name_duplicate": "Dieser Name wird bereits von einer anderen Frage verwendet.",
+        "no_col_selected": "Wähle eine Textspalte | Wähle eine Textspalte aus oder entferne diese Frage"
+      },
+      "warnings": {
+        "auxiliary_columns_name_missmatch": "Die zusätzlichen Spalten-Namen der existierenden Antworten ({names_existing}) entsprechen nicht derjenigen der neuen Antworten ({names_new}). Bist du sicher, dass du die richtige Datei hochgeladen und die korrekte(n) Text-Spalte(n) ausgewählt hast?"
+      },
+      "nanswers": "Anzahl Antworten",
+      "identical_rows": {
+        "warning": "In {nrows} Zeilen sind alle Spalten exakte Duplikate von bereits existierenden Antworten. Willst du diese trotzdem hochladen?",
+        "skip": "Duplikate Überspringen",
+        "noskip": "Alle Zeilen hochladen"
+      }
+    },
+    "question_type": {
+      "list": {
+        "title": "Listen-Frage",
+        "description": "Nennungen bestehen meist aus einem Wort oder sehr kurzen Wortgruppen. Sehr viele Antworten sind Duplikate. <strong>Markenbekanntheit-Studien</strong> zählen üblicherweise zu dieser Kategorie. Beispiele:",
+        "examples": [
+          "facebook",
+          "thefacebook",
+          "facebook.com",
+          "google",
+          "google.com"
+        ]
+      },
+      "open": {
+        "title": "Offene Frage",
+        "description": "Nennungen enthalten meist Satzfragmente oder gar mehrere volle Sätze. Es gibt wenige exakte Duplikate. <strong>Kundenzufriedenheits-Studien</strong> zählen üblicherweise zu dieser Kategorie. Beispiele:",
+        "examples": [
+          "Der Kundenservice gab mir innert kürzester Zeit Feedback, jedoch hätte die Antwort informativer sein können.",
+          "Das Kuchensortiment im Dorfladen ist sehr mager, ich brauche mehr Zucker!!",
+          "schöne Webseite, intelligenter Assistent, nettes Team"
+        ]
+      },
+      "question_category_subtitle-1": "Hilf uns besser zu werden. Sag uns was für eine Studie das ist:"
+    },
+    "codes": {
+      "title": "Codebücher definieren",
+      "headline": "Codebuch zu Frage <em>{question}</em> defineren",
+      "list_question": "Für Listen-Fragen kann das Codebuch in der Applikation automatisch generiert werden. Klicke auf weiter.",
+      "input_placeholder": "Codes eingeben, einen pro Zeile (Enter drücken um Zeile hinzuzufügen)",
+      "later_description": "Keine Codes hochladen und diese später in der Applikation direkt definieren.",
+      "verify": "Wähle die Spalte mit den Code-Namen aus. Falls vorhanden können auch die Spalten mit den numerischen Codes (code IDs) sowie den Code-Kategorien ausgewählt werden. <p>Verifiziere anschliessend ob die Daten korrekt angezeigt werden. </p>",
+      "codes_column": "Spalte Code-Namen",
+      "numeric_codes_column": "Spalte numerischer Code",
+      "category_column": "Spalte Code-Kategorie",
+      "ncodes": "Anzahl Codes",
+      "errors": {
+        "id_not_int": "Die Spalte '{column}' enthält Zeilen mit nicht-numerischen, nicht-ganzzahligen oder leeren Werten! Dies ist nicht erlaubt.",
+        "id_not_unique": "Die Spalte '{column}' enthält duplizierte Werte. Dies ist nicht erlaubt!",
+        "id_smaller_zero": "Die Spalte '{column}' enthält Werte kleiner als 0. Dies ist nicht erlaubt!",
+        "cat_empty": "Die Spalte '{column}' enthält leere Zeilen! Dies ist nicht erlaubt.",
+        "label_empty": "Die Spalte '{column}' enthält leere Zeilen! Dies ist nicht erlaubt.",
+        "too_many": "Momentan sind maximal {allowed} Codes erlaubt. Kontaktiere bitte unseren Support falls du mehr benötigst."
+      },
+      "inherit": {
+        "title": "Codebuch von existierendem Projekt kopieren",
+        "existing_codebook": "Codebuch der Frage <em>{question} (Projekt {project})</em>",
+        "helptip": "<em>Die KI lernt auch aufgrund der bereits bestehenden Frage.</em><p>Wähle diese Option, falls das Codebuch für die neue Frage gleich oder ähnlich dem der vorhergehenden Frage ist.</p>",
+        "copy_from_question": "Codebuch kopieren",
+        "switch": "Codes aufgrund existierender Frage vorschlagen.",
+        "no_codes": "Für diese Frage sind keine Codes definiert",
+        "other_question": "Andere Frage auswählen",
+        "code": "Code",
+        "category": "Kategorie",
+        "id": "ID",
+        "own": "Eigene Projekte",
+        "codit": "Caplena Modelle"
+      },
+      "merge": {
+        "description": "When merging with another list question within this project, the responses of these columns will be merged. This makes sense if they are all fields with responses to the <em>same</em> question.<br />If merging this question, it will not exist as separate entity anymore.",
+        "label": "Select question to merge with"
+      },
+      "merge": {
+        "description": "Diese Option verschmilzt die Nennungen dieser Spalte mit einer anderen Frage dieses Projekts. Das macht Sinn, wenn die Spalten beider Felder Nennungen zu <em>derselben Fragen</em> enthalten.",
+        "label": "Select question to merge with"
+      }
+    },
+    "save": {
+      "title": "Einstellungen",
+      "info": "Wählen einen eindeutigen Namen und definiere optional weitere Einstellungen um das Projekt zu speichern und mit dem Kodieren zu beginnen.",
+      "name": "Name (mind. 5 Zeichen)",
+      "name_too_short": "Der Name muss aus mindestens 5 Zeichen bestehen",
+      "labels_placeholder": "Tags hinzufügen",
+      "language": "Sprache der Daten",
+      "translate": {
+        "input": "Automatische Übersetzung",
+        "helptip_content": "<em>Wenn diese Funktion aktiviert wird, werden alle Antworten zur Übersetzung an Google Translate geschickt.</em><p><b>In welche Sprache wird übersetzt?</b><br />Die Antworten werden in die oben gewählte Hauptsprache des Projekts übersetzt.</p><p><b>Welche Fragen werden übersetzt?</b><br />Bei jeder Frage wird automatisch evaluiert, ob Sie in der Hauptsprache verfasst ist oder nicht. Nur bei Fragen welche <em>nicht</em> in der Hauptsprache verfasst sind, wird die Übersetzung angezeigt.</p><p><b>Wo werden die Übersetzungen angezeigt?</b><br />Diese werden während der Kodierung im Konzentrationsmodus neben den Original-Antworten angezeigt und verwendet um das Modell zu verbessern.</p><p><b>Welche Sprachen werden unterstützt?</b><br />Die unterstützten Sprachen werden auf folgender Seite aufgeführt: <a href=\"{link}\" class=\"accent--text\" style=\"display: block; position: absolute\" target=\"_blank\">{link}</a></p>",
+        "warning": "Beachte dass alle Antworten zur Übersetzung an Google Translate geschickt werden."
+      },
+      "save": "Speichern",
+      "saving": "Speichern",
+      "not_enough_credits_month": "Die Anzahl Antworten dieses Projekts ({rows}) übersteigt deine verbleibenden Credits ({credits_remaining}). Du wirst das Projekt zwar kodieren können, das Herunterladen der Daten ist aber erst möglich wenn du zusätzliche Credits kaufst oder dein Konto am Ende des Monats aufgefüllt wurde.",
+      "not_enough_credits_ever": "Die Anzahl Antworten dieses Projekts ({rows}) übersteigt deine monatlich verfügbaren Credits ({credits}). Du wirst dieses Projekt zwar kodieren können, das Herunterladen der Daten ist aber erst möglich wenn du zusätzliche Credits kaufst oder auf eine anderes Abo umsteigst.",
+      "summary_append": "{nrows} Antworten werden dem existierenden Projekt <em>{project}</em> hinzugefügt.",
+      "success_append": "Die Antworten wurden erfolgreich hinzugefügt."
+    }
+  },
+  "en": {
+    "upload_not_allowed": {
+      "to_upload": "To upload own data, please",
+      "link_text": "book a demo here",
+      "subtitle-1": "After the demo, we will activate your Pro trial so you can upload, code and download 15'000 rows in the coming two months, <strong>entirely free of charge and without commitment.</strong>"
+    },
+    "title": "Import wizard for answers and codebook",
+    "title_append": "Append answers to existing project",
+    "download_sample": "Sample files: ",
+    "helptip_anchor": "How does it work",
+    "sample": "Sample",
+    "choose_format": "Choose format",
+    "adapt_endcoding": "Change the encoding if necessary.",
+    "more_options": "Advanced options",
+    "sampledata": "Data Preview:",
+    "choose_file": "Select Excel, CSV, SPSS or TXT file",
+    "upload": "File upload",
+    "input": "Direct input",
+    "later": "Define later",
+    "inherit": "Copy existing",
+    "merge": "Merge within project",
+    "ncolumns": "Number of columns",
+    "nrows": "Number of rows",
+    "ndropped": "Empty rows removed",
+    "header": {
+      "title": "Header row",
+      "auto": "Detect automatically",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "error_file_too_big": "The maximum file size allowed is {maxSize}MB. If you require more, contact us.",
+    "answers": {
+      "title": "Upload answers",
+      "title_append": "Append to <em>{project}</em>",
+      "input_placeholder": "Enter answers, one per line (Press enter for newline)",
+      "verify": "Choose one or more text column you want to code. Then verify if the data below is displayed correctly. Only the text column is relevant for coding, but the other columns will be included when exporting the data and can optionally be displayed while coding.",
+      "question_column": "Text column of question {question}",
+      "question_column_no_data": "No matching column",
+      "question_name": "Name of question {question}",
+      "question_description": "Description of question {question}",
+      "add_text_column": "Add text column",
+      "errors": {
+        "too_many": "Currently a maximum of {allowed} answers are supported. Please contact support if you require more.",
+        "auxiliary_columns_count_missmatch": "Expected uploaded file to have {length_old} columns (as existing project) but got {length_new} instead.",
+        "name_short": "The name needs to be at least {n} characters.",
+        "name_duplicate": "This name is already in use by another question.",
+        "no_col_selected": "Choose a valid text column | Choose a valid text column or remove this answer"
+      },
+      "warnings": {
+        "auxiliary_columns_name_missmatch": "The additional column names of the existing answers ({names_existing}) are not the same as new ones ({names_new}). Are you sure you uploaded the correct file and chose the correct text column(s)?"
+      },
+      "nanswers": "Number of responses",
+      "identical_rows": {
+        "warning": "There are {nrows} rows where all columns are exactly identical with already existing rows. Do you want to upload these, nevertheless?",
+        "skip": "Skip identical rows",
+        "noskip": "Upload identical rows"
+      }
+    },
+    "question_type": {
+      "list": {
+        "title": "List question",
+        "description": "Responses consist mostly of single words or very short word groups. Many responses are identical. <strong>Brand awareness</strong> questions usually belong to this type. Examples:",
+        "examples": [
+          "facebook",
+          "thefacebook",
+          "facebook.com",
+          "google",
+          "google.com"
+        ]
+      },
+      "open": {
+        "title": "Open question",
+        "description": "Responses are mostly fragments of sentences or even multiple sentences. There are hardly any exact duplicates. <strong>customer satisfaction</strong> surveys usually belong to this type. Examples:",
+        "examples": [
+          "I liked how quick customer service responded to my request, but their answer could have been more helpful.",
+          "The assortment of cakes in my local supermarket is not satisfactory, I need more sugar!!",
+          "beautiful website, smart assistant, nice team"
+        ]
+      },
+      "question_category_subtitle-1": "Help us get better. Tell us what kind of survey this is:"
+    },
+    "codes": {
+      "title": "Define codebooks",
+      "headline": "Define Codebook for question <em>{question}</em>",
+      "list_question": "For list questions the codebook can be auto-generated in the application. Click next to continue.",
+      "input_placeholder": "Enter codes, one per line (Press enter for newline)",
+      "codes_column": "Column code name",
+      "numeric_codes_column": "Column code ID",
+      "ncodes": "Number of codes",
+      "category_column": "Column code category",
+      "later_description": "Don't upload any codes now but define them later during coding.",
+      "verify": "Choose column which contains the code name from the dropdown menu. If applicable, choose columns of the IDs and categories respectively. <p>Check if the sample data is displayed correctly. </p>",
+      "errors": {
+        "id_not_int": "The column '{column}' contains non-integer or empty values! This is not permitted.",
+        "id_not_unique": "The column '{column}' contains duplicated rows. This is not permitted.",
+        "id_smaller_zero": "The column '{column}' contains values smaller than 0. This is not permitted.",
+        "cat_empty": "The column '{column}' contains empty rows! This is not permitted.",
+        "label_empty": "The column '{column}' contains empty rows! This is not permitted.",
+        "too_many": "Currently a maximum of {allowed} codes are supported. Please contact support if you require more."
+      },
+      "inherit": {
+        "title": "Copy codebook from existing question",
+        "existing_codebook": "Codebook from question <em>{question} (Project {project})</em>",
+        "helptip": "<em>The AI will also learn from the existing questions to make its suggestions.</em><p>Choose this option if the codebook will remain similar to the existing one.</p>",
+        "copy_from_question": "Copy codebook",
+        "switch": "Make code suggestions for new question using pre-trained AI from existing question.",
+        "no_codes": "No codes are defined on this question",
+        "other_question": "Select other question",
+        "code": "Code",
+        "category": "Category",
+        "id": "ID",
+        "own": "Own projects",
+        "codit": "Caplena models"
+      },
+      "merge": {
+        "description": "When merging with another list question within this project, the responses of these columns will be concatenated. This makes sense if they are all fields with responses to the <em>same</em> question.<br />Mit anderen Fragen verschmolzene Spalten sind nicht mehr als eigenständige Fragen einsehbar.",
+        "label": "Select question to merge with"
+      }
+    },
+    "upload_file": "Upload file",
+    "encoding": "Encoding",
+    "save": {
+      "title": "Settings",
+      "info": "Enter a meaningful name and optionally define further settings to save and start coding.",
+      "name": "Name (at least 5 characters)",
+      "name_too_short": "The name needs to be at least 5 characters",
+      "labels_placeholder": "Add tags",
+      "language": "Language of data",
+      "save": "Save",
+      "saving": "saving",
+      "not_enough_credits_month": "The number of answers in this project ({rows}) exceeds the number of credits you have remaining ({credits_remaining}). While you will be able to code the project, downloading it will only be possible once you have purchased additional credits or your account has been refilled at the end of the month.",
+      "not_enough_credits_ever": "The number of answers in this project ({rows}) exceeds the number of your monthly available credits ({credits}). While you will be able to code the project, downloading it will only be possible once you have purchased additional credits or changed to another subscription.",
+      "translate": {
+        "input": "Automatic translation",
+        "helptip_content": "<em>When activated, all answers are sent to Google Translate for translation.</em><p><b>Into what language are the answers translated?</b><br />They are translated to the main language selected above.</p><p><b>Which questions will be translated?</b><br />The language is evaluated for every question separately and translated only if it is not already written in the main language.</p><p><b>Where are the translations displayed?</b><br />When coding using the focus view, they are displayed below the original answers and also used to improve model predictions.</p><p><b>Which languages are supported?</b><br />The supported languages are listed on the following page: <a href=\"{link}\" class=\"accent--text\" style=\"display: block; position: absolute\" target=\"_blank\">{link}</a></p>",
+        "warning": "Note that all answers will be sent to Google Translate for translation."
+      },
+      "summary_append": "{nrows} answers will be appended to the existing project <em>{project}</em>.",
+      "success_append": "The additional responses were successfully appended."
+    }
+  }
+}
